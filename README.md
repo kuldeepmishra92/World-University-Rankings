@@ -1,16 +1,11 @@
----
-title: World University Rankings
-emoji: 🏢
-colorFrom: indigo
-colorTo: gray
-sdk: docker
-pinned: false
-license: mit
----
-
 # World University Rankings — MCDM Framework
 
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Kuldeepmishra3/World-University-Rankings)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A capstone research project from **IIIT Lucknow** that builds a transparent, reproducible alternative to proprietary university ranking systems. Rankings are computed using a Multi-Criteria Decision Making (MCDM) pipeline — combining Shannon Entropy, AHP, and TOPSIS — applied to six years of Times Higher Education (THE) data.
+
+**Try the live application here:** [World University Rankings on Hugging Face](https://huggingface.co/spaces/Kuldeepmishra3/World-University-Rankings)
 
 ---
 
