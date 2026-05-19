@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>UniRank — World University Rankings</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"/>
+</head>
+<body>
+
+<!-- ── Top Navigation Bar ─────────────────── -->
+<header class="topbar">
+  <div class="topbar-left">
+    <div class="logo">
+      <span class="logo-mark">W</span>
+      <div class="logo-text">
+        <span class="logo-title">UniRank</span>
+        <span class="logo-sub">World University Rankings</span>
+      </div>
+    </div>
+    <div class="topbar-divider"></div>
+    <nav class="topnav">
+      <a class="tnav-item active" data-page="home">Overview</a>
+      <a class="tnav-item" data-page="ranking">Rankings</a>
+      <a class="tnav-item" data-page="trend">Trends</a>
+      <a class="tnav-item" data-page="university">Universities</a>
+      <a class="tnav-item" data-page="movers">Movers</a>
+      <a class="tnav-item" data-page="validation">Validation</a>
+      <a class="tnav-item predict-nav" data-page="predict">✦ Predict Rank</a>
+    </nav>
+  </div>
+  <div class="topbar-right">
+    <!-- FIX #5: Hamburger for mobile -->
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="theme-toggle" id="theme-toggle" title="Toggle theme">
+      <span class="theme-icon dark-icon">🌙</span>
+      <div class="toggle-track">
+        <div class="toggle-thumb"></div>
+      </div>
+      <span class="theme-icon light-icon">☀️</span>
+    </div>
+    <div class="topbar-meta">
+      <span>IIIT Lucknow</span>
+      <span class="meta-dot">·</span>
+      <span>MSD24006</span>
+    </div>
+  </div>
+</header>
+
+<!-- ── Main ───────────────────────────────── -->
+<main class="main">
+
+  <!-- ══ HOME ════════════════════════════ -->
+  <section class="page active" id="page-home">
+
+    <!-- Hero -->
+    <div class="hero">
+      <div class="hero-bg-lines"></div>
+      <div class="hero-content">
+        <p class="hero-eyebrow">Data-Driven · MCDM Framework · 2021–2026</p>
+        <h1 class="hero-title">World University<br/><em>Rankings</em></h1>
+        <p class="hero-desc">A transparent, multi-criteria framework using Entropy, AHP & TOPSIS to rank global universities across six years of Times Higher Education data.</p>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="hs-val" id="stat-universities">—</span>
+          <span class="hs-label">Universities</span>
+        </div>
+        <div class="hs-divider"></div>
+        <div class="hero-stat">
+          <span class="hs-val" id="stat-countries">—</span>
+          <span class="hs-label">Countries</span>
+        </div>
+        <div class="hs-divider"></div>
+        <div class="hero-stat">
+          <span class="hs-val">6</span>
+          <span class="hs-label">Years</span>
+        </div>
+        <div class="hs-divider"></div>
+        <div class="hero-stat">
+          <span class="hs-val accent" id="stat-spearman">—</span>
+          <span class="hs-label">Avg Spearman r</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Criteria pills -->
+    <div class="criteria-strip">
+      <span class="crit-pill">Teaching</span>
+      <span class="crit-pill">Research Environment</span>
+      <span class="crit-pill">Research Quality</span>
+      <span class="crit-pill">Industry Impact</span>
+      <span class="crit-pill">International Outlook</span>
+    </div>
+
+    <!-- Charts row -->
+    <div class="home-grid">
+      <div class="panel panel-wide">
+        <div class="panel-head">
+          <h2>Model Accuracy by Year</h2>
+          <span class="panel-badge green">Spearman Correlation</span>
+        </div>
+        <div id="chart-spearman" class="chart-area" style="height:300px;"></div>
+      </div>
+      <div class="panel">
+        <div class="panel-head"><h2>Methodology</h2></div>
+        <div class="method-steps">
+          <div class="ms-item" id="ms-01">
+            <span class="ms-num">01</span>
+            <div>
+              <strong>Data Collection</strong>
+              <p>THE scraping 2021–2026 · BeautifulSoup</p>
+              <div class="ms-detail">University performance data was scraped from the <em>Times Higher Education</em> World University Rankings website for 6 consecutive years (2021–2026) using Python & BeautifulSoup. The dataset covers ~2,450 universities across 100+ countries with five core criteria scores per record.</div>
+            </div>
+          </div>
+          <div class="ms-item" id="ms-02">
+            <span class="ms-num">02</span>
+            <div>
+              <strong>Weight Calculation</strong>
+              <p>Entropy (objective) + AHP (subjective)</p>
+              <div class="ms-detail">Criteria weights are computed by combining two complementary methods: <em>Shannon Entropy</em> derives objective weights from the inherent variability of each score, while <em>Analytic Hierarchy Process (AHP)</em> captures expert-defined subjective priorities. The combined weight balances both perspectives for a robust MCDM model.</div>
+            </div>
+          </div>
+          <div class="ms-item" id="ms-03">
+            <span class="ms-num">03</span>
+            <div>
+              <strong>TOPSIS Ranking</strong>
+              <p>Closeness to ideal best solution</p>
+              <div class="ms-detail"><em>Technique for Order Preference by Similarity to Ideal Solution (TOPSIS)</em> computes a closeness coefficient for each university — measuring how close its profile is to the ideal best and how far from the ideal worst. This score (0–1) is used to produce the final MCDM ranking.</div>
+            </div>
+          </div>
+          <div class="ms-item" id="ms-04">
+            <span class="ms-num">04</span>
+            <div>
+              <strong>Validation</strong>
+              <p>Spearman · Kendall Tau · Sensitivity</p>
+              <div class="ms-detail">Model accuracy is validated by comparing MCDM rankings to official THE rankings using <em>Spearman's rank correlation (ρ)</em> and <em>Kendall's Tau (τ)</em>. Sensitivity analysis tests how rankings shift when individual criteria weights are perturbed, confirming model robustness across all 6 years.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Bottom Detail Section ─────────────── -->
+    <div class="overview-bottom">
+
+      <!-- About -->
+      <div class="panel ob-card">
+        <div class="ob-icon">🎓</div>
+        <h3 class="ob-title">About the Project</h3>
+        <p class="ob-body">This capstone research project at <strong>IIIT Lucknow</strong> builds a fully transparent, data-driven alternative to proprietary university ranking systems. By combining Entropy weighting, AHP, and TOPSIS, it produces reproducible, auditable rankings that expose how each criterion contributes to a university's final position.</p>
+        <ul class="ob-list">
+          <li>🔬 Multi-Criteria Decision Making (MCDM) framework</li>
+          <li>📊 6 years of longitudinal data (2021–2026)</li>
+          <li>🌐 2,450+ universities across 100+ countries</li>
+          <li>✅ Validated against official THE rankings</li>
+        </ul>
+      </div>
+
+      <!-- Key Findings -->
+      <div class="panel ob-card">
+        <div class="ob-icon">💡</div>
+        <h3 class="ob-title">Key Findings</h3>
+        <p class="ob-body">The MCDM model achieves an average <strong>Spearman correlation above 0.95</strong> with THE official rankings, confirming its accuracy. Several important insights emerged from the 6-year analysis:</p>
+        <ul class="ob-list">
+          <li>📈 <strong>Research Quality</strong> has the highest entropy weight (most discriminating)</li>
+          <li>🏭 <strong>Industry Impact</strong> is the fastest-growing criterion since 2021</li>
+          <li>🔄 Top-10 universities remain stable; positions 50–200 show highest mobility</li>
+          <li>🌍 Asia-Pacific universities show the strongest upward trend across years</li>
+        </ul>
+      </div>
+
+      <!-- Data Sources -->
+      <div class="panel ob-card">
+        <div class="ob-icon">📁</div>
+        <h3 class="ob-title">Data &amp; Tools</h3>
+        <p class="ob-body">All data and code are reproducible. The pipeline is built entirely in Python using open-source libraries:</p>
+        <ul class="ob-list">
+          <li>📄 <strong>Source:</strong> Times Higher Education (THE) Rankings 2021–2026</li>
+          <li>🐍 <strong>Scraping:</strong> Python · requests · BeautifulSoup</li>
+          <li>🔢 <strong>Analysis:</strong> pandas · NumPy · SciPy</li>
+          <li>📊 <strong>Visualisation:</strong> Plotly · Flask · Vanilla JS</li>
+          <li>✔️ <strong>Validation:</strong> scipy.stats (spearmanr, kendalltau)</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ══ RANKING ══════════════════════════ -->
+  <section class="page" id="page-ranking">
+    <div class="page-head">
+      <div>
+        <p class="page-eyebrow">Year-wise MCDM</p>
+        <h1 class="page-title">University <em>Rankings</em></h1>
+      </div>
+    </div>
+
+    <div class="filter-bar">
+      <div class="filter-group">
+        <label class="filter-label">Select Year</label>
+        <div class="year-tabs" id="year-btns">
+          <button class="ytab active" data-year="2021">2021</button>
+          <button class="ytab" data-year="2022">2022</button>
+          <button class="ytab" data-year="2023">2023</button>
+          <button class="ytab" data-year="2024">2024</button>
+          <button class="ytab" data-year="2025">2025</button>
+          <button class="ytab" data-year="2026">2026</button>
+        </div>
+      </div>
+      <div class="filter-group">
+        <label class="filter-label">Country</label>
+        <select id="country-filter" class="fselect"></select>
+      </div>
+      <div class="filter-group">
+        <label class="filter-label">Show Top</label>
+        <select id="topn-filter" class="fselect">
+          <option value="20">Top 20</option>
+          <option value="50">Top 50</option>
+          <option value="100">Top 100</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div id="chart-ranking-bar" class="chart-area" style="height:540px;"></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><h2>Full Rankings Table</h2></div>
+      <div class="tbl-wrap">
+        <table class="rtable">
+          <thead>
+            <tr>
+              <th>Rank</th><th>THE</th><th>University</th><th>Country</th>
+              <th>Score</th><th>Teaching</th><th>Res. Env</th>
+              <th>Res. Qual</th><th>Industry</th><th>Intl.</th>
+            </tr>
+          </thead>
+          <tbody id="ranking-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ TREND ════════════════════════════ -->
+  <section class="page" id="page-trend">
+    <div class="page-head">
+      <div>
+        <p class="page-eyebrow">Dynamic Comparison</p>
+        <h1 class="page-title">Rank <em>Trends</em> 2021–2026</h1>
+      </div>
+    </div>
+
+    <div class="filter-bar">
+      <div class="filter-group" style="flex:1">
+        <label class="filter-label">Add University</label>
+        <div class="search-row">
+          <!-- FIX #4: autocomplete datalist -->
+          <input id="trend-search" class="finput" type="text"
+                 list="trend-uni-list" placeholder="Search university name…"/>
+          <datalist id="trend-uni-list"></datalist>
+          <button class="btn-accent" id="trend-add-btn">Add</button>
+          <button class="btn-ghost" id="trend-top5-btn">Load Top 5</button>
+          <button class="btn-danger" id="trend-clear-btn">Clear</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="trend-tags" class="tag-row"></div>
+
+    <div class="panel">
+      <div class="panel-head">
+        <h2>Rank Over Time</h2>
+        <span class="panel-hint">Lower = Better Position</span>
+      </div>
+      <div id="chart-trend" class="chart-area" style="height:440px;"></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><h2>Closeness Score Over Time</h2></div>
+      <div id="chart-trend-close" class="chart-area" style="height:340px;"></div>
+    </div>
+  </section>
+
+  <!-- ══ UNIVERSITY ════════════════════════ -->
+  <section class="page" id="page-university">
+    <div class="page-head">
+      <div>
+        <p class="page-eyebrow">Deep Dive</p>
+        <h1 class="page-title">University <em>Profile</em></h1>
+      </div>
+    </div>
+
+    <div class="filter-bar">
+      <div class="filter-group" style="flex:1">
+        <label class="filter-label">Search University</label>
+        <div class="search-row">
+          <div class="autocomplete-wrap">
+            <input id="uni-search" class="finput" type="text"
+                   placeholder="Type to search all universities…" autocomplete="off"/>
+            <div class="autocomplete-dropdown" id="uni-autocomplete"></div>
+          </div>
+          <button class="btn-accent" id="uni-search-btn">Search</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="uni-profile" class="hidden">
+      <div class="uni-hero-card">
+        <div class="uhc-left">
+          <div class="uni-monogram" id="uni-monogram">U</div>
+          <div>
+            <h2 id="uni-name-display">—</h2>
+            <p id="uni-country-display">—</p>
+          </div>
+        </div>
+        <div class="uhc-badges" id="uni-badges"></div>
+      </div>
+
+      <!-- Year-by-Year Detail Panel -->
+      <div class="panel hidden" id="uni-year-detail-panel">
+        <div class="panel-head">
+          <h2>Year-by-Year Breakdown</h2>
+          <div class="year-tabs" id="uni-year-tabs"></div>
+        </div>
+        <div id="uni-year-card"></div>
+      </div>
+
+      <div class="two-col">
+        <div class="panel">
+          <div class="panel-head"><h2>Rank Over Years</h2></div>
+          <div id="chart-uni-rank" class="chart-area" style="height:300px;"></div>
+        </div>
+        <div class="panel">
+          <div class="panel-head">
+            <h2>Criteria Radar</h2>
+            <select id="uni-radar-year" class="fselect" style="font-size:12px;"></select>
+          </div>
+          <div id="chart-uni-radar" class="chart-area" style="height:300px;"></div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-head"><h2>All Criteria Scores — Year by Year</h2></div>
+        <div id="chart-uni-criteria" class="chart-area" style="height:340px;"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ MOVERS ════════════════════════════ -->
+  <section class="page" id="page-movers">
+    <div class="page-head">
+      <div>
+        <p class="page-eyebrow">2021 → 2026</p>
+        <h1 class="page-title">Biggest <em>Movers</em></h1>
+      </div>
+    </div>
+
+    <div class="two-col">
+      <div class="panel">
+        <div class="panel-head">
+          <h2 style="color:var(--green)">▲ Top Risers</h2>
+          <span class="panel-hint">Most improved 2021→2026</span>
+        </div>
+        <div id="chart-risers" class="chart-area" style="height:400px;"></div>
+      </div>
+      <div class="panel">
+        <div class="panel-head">
+          <h2 style="color:var(--red)">▼ Top Fallers</h2>
+          <span class="panel-hint">Biggest drops 2021→2026</span>
+        </div>
+        <div id="chart-fallers" class="chart-area" style="height:400px;"></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><h2>All Movers</h2></div>
+      <div class="tbl-wrap">
+        <table class="rtable">
+          <thead>
+            <tr><th>University</th><th>Country</th><th>Rank 2021</th><th>Rank 2026</th><th>Change</th></tr>
+          </thead>
+          <tbody id="movers-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ VALIDATION ════════════════════════ -->
+  <section class="page" id="page-validation">
+    <div class="page-head">
+      <div>
+        <p class="page-eyebrow">Model Accuracy</p>
+        <h1 class="page-title">Validation <em>Results</em></h1>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head">
+        <h2>Spearman Rank Correlation — All Years</h2>
+        <span class="panel-badge green">Agreement with Official THE Ranking</span>
+      </div>
+      <div id="chart-validation" class="chart-area" style="height:380px;"></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><h2>Validation Table</h2></div>
+      <div class="tbl-wrap">
+        <table class="rtable">
+          <thead>
+            <tr><th>Year</th><th>Spearman r</th><th>p-value</th><th>n</th><th>Strength</th></tr>
+          </thead>
+          <tbody id="validation-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ PREDICT ════════════════════════════ -->
+  <section class="page" id="page-predict">
+    <div class="page-head">
+      <div>
+        <p class="page-eyebrow">What-if Analysis</p>
+        <h1 class="page-title">Predict <em>My Rank</em></h1>
+      </div>
+    </div>
+
+    <div class="predict-layout">
+
+      <!-- Input panel -->
+      <div class="panel predict-input-panel">
+        <div class="panel-head">
+          <h2>Enter Your Scores</h2>
+          <span class="panel-hint">Scale 0 – 100</span>
+        </div>
+
+        <div class="pf-year-row">
+          <label class="filter-label">Compare Against Year</label>
+          <select id="predict-year" class="fselect">
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024" selected>2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+          </select>
+        </div>
+
+        <div class="sliders-wrap">
+          <div class="sl-row">
+            <div class="sl-meta">
+              <span class="sl-name">Teaching</span>
+              <span class="sl-val" id="val-teaching">50</span>
+            </div>
+            <input class="pslider" type="range" min="0" max="100" value="50" id="sl-teaching" data-key="teaching"/>
+          </div>
+          <div class="sl-row">
+            <div class="sl-meta">
+              <span class="sl-name">Research Environment</span>
+              <span class="sl-val" id="val-research_env">50</span>
+            </div>
+            <input class="pslider" type="range" min="0" max="100" value="50" id="sl-research_env" data-key="research_env"/>
+          </div>
+          <div class="sl-row">
+            <div class="sl-meta">
+              <span class="sl-name">Research Quality</span>
+              <span class="sl-val" id="val-research_qual">50</span>
+            </div>
+            <input class="pslider" type="range" min="0" max="100" value="50" id="sl-research_qual" data-key="research_qual"/>
+          </div>
+          <div class="sl-row">
+            <div class="sl-meta">
+              <span class="sl-name">Industry Impact</span>
+              <span class="sl-val" id="val-industry">50</span>
+            </div>
+            <input class="pslider" type="range" min="0" max="100" value="50" id="sl-industry" data-key="industry"/>
+          </div>
+          <div class="sl-row">
+            <div class="sl-meta">
+              <span class="sl-name">International Outlook</span>
+              <span class="sl-val" id="val-intl_outlook">50</span>
+            </div>
+            <input class="pslider" type="range" min="0" max="100" value="50" id="sl-intl_outlook" data-key="intl_outlook"/>
+          </div>
+        </div>
+
+        <button class="btn-predict" id="predict-btn">
+          <span>Calculate My Rank</span>
+          <span class="btn-arrow">→</span>
+        </button>
+      </div>
+
+      <!-- Result panel -->
+      <div class="panel predict-result-panel">
+        <div id="predict-placeholder" class="predict-ph">
+          <div class="ph-icon">✦</div>
+          <p>Adjust scores and click<br/><strong>Calculate My Rank</strong></p>
+        </div>
+
+        <div id="predict-result" class="hidden">
+          <div class="result-hero">
+            <p class="rh-label">Your MCDM Rank</p>
+            <div class="rh-rank" id="res-rank">—</div>
+            <p class="rh-total" id="res-total">out of — universities</p>
+            <div class="rh-bar-wrap">
+              <div class="rh-bar-track">
+                <div class="rh-bar-fill" id="res-bar"></div>
+              </div>
+              <span class="rh-pct" id="res-pct">—</span>
+            </div>
+          </div>
+
+          <div class="result-chips">
+            <div class="rchip">
+              <span class="rc-label">Closeness Score</span>
+              <span class="rc-val" id="res-close">—</span>
+            </div>
+            <div class="rchip">
+              <span class="rc-label">Percentile</span>
+              <span class="rc-val" id="res-pct2">—</span>
+            </div>
+          </div>
+
+          <div class="nearest-wrap">
+            <p class="nw-title">Nearest Universities to Your Score</p>
+            <div id="res-nearest"></div>
+          </div>
+
+          <div id="chart-predict-radar" class="chart-area" style="height:280px;margin-top:16px;"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<!-- FIX #1/#2 — Toast notification container -->
+<div id="toast-container"></div>
+
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

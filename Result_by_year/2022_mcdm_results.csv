@@ -1,0 +1,1663 @@
+year,mcdm_rank,university,country,rank,closeness,rank_diff,d_best,d_worst,teaching,research_env,research_qual,industry,intl_outlook
+2022,1,Massachusetts Institute of Technology,United States,5.0,0.936323,4.0,0.029988,0.440957,90.9,94.4,99.7,93.7,89.9
+2022,2,California Institute of Technology,United States,2.0,0.914781,0.0,0.040672,0.4366,93.6,96.9,97.8,90.4,83.8
+2022,3,Stanford University,United States,4.0,0.91274,1.0,0.041928,0.438565,92.3,96.8,99.9,91.0,79.7
+2022,4,Princeton University,United States,7.0,0.898955,3.0,0.048455,0.431085,89.5,96.0,99.0,88.8,80.7
+2022,5,Johns Hopkins University,United States,14.0,0.886086,9.0,0.054164,0.421318,80.0,90.8,97.2,93.7,74.6
+2022,6,"University of California, Berkeley",United States,8.0,0.868591,2.0,0.063839,0.421967,85.7,96.0,99.1,84.7,77.6
+2022,7,Peking University,China,16.0,0.8517,9.0,0.071228,0.409067,91.4,94.6,81.7,93.1,65.1
+2022,8,Tsinghua University,China,17.0,0.850946,9.0,0.07448,0.425203,88.1,95.7,86.8,100.0,50.6
+2022,9,Duke University,United States,23.0,0.839914,14.0,0.078043,0.409466,79.2,78.6,95.6,99.0,66.6
+2022,10,University of Oxford,United Kingdom,1.0,0.824174,-9.0,0.089925,0.421517,91.0,99.6,98.0,74.4,96.3
+2022,11,LMU Munich,Germany,32.0,0.814826,21.0,0.090246,0.397113,68.1,77.9,90.3,100.0,69.1
+2022,12,University of Pennsylvania,United States,13.0,0.807761,1.0,0.094213,0.395872,84.5,89.2,97.1,77.6,69.7
+2022,13,"University of California, San Diego",United States,34.0,0.796742,21.0,0.100916,0.395577,60.5,75.6,97.9,96.6,68.1
+2022,14,Northwestern University,United States,24.0,0.794547,10.0,0.099451,0.384606,74.3,82.1,97.6,81.6,65.3
+2022,15,Technical University of Munich,Germany,38.0,0.794006,23.0,0.100162,0.386078,64.5,74.8,85.5,100.0,76.1
+2022,16,National University of Singapore,Singapore,21.0,0.790545,5.0,0.101281,0.382264,76.3,90.6,87.3,75.4,94.4
+2022,17,Imperial College London,United Kingdom,12.0,0.782287,-5.0,0.109499,0.393453,81.4,88.3,97.6,70.8,97.5
+2022,18,KU Leuven,Belgium,42.0,0.777065,24.0,0.109141,0.380425,59.1,73.2,86.2,99.2,74.2
+2022,19,"Nanyang Technological University, Singapore",Singapore,46.0,0.745987,27.0,0.121581,0.35706,57.2,70.3,85.1,87.0,93.9
+2022,20,University of Melbourne,Australia,33.0,0.7357,13.0,0.126821,0.353016,67.5,73.8,88.4,74.9,94.0
+2022,21,ETH Zurich,Switzerland,15.0,0.735568,-6.0,0.136843,0.380656,81.3,92.4,90.7,62.5,97.9
+2022,22,Wageningen University & Research,Netherlands,53.0,0.728667,31.0,0.141467,0.379911,50.1,58.1,95.6,100.0,86.4
+2022,23,University of Toronto,Canada,18.0,0.726539,-5.0,0.142298,0.378061,77.6,93.0,92.6,61.2,89.1
+2022,24,University of Cambridge,United Kingdom,6.0,0.726004,-18.0,0.151795,0.402211,90.9,99.5,96.2,56.7,95.8
+2022,25,Paris Sciences et Lettres – PSL Research University Paris,France,41.0,0.721629,16.0,0.130315,0.337819,69.1,71.2,80.1,78.7,80.5
+2022,26,The University of Tokyo,Japan,36.0,0.717696,10.0,0.140776,0.357893,86.9,90.3,58.2,88.1,42.0
+2022,27,Seoul National University,South Korea,54.0,0.716501,27.0,0.140534,0.355177,73.8,73.8,68.5,98.2,36.9
+2022,28,The University of Queensland,Australia,56.0,0.711605,28.0,0.13997,0.345372,55.0,62.0,85.8,86.2,93.4
+2022,29,Yale University,United States,9.0,0.707096,-20.0,0.15927,0.384493,90.7,93.0,97.0,56.2,69.9
+2022,30,The University of Chicago,United States,10.0,0.706161,-20.0,0.158763,0.381545,87.2,90.6,98.3,56.3,74.4
+2022,31,École Polytechnique Fédérale de Lausanne,Switzerland,40.0,0.704539,9.0,0.142111,0.338869,63.8,67.0,85.5,74.9,98.3
+2022,32,Delft University of Technology,Netherlands,77.0,0.699671,45.0,0.147983,0.344753,57.1,71.1,59.4,97.7,93.6
+2022,33,Karolinska Institute,Sweden,39.0,0.695935,6.0,0.150396,0.344222,55.1,71.0,94.2,70.5,86.2
+2022,34,"University of California, Los Angeles",United States,20.0,0.694852,-14.0,0.162783,0.370674,82.1,89.8,96.0,56.5,65.1
+2022,35,Zhejiang University,China,76.0,0.693504,41.0,0.151384,0.342534,67.2,69.9,58.6,100.0,61.6
+2022,36,Georgia Institute of Technology,United States,45.0,0.6912,9.0,0.150446,0.33675,58.2,69.4,91.4,71.4,77.7
+2022,37,Monash University,Australia,57.0,0.69001,20.0,0.150463,0.334917,54.3,61.7,87.7,79.2,91.0
+2022,38,Harvard University,United States,3.0,0.68875,-35.0,0.180419,0.39924,94.5,98.9,99.2,48.9,79.8
+2022,39,McMaster University,Canada,80.0,0.687453,41.0,0.164955,0.362822,44.3,50.6,93.1,98.3,85.1
+2022,40,Shanghai Jiao Tong University,China,84.0,0.685369,44.0,0.156747,0.341446,64.2,71.9,59.3,100.0,47.0
+2022,41,Carnegie Mellon University,United States,28.0,0.684226,-13.0,0.164548,0.356546,64.7,80.0,99.0,59.0,80.8
+2022,42,Charité - Universitätsmedizin Berlin,Germany,73.0,0.682469,31.0,0.165868,0.3565,48.6,50.6,98.7,92.2,68.1
+2022,43,"University of California, Santa Barbara",United States,68.0,0.673788,25.0,0.164124,0.338997,45.2,58.9,96.6,79.8,73.6
+2022,44,Utrecht University,Netherlands,69.0,0.67149,25.0,0.160917,0.328921,46.6,63.1,90.1,77.0,76.3
+2022,45,Columbia University,United States,11.0,0.66872,-34.0,0.186052,0.375564,87.8,89.6,97.3,48.0,79.8
+2022,46,University of Hong Kong,Hong Kong,31.0,0.667676,-15.0,0.17177,0.345105,66.2,72.2,95.0,58.5,98.8
+2022,47,RWTH Aachen University,Germany,108.0,0.667258,61.0,0.164269,0.329414,55.3,61.6,64.1,98.7,62.0
+2022,48,University of Tübingen,Germany,78.0,0.665521,30.0,0.160883,0.320112,53.3,58.7,82.9,82.7,65.2
+2022,49,University of Freiburg,Germany,109.0,0.663314,60.0,0.171429,0.337738,47.1,51.8,82.2,97.2,61.4
+2022,50,Korea Advanced Institute of Science and Technology (KAIST),South Korea,99.0,0.662436,49.0,0.169596,0.332815,64.1,66.5,59.3,100.0,38.0
+2022,51,Kyoto University,Japan,61.0,0.662176,10.0,0.162834,0.319175,78.5,78.9,58.3,80.8,38.2
+2022,52,University of Groningen,Netherlands,81.0,0.659695,29.0,0.170492,0.330506,42.5,55.3,90.6,81.1,88.7
+2022,53,Erasmus University Rotterdam,Netherlands,72.0,0.659622,19.0,0.173804,0.336817,40.2,57.8,97.0,76.5,88.5
+2022,54,University of Basel,Switzerland,103.0,0.65815,49.0,0.185646,0.357418,42.9,42.0,89.5,99.9,97.0
+2022,55,Leiden University,Netherlands,71.0,0.6538,16.0,0.169399,0.319911,44.8,65.1,86.8,71.8,84.1
+2022,56,Sungkyunkwan University (SKKU),South Korea,122.0,0.652762,66.0,0.172664,0.324585,56.9,60.2,60.7,99.4,56.3
+2022,57,UCL,United Kingdom,19.0,0.651639,-38.0,0.198315,0.370965,76.8,88.9,96.9,44.7,96.7
+2022,58,UNSW Sydney,Australia,70.0,0.650974,12.0,0.170051,0.317165,50.4,60.4,84.1,72.7,95.2
+2022,59,Fudan University,China,60.0,0.650726,1.0,0.166477,0.310161,66.8,68.4,79.0,70.7,48.6
+2022,60,Ghent University,Belgium,96.0,0.649174,36.0,0.168604,0.311987,48.9,58.4,79.2,83.3,62.4
+2022,61,University of Bern,Switzerland,101.0,0.648615,40.0,0.181252,0.334569,45.0,44.9,88.2,90.6,87.3
+2022,62,University of Michigan-Ann Arbor,United States,25.0,0.645792,-37.0,0.192983,0.351847,78.6,85.4,94.0,48.9,59.5
+2022,63,The University of Sydney,Australia,58.0,0.644149,-5.0,0.177291,0.320926,51.8,62.2,90.5,66.1,90.9
+2022,64,Technical University of Berlin,Germany,138.0,0.640165,74.0,0.178156,0.316949,50.2,55.4,64.1,96.9,66.8
+2022,65,University of Hamburg,Germany,133.0,0.638993,68.0,0.179679,0.318038,45.4,52.5,74.9,93.8,58.7
+2022,66,Nanjing University,China,107.0,0.638921,41.0,0.173687,0.307336,54.9,54.6,74.0,86.8,56.6
+2022,67,University of Minnesota,United States,87.0,0.637561,20.0,0.175656,0.308995,55.9,57.9,81.7,80.4,40.8
+2022,68,The Hong Kong University of Science and Technology,Hong Kong,66.0,0.634024,-2.0,0.181824,0.314996,50.9,62.1,86.6,65.1,97.6
+2022,69,Lund University,Sweden,116.0,0.632246,47.0,0.181629,0.312258,39.6,53.1,83.1,82.0,79.9
+2022,70,Yonsei University (Seoul campus),South Korea,151.0,0.626499,81.0,0.184617,0.30967,54.9,58.2,55.7,96.9,58.6
+2022,71,Chinese University of Hong Kong,Hong Kong,49.0,0.62495,-22.0,0.19321,0.321948,55.1,58.6,95.0,60.2,95.0
+2022,72,University of Washington,United States,29.0,0.623276,-43.0,0.207772,0.343752,68.8,78.8,99.0,46.3,61.7
+2022,73,Aarhus University,Denmark,104.0,0.622898,31.0,0.183857,0.303696,39.3,58.4,82.4,74.9,76.9
+2022,74,Maastricht University,Netherlands,127.0,0.622648,53.0,0.187754,0.309802,39.8,50.0,76.1,84.6,98.1
+2022,75,Institut Polytechnique de Paris,France,92.0,0.62134,17.0,0.180176,0.29565,57.3,54.7,69.0,77.1,94.5
+2022,76,TU Dresden,Germany,173.0,0.618789,97.0,0.193157,0.313537,46.7,47.2,69.3,97.4,59.3
+2022,77,New York University,United States,26.0,0.6169,-51.0,0.216,0.347822,75.4,83.1,94.7,41.4,72.3
+2022,78,University of Antwerp,Belgium,145.0,0.616331,67.0,0.194823,0.312965,35.4,47.0,85.4,85.7,70.6
+2022,79,Cornell University,United States,22.0,0.616062,-57.0,0.223349,0.358383,78.6,85.4,97.2,38.3,75.4
+2022,80,University of British Columbia,Canada,37.0,0.610894,-43.0,0.207732,0.326138,61.6,74.0,89.4,47.4,94.9
+2022,81,Universität Heidelberg,Germany,43.0,0.609243,-38.0,0.203346,0.317044,67.9,59.9,95.5,54.2,69.6
+2022,82,Karlsruhe Institute of Technology,Germany,180.0,0.608844,98.0,0.192753,0.300025,45.7,51.5,61.3,93.3,71.7
+2022,83,Université de Montréal,Canada,88.0,0.606408,5.0,0.191714,0.295374,50.4,52.9,81.7,69.5,85.7
+2022,84,Ulsan National Institute of Science and Technology (UNIST),South Korea,179.0,0.604667,95.0,0.206812,0.316321,37.7,41.1,85.4,91.8,51.0
+2022,85,Pohang University of Science and Technology (POSTECH),South Korea,186.0,0.603989,101.0,0.202504,0.308856,52.3,49.1,65.4,98.0,31.1
+2022,86,Eindhoven University of Technology,Netherlands,211.0,0.603951,125.0,0.203454,0.310255,44.4,48.2,56.1,99.9,83.8
+2022,87,National Taiwan University (NTU),Taiwan,114.0,0.603407,27.0,0.185901,0.282844,55.8,64.7,64.8,75.4,46.9
+2022,88,Ulm University,Germany,146.0,0.601803,58.0,0.209446,0.31654,39.8,38.6,92.4,85.7,56.9
+2022,89,King’s College London,United Kingdom,35.0,0.599475,-54.0,0.222408,0.332883,57.6,71.2,96.9,43.7,95.9
+2022,90,University of Edinburgh,United Kingdom,30.0,0.5986,-60.0,0.226633,0.337972,66.1,74.2,95.6,40.2,95.2
+2022,91,University of Illinois at Urbana-Champaign,United States,48.0,0.597355,-43.0,0.206996,0.307095,65.7,77.3,80.9,50.0,55.4
+2022,92,University of Science and Technology of China,China,89.0,0.597104,-3.0,0.192339,0.285052,63.4,61.5,72.8,70.3,34.5
+2022,93,London School of Economics and Political Science,United Kingdom,27.0,0.594142,-66.0,0.235879,0.345307,68.0,80.8,94.4,35.8,92.7
+2022,94,University of Texas at Austin,United States,47.0,0.593571,-47.0,0.213441,0.311722,67.9,71.5,89.4,50.1,39.8
+2022,95,University of the Witwatersrand,South Africa,253.0,0.592974,158.0,0.214057,0.311848,30.9,43.8,66.2,100.0,73.4
+2022,96,Huazhong University of Science and Technology,China,181.0,0.591261,85.0,0.221491,0.320398,38.3,38.4,92.7,89.8,27.9
+2022,97,University of Zurich,Switzerland,75.0,0.591107,-22.0,0.207827,0.30044,52.2,49.6,89.4,61.9,92.5
+2022,98,Uppsala University,Sweden,131.0,0.590884,33.0,0.198174,0.286222,38.5,55.8,78.4,71.8,71.4
+2022,99,University of Erlangen-Nuremberg,Germany,198.0,0.588439,99.0,0.204081,0.29179,42.2,45.7,71.5,88.7,52.8
+2022,100,McGill University,Canada,44.0,0.586602,-56.0,0.218639,0.310243,63.3,70.9,83.9,45.3,91.5
+2022,101,Korea University,South Korea,209.0,0.586256,108.0,0.204581,0.289882,47.4,47.0,63.4,91.9,50.9
+2022,102,Technical University of Denmark,Denmark,185.0,0.585566,83.0,0.208995,0.295295,39.6,40.6,72.4,86.0,92.2
+2022,103,Southern University of Science and Technology (SUSTech),China,164.0,0.584731,61.0,0.223198,0.314279,29.4,39.4,98.5,78.5,60.4
+2022,104,Purdue University West Lafayette,United States,106.0,0.583835,2.0,0.194225,0.272477,56.7,65.2,59.6,68.9,70.9
+2022,105,Australian National University,Australia,55.0,0.583401,-50.0,0.220763,0.309155,49.8,67.7,87.8,47.8,96.5
+2022,106,Medical University of Innsbruck,Austria,213.0,0.582471,107.0,0.230773,0.321939,31.0,28.6,88.4,91.4,87.2
+2022,107,University of South Florida,United States,226.0,0.58164,119.0,0.223658,0.310948,30.2,35.9,85.8,91.2,55.1
+2022,108,Wuhan University,China,157.0,0.580546,49.0,0.219963,0.30444,43.2,37.7,92.3,80.9,39.8
+2022,109,Sant’Anna School of Advanced Studies – Pisa,Italy,203.0,0.580241,94.0,0.20949,0.289582,46.4,40.6,70.5,89.2,57.8
+2022,110,University of Adelaide,Australia,111.0,0.57973,1.0,0.220732,0.304483,35.6,45.2,94.3,65.5,93.7
+2022,111,University of Lausanne,Switzerland,177.0,0.579091,66.0,0.210642,0.289803,32.8,45.4,77.1,78.1,92.0
+2022,112,Moscow Institute of Physics and Technology (MIPT),Russian Federation,236.0,0.578098,124.0,0.216662,0.296874,51.6,44.5,51.3,99.9,61.5
+2022,113,University of Manchester,United Kingdom,50.0,0.577295,-63.0,0.225554,0.308042,56.4,65.0,89.1,45.6,92.4
+2022,114,University of Auckland,New Zealand,137.0,0.574651,23.0,0.216148,0.292019,34.0,46.3,84.8,69.4,94.6
+2022,115,Taipei Medical University,Taiwan,231.0,0.574222,116.0,0.225533,0.304162,46.9,33.0,73.4,96.9,42.9
+2022,116,Tohoku University,Japan,223.0,0.572883,107.0,0.217509,0.29174,56.6,58.7,37.8,97.2,49.5
+2022,117,"University of California, Davis",United States,67.0,0.570756,-50.0,0.216847,0.288336,58.8,64.6,81.5,50.7,68.9
+2022,118,University of Würzburg,Germany,165.0,0.570302,47.0,0.215902,0.286548,38.1,43.2,85.6,73.9,62.4
+2022,119,University of Cologne,Germany,175.0,0.5697,56.0,0.21074,0.279011,42.2,43.7,77.1,76.9,66.7
+2022,120,Lomonosov Moscow State University,Russian Federation,159.0,0.569492,39.0,0.242275,0.320491,80.3,69.9,12.8,99.3,72.5
+2022,121,University of Twente,Netherlands,229.0,0.566507,108.0,0.214708,0.28059,37.9,46.8,57.0,86.9,93.8
+2022,122,Boston University,United States,62.0,0.566382,-60.0,0.231193,0.30198,57.3,60.2,93.8,46.5,65.5
+2022,123,University of Wisconsin-Madison,United States,59.0,0.5649,-64.0,0.223362,0.289997,67.4,69.5,79.2,47.5,50.4
+2022,124,Washington University in St Louis,United States,51.0,0.564617,-73.0,0.237835,0.30843,60.5,57.5,98.5,44.9,62.1
+2022,125,University of North Carolina at Chapel Hill,United States,52.0,0.563852,-73.0,0.237088,0.306507,62.2,63.4,95.6,45.0,41.1
+2022,126,Western University,Canada,202.0,0.561845,76.0,0.218026,0.279575,39.9,39.0,72.6,80.2,85.6
+2022,127,The University of Western Australia,Australia,134.0,0.560848,7.0,0.227266,0.290244,34.4,43.6,88.0,65.0,95.5
+2022,128,"China Medical University, Taiwan",Taiwan,318.0,0.560825,190.0,0.240733,0.307415,24.3,32.9,80.8,95.7,44.1
+2022,129,Vrije Universiteit Amsterdam,Netherlands,115.0,0.560709,-14.0,0.222887,0.284492,39.9,51.5,87.8,59.3,75.4
+2022,130,University of Alberta,Canada,125.0,0.557215,-5.0,0.213815,0.269071,48.2,50.7,71.9,64.7,88.9
+2022,131,University of Delaware,United States,326.0,0.556282,195.0,0.231855,0.290672,28.9,38.4,68.8,94.6,49.4
+2022,132,Kyung Hee University,South Korea,276.0,0.556111,144.0,0.222905,0.279258,35.5,40.5,64.6,89.7,63.7
+2022,133,University of Amsterdam,Netherlands,65.0,0.555922,-68.0,0.243303,0.30458,49.0,63.3,91.6,41.6,89.8
+2022,134,Georgetown University,United States,130.0,0.555152,-4.0,0.22791,0.284421,55.0,35.3,88.8,70.2,48.9
+2022,135,Central South University,China,327.0,0.55343,192.0,0.234088,0.290103,34.8,41.6,65.6,96.0,25.0
+2022,136,Khalifa University,United Arab Emirates,368.0,0.550591,232.0,0.241252,0.295569,31.5,36.9,51.9,100.0,92.1
+2022,137,University of Liège,Belgium,392.0,0.549619,255.0,0.241448,0.29465,26.6,35.4,60.2,99.6,71.6
+2022,138,University of Copenhagen,Denmark,97.0,0.548688,-41.0,0.233933,0.284407,46.8,47.1,88.8,54.4,86.8
+2022,139,Ohio State University (Main campus),United States,85.0,0.547611,-54.0,0.229551,0.277868,54.7,52.2,86.1,53.2,60.6
+2022,140,Tongji University,China,353.0,0.546226,213.0,0.2345,0.282278,40.6,47.9,41.7,98.8,60.2
+2022,141,"University of California, Irvine",United States,98.0,0.544746,-43.0,0.240582,0.287875,42.5,49.0,93.8,52.0,73.2
+2022,142,University of Southern California,United States,63.0,0.543866,-79.0,0.246435,0.293834,62.1,58.8,90.3,41.2,65.5
+2022,143,King Abdulaziz University,Saudi Arabia,191.0,0.541909,48.0,0.252274,0.298433,36.7,22.9,92.4,74.0,93.6
+2022,144,Vanderbilt University,United States,113.0,0.541092,-31.0,0.240058,0.28305,48.6,43.8,94.1,56.9,48.7
+2022,145,University of Stuttgart,Germany,328.0,0.540933,183.0,0.230907,0.272085,40.9,44.4,49.8,93.8,53.1
+2022,146,University of Warwick,United Kingdom,79.0,0.540531,-67.0,0.248398,0.292221,46.9,53.0,90.7,44.8,94.5
+2022,147,University of Bonn,Germany,112.0,0.540193,-35.0,0.232233,0.272833,48.4,48.7,85.2,55.5,67.1
+2022,148,Swedish University of Agricultural Sciences,Sweden,345.0,0.540077,197.0,0.244817,0.287483,30.4,29.3,74.1,92.0,51.5
+2022,149,Université Catholique de Louvain,Belgium,161.0,0.53963,12.0,0.223922,0.262474,38.4,52.1,73.2,62.5,80.9
+2022,150,IMT Atlantique,France,356.0,0.53876,206.0,0.240294,0.28068,37.2,34.3,54.3,95.8,77.2
+2022,151,Emory University,United States,82.0,0.537962,-69.0,0.25088,0.292106,55.1,44.9,98.1,48.2,59.7
+2022,152,University of South Australia,Australia,317.0,0.536493,165.0,0.238355,0.275887,23.5,36.6,68.1,84.3,88.4
+2022,153,University of Mannheim,Germany,149.0,0.535586,-4.0,0.22643,0.261131,43.0,50.5,76.6,60.7,67.5
+2022,154,Stellenbosch University,South Africa,269.0,0.5352,115.0,0.236928,0.272814,30.3,35.7,78.7,79.5,54.3
+2022,155,Université Paris-Saclay,France,117.0,0.533457,-38.0,0.231494,0.264696,51.6,47.9,80.2,56.4,68.2
+2022,156,Nagoya University,Japan,374.0,0.533408,218.0,0.241313,0.275869,44.3,48.0,41.4,97.9,35.4
+2022,157,Hong Kong Polytechnic University,Hong Kong,91.0,0.531465,-66.0,0.247284,0.280498,45.4,53.9,83.7,46.0,97.1
+2022,158,Medical University of Graz,Austria,196.0,0.53109,38.0,0.255814,0.289736,30.3,29.1,95.9,66.7,78.0
+2022,159,Brown University,United States,64.0,0.530817,-95.0,0.260471,0.294687,62.2,56.6,92.9,37.4,61.9
+2022,160,Humboldt University of Berlin,Germany,74.0,0.527866,-86.0,0.244772,0.273666,59.9,66.7,73.5,41.6,70.1
+2022,161,University of Bristol,United Kingdom,93.0,0.527605,-68.0,0.260604,0.291062,40.6,49.2,94.7,43.7,89.1
+2022,162,Technical University of Darmstadt,Germany,315.0,0.525363,153.0,0.232847,0.257732,43.7,45.0,46.8,88.4,58.5
+2022,163,University of Technology Sydney,Australia,143.0,0.52387,-20.0,0.247465,0.272278,36.5,43.7,83.7,55.0,97.2
+2022,164,University of Sheffield,United Kingdom,110.0,0.52282,-54.0,0.250382,0.274329,45.5,46.4,86.3,48.8,87.8
+2022,165,University of Glasgow,United Kingdom,86.0,0.522441,-79.0,0.266602,0.291658,41.9,49.9,94.0,40.7,93.1
+2022,166,University of Konstanz,Germany,242.0,0.522228,76.0,0.226836,0.247943,40.5,46.1,59.4,74.8,69.7
+2022,167,Free University of Berlin,Germany,83.0,0.521838,-84.0,0.247165,0.269741,55.4,65.2,72.9,41.9,75.7
+2022,168,University of Calgary,Canada,210.0,0.521042,42.0,0.242278,0.263566,34.9,37.2,80.4,65.6,80.4
+2022,169,Hanyang University,South Korea,387.0,0.520325,218.0,0.243875,0.264542,40.8,40.1,44.0,93.8,64.3
+2022,170,Macquarie University,Australia,192.0,0.517843,22.0,0.236895,0.254429,39.0,43.3,71.4,63.3,89.5
+2022,171,Tianjin University,China,437.0,0.516989,266.0,0.248325,0.265793,36.2,42.5,46.2,95.4,38.6
+2022,172,"Asia University, Taiwan",Taiwan,586.0,0.516027,414.0,0.261919,0.279265,19.4,36.0,52.1,100.0,51.9
+2022,173,Queen’s University,Canada,289.0,0.514961,116.0,0.235605,0.25014,40.0,38.0,60.2,79.1,71.1
+2022,174,University of Southern Denmark,Denmark,295.0,0.514945,121.0,0.25355,0.269173,24.1,30.2,80.2,73.9,81.1
+2022,175,King Saud University,Saudi Arabia,364.0,0.514813,189.0,0.253208,0.268669,26.1,27.8,70.9,82.6,82.3
+2022,176,Osaka University,Japan,342.0,0.513215,166.0,0.243766,0.257001,51.9,52.1,33.9,90.2,38.4
+2022,177,University of Cape Town,South Africa,184.0,0.51188,7.0,0.253204,0.265529,31.4,41.4,85.5,56.4,80.1
+2022,178,Queen Mary University of London,United Kingdom,118.0,0.511828,-60.0,0.278899,0.292413,33.7,41.6,98.1,42.7,97.1
+2022,179,Medical University of Vienna,Austria,204.0,0.511423,25.0,0.264903,0.27729,34.6,26.9,92.7,61.9,79.8
+2022,180,University of Florida,United States,154.0,0.510817,-26.0,0.232402,0.24268,54.5,58.9,62.0,58.4,42.7
+2022,181,"University of Maryland, College Park",United States,95.0,0.50868,-86.0,0.267958,0.277426,49.3,56.8,89.8,39.3,42.9
+2022,182,University of Birmingham,United Kingdom,105.0,0.508332,-77.0,0.274791,0.284104,40.3,45.2,93.3,40.6,91.7
+2022,183,National Research Nuclear University MEPhI,Russian Federation,477.0,0.508311,294.0,0.263314,0.272215,42.8,40.5,29.6,100.0,69.7
+2022,184,University of Oslo,Norway,120.0,0.508049,-64.0,0.26491,0.273578,40.5,46.5,89.5,44.3,80.4
+2022,185,Indian Institute of Science,India,306.0,0.506901,121.0,0.248566,0.255524,59.1,54.6,31.5,88.1,24.1
+2022,186,Sichuan University,China,434.0,0.506364,248.0,0.249592,0.256027,36.9,40.8,47.7,91.7,38.9
+2022,187,Sabancı University,Turkey,585.0,0.505082,398.0,0.264032,0.269455,26.3,37.1,42.8,99.1,57.5
+2022,188,University of Helsinki,Finland,102.0,0.504237,-86.0,0.270936,0.275567,44.3,56.9,88.5,37.8,57.3
+2022,189,University of Southampton,United Kingdom,124.0,0.50414,-65.0,0.272893,0.27745,39.9,42.1,90.6,43.4,94.5
+2022,190,Peter the Great St Petersburg Polytechnic University,Russian Federation,349.0,0.503852,159.0,0.272714,0.276949,27.8,18.4,87.1,77.7,56.9
+2022,191,Sharif University of Technology,Iran,501.0,0.50334,310.0,0.258263,0.261736,32.9,37.2,50.7,94.5,29.9
+2022,192,University of Duisburg-Essen,Germany,254.0,0.502619,62.0,0.252337,0.254994,32.9,33.5,80.3,67.2,61.1
+2022,193,University of Rochester,United States,142.0,0.502058,-51.0,0.260165,0.262315,44.9,39.3,86.4,50.5,73.1
+2022,194,Politecnico di Milano,Italy,355.0,0.501812,161.0,0.242244,0.244006,34.4,39.2,57.8,80.1,60.8
+2022,195,KTH Royal Institute of Technology,Sweden,251.0,0.501606,56.0,0.238977,0.240517,38.8,44.7,56.0,69.8,90.2
+2022,196,Radboud University Nijmegen,Netherlands,139.0,0.501495,-57.0,0.264775,0.266362,35.5,50.4,85.9,44.4,74.8
+2022,197,University of Navarra,Spain,262.0,0.501019,65.0,0.261754,0.262823,28.7,29.3,85.1,65.9,71.7
+2022,198,Pompeu Fabra University,Spain,156.0,0.500244,-42.0,0.271998,0.272264,36.4,39.2,94.2,47.8,66.8
+2022,199,University of Aberdeen,United Kingdom,160.0,0.499075,-39.0,0.28018,0.279146,32.2,35.2,94.0,47.1,95.8
+2022,200,Beihang University,China,559.0,0.498758,359.0,0.264343,0.263032,33.0,38.2,43.5,97.5,32.5
+2022,201,University of Arizona,United States,150.0,0.498745,-51.0,0.255703,0.254422,46.6,48.0,82.4,50.5,41.4
+2022,202,University of Ottawa,Canada,163.0,0.496405,-39.0,0.262162,0.25842,40.4,40.6,83.3,50.0,82.1
+2022,203,South China University of Technology,China,432.0,0.495554,229.0,0.257841,0.253297,26.8,33.1,67.8,82.8,33.8
+2022,204,Southeast University,China,566.0,0.494732,362.0,0.265056,0.259529,30.2,35.4,46.8,95.8,37.9
+2022,205,Tokyo Institute of Technology,Japan,316.0,0.493925,111.0,0.244572,0.2387,49.7,56.2,33.2,80.7,46.2
+2022,206,Sorbonne University,France,90.0,0.493919,-116.0,0.266788,0.260376,61.0,53.6,76.6,38.2,70.4
+2022,207,Michigan State University,United States,94.0,0.492558,-113.0,0.267923,0.260065,58.1,56.1,77.2,37.7,62.0
+2022,208,Newcastle University,United Kingdom,148.0,0.492147,-60.0,0.283373,0.274608,34.1,39.8,92.8,42.3,87.5
+2022,209,University of Canberra,Australia,170.0,0.491993,-39.0,0.292494,0.283273,27.9,33.8,98.6,44.2,89.8
+2022,210,King Fahd University of Petroleum and Minerals,Saudi Arabia,367.0,0.491115,157.0,0.269347,0.259941,25.8,22.4,77.9,74.2,77.6
+2022,211,University of Cape Coast,Ghana,346.0,0.49037,135.0,0.294084,0.28297,17.3,20.1,100.0,66.2,44.7
+2022,212,Lancaster University,United Kingdom,123.0,0.489934,-89.0,0.293128,0.281559,38.6,40.9,93.9,36.4,94.6
+2022,213,Penn State (Main campus),United States,121.0,0.489714,-92.0,0.264815,0.254139,49.3,60.3,75.3,40.7,47.5
+2022,214,Case Western Reserve University,United States,126.0,0.489097,-88.0,0.279049,0.267139,47.6,41.7,91.9,41.7,53.8
+2022,215,University of Potsdam,Germany,260.0,0.488817,45.0,0.244105,0.233425,38.4,43.0,65.0,66.0,59.3
+2022,216,Indiana University,United States,167.0,0.488764,-49.0,0.253015,0.241894,48.9,46.4,74.7,52.0,54.0
+2022,217,University of Virginia (Main campus),United States,128.0,0.488758,-89.0,0.276337,0.264184,49.4,41.2,90.5,43.1,51.0
+2022,218,Dartmouth College,United States,100.0,0.488702,-118.0,0.285757,0.273128,60.1,40.2,93.6,38.9,41.7
+2022,219,City University of Hong Kong,Hong Kong,153.0,0.488504,-66.0,0.265841,0.253891,42.7,44.3,75.4,46.6,99.7
+2022,220,Queensland University of Technology,Australia,194.0,0.488328,-26.0,0.273389,0.260916,32.2,36.7,86.8,50.0,84.6
+2022,221,University of Newcastle,Australia,266.0,0.488181,45.0,0.264209,0.252007,27.1,33.2,78.9,61.4,85.6
+2022,222,RCSI University of Medicine and Health Sciences,Ireland,214.0,0.488006,-8.0,0.272926,0.260139,29.2,35.3,84.0,52.6,94.9
+2022,223,University of Wollongong,Australia,221.0,0.48772,-2.0,0.26414,0.251476,30.8,37.6,77.3,55.8,94.7
+2022,224,Beijing Institute of Technology,China,634.0,0.48736,410.0,0.278233,0.264512,31.6,32.8,43.2,99.9,25.5
+2022,225,Rice University,United States,135.0,0.486996,-90.0,0.275772,0.26179,47.3,37.5,87.2,44.2,77.8
+2022,226,University of Geneva,Switzerland,197.0,0.486328,-29.0,0.274135,0.259542,34.4,33.6,83.1,51.6,98.6
+2022,227,University of Pittsburgh-Pittsburgh campus,United States,140.0,0.485377,-87.0,0.280293,0.264364,45.6,42.3,91.7,42.6,43.6
+2022,228,Chalmers University of Technology,Sweden,288.0,0.48523,60.0,0.24855,0.234287,31.8,42.8,63.3,65.5,77.5
+2022,229,University of Göttingen,Germany,119.0,0.484889,-110.0,0.278098,0.261782,46.8,50.0,84.9,37.7,62.2
+2022,230,University of Leeds,United Kingdom,129.0,0.484825,-101.0,0.27659,0.260295,43.7,46.5,81.1,39.8,90.3
+2022,231,Linköping University,Sweden,284.0,0.484663,53.0,0.261283,0.245731,24.8,38.4,77.9,60.7,69.0
+2022,232,Bielefeld University,Germany,166.0,0.483417,-66.0,0.285742,0.267397,36.4,41.8,94.4,42.4,48.1
+2022,233,University of Barcelona,Spain,193.0,0.483356,-40.0,0.278204,0.260279,31.9,40.0,90.4,47.1,59.4
+2022,234,University of Exeter,United Kingdom,144.0,0.482922,-90.0,0.296069,0.276511,33.9,39.3,93.5,37.5,91.6
+2022,235,Trinity College Dublin,Ireland,147.0,0.482807,-88.0,0.275484,0.257167,40.4,45.0,79.5,42.1,95.0
+2022,236,Université Laval,Canada,271.0,0.482568,35.0,0.252563,0.235545,38.9,34.8,67.7,66.4,71.0
+2022,237,University of Hohenheim,Germany,199.0,0.482465,-38.0,0.288888,0.269313,34.4,31.2,97.5,48.5,51.4
+2022,238,École des Ponts ParisTech,France,256.0,0.481941,18.0,0.281371,0.261754,31.9,22.2,87.4,59.6,83.8
+2022,239,Friedrich Schiller University Jena,Germany,217.0,0.481126,-22.0,0.255188,0.236623,41.4,40.7,73.5,57.1,60.5
+2022,240,National Cheng Kung University (NCKU),Taiwan,637.0,0.480948,397.0,0.281401,0.260743,36.5,42.3,25.2,100.0,39.1
+2022,241,Tampere University,Finland,280.0,0.480911,39.0,0.269665,0.249831,27.1,34.2,84.4,59.6,52.5
+2022,242,University of Massachusetts,United States,215.0,0.48034,-27.0,0.27965,0.25849,36.5,29.4,90.2,52.6,64.4
+2022,243,University of Sussex,United Kingdom,152.0,0.479423,-91.0,0.303047,0.279089,32.2,37.5,95.1,36.2,93.8
+2022,244,University of Colorado Boulder,United States,158.0,0.478925,-86.0,0.279224,0.256637,43.2,42.8,88.1,43.2,47.2
+2022,245,Autonomous University of Barcelona,Spain,171.0,0.478832,-74.0,0.284697,0.261569,36.6,38.9,90.6,42.9,66.9
+2022,246,University of Gothenburg,Sweden,188.0,0.478706,-58.0,0.285494,0.26217,29.6,42.3,90.5,42.7,66.1
+2022,247,University of Nottingham,United Kingdom,141.0,0.478182,-106.0,0.278645,0.255343,43.6,44.2,80.1,40.5,89.2
+2022,248,National Yang Ming Chiao Tung University,Taiwan,305.0,0.477096,57.0,0.245815,0.224281,45.9,46.8,50.0,72.8,40.0
+2022,249,Beijing Normal University,China,292.0,0.476712,43.0,0.24711,0.225116,47.2,41.0,56.0,71.1,45.7
+2022,250,Saint-Petersburg Mining University,Russian Federation,483.0,0.476004,233.0,0.301693,0.274062,21.7,11.7,90.7,75.9,31.4
+2022,251,Arizona State University (Tempe),United States,132.0,0.475229,-119.0,0.278771,0.252454,46.3,49.2,80.9,38.5,62.8
+2022,252,Sapienza University of Rome,Italy,200.0,0.47484,-52.0,0.256328,0.231768,51.5,41.7,70.9,55.9,44.3
+2022,253,Vrije Universiteit Brussel,Belgium,264.0,0.474385,11.0,0.253697,0.22897,35.5,42.6,63.9,60.8,76.7
+2022,254,Aalto University,Finland,218.0,0.472551,-36.0,0.263731,0.236282,38.9,38.6,71.6,54.2,83.7
+2022,255,Middle East Technical University,Turkey,682.0,0.47254,427.0,0.286408,0.256587,32.9,32.5,32.9,99.8,41.1
+2022,256,University of Leicester,United Kingdom,187.0,0.472268,-69.0,0.303813,0.271882,30.0,32.3,94.2,39.9,91.0
+2022,257,Hamburg University of Technology,Germany,627.0,0.471299,370.0,0.284902,0.25397,34.1,21.2,45.1,95.6,57.5
+2022,258,La Trobe University,Australia,219.0,0.47084,-39.0,0.28879,0.256962,27.6,34.0,86.3,46.7,89.8
+2022,259,ITMO University,Russian Federation,658.0,0.470591,399.0,0.281798,0.25049,30.7,32.5,33.0,96.0,64.0
+2022,260,University of Dundee,United Kingdom,241.0,0.470417,-19.0,0.291128,0.258603,25.4,30.7,89.1,48.9,83.2
+2022,261,University of Liverpool,United Kingdom,178.0,0.470105,-83.0,0.297781,0.264181,33.1,36.5,88.5,39.1,93.6
+2022,262,"University of California, Santa Cruz",United States,204.0,0.469692,-58.0,0.302125,0.267591,31.5,31.2,96.7,42.1,65.6
+2022,263,University of East Anglia,United Kingdom,182.0,0.469175,-81.0,0.314452,0.277931,28.3,32.5,97.9,35.9,87.5
+2022,264,University of Vienna,Austria,136.0,0.46882,-128.0,0.278293,0.245622,46.9,55.4,65.4,37.8,95.4
+2022,265,Simon Fraser University,Canada,234.0,0.468528,-31.0,0.283585,0.25,27.7,35.0,81.5,49.0,92.1
+2022,266,"Northeastern University, US",United States,168.0,0.468465,-98.0,0.309516,0.27279,38.3,29.1,97.4,37.8,76.2
+2022,267,Stockholm University,Sweden,176.0,0.468056,-91.0,0.292233,0.257135,30.5,49.1,84.9,36.5,69.4
+2022,268,Cardiff University,United Kingdom,189.0,0.468035,-79.0,0.297514,0.261759,31.9,36.1,89.1,39.9,87.0
+2022,269,University of Münster,Germany,207.0,0.467823,-62.0,0.273678,0.240583,40.3,41.5,80.7,48.1,48.7
+2022,270,Université Libre de Bruxelles,Belgium,206.0,0.466892,-64.0,0.282044,0.247012,32.5,42.1,78.6,43.8,88.9
+2022,271,Università della Svizzera italiana,Switzerland,323.0,0.466513,52.0,0.295042,0.258003,23.6,19.6,83.6,58.9,99.5
+2022,272,University of Bologna,Italy,172.0,0.466194,-100.0,0.27976,0.244325,49.8,36.9,82.7,45.3,52.1
+2022,273,Sun Yat-sen University,China,272.0,0.466058,-1.0,0.269951,0.23563,40.7,32.6,77.7,60.6,33.5
+2022,274,HSE University,Russian Federation,313.0,0.465411,39.0,0.254203,0.221308,34.9,45.0,61.1,64.8,45.0
+2022,275,Lappeenranta-Lahti University of Technology LUT,Finland,286.0,0.465332,11.0,0.280938,0.244505,27.8,31.3,84.1,54.9,61.2
+2022,276,Griffith University,Australia,249.0,0.465104,-27.0,0.280967,0.244307,27.5,35.3,80.4,50.6,82.8
+2022,277,Pontificia Universidad Católica de Chile,Chile,441.0,0.464953,164.0,0.267679,0.232611,24.8,30.3,66.4,73.0,58.2
+2022,278,Tilburg University,Netherlands,224.0,0.464178,-54.0,0.263191,0.228,36.0,49.4,63.3,51.0,81.9
+2022,279,"St George’s, University of London",United Kingdom,227.0,0.463658,-52.0,0.316629,0.27372,21.8,29.0,99.1,39.8,77.4
+2022,280,Aalborg University,Denmark,250.0,0.463444,-30.0,0.279693,0.241582,27.0,38.0,79.3,49.8,78.5
+2022,281,University College Cork,Ireland,258.0,0.463205,-23.0,0.295512,0.254999,26.2,27.6,88.1,49.2,83.7
+2022,282,Iran University of Science and Technology,Iran,628.0,0.462996,346.0,0.280014,0.241423,31.3,31.5,47.6,90.7,19.1
+2022,283,Alfaisal University,Saudi Arabia,248.0,0.46159,-35.0,0.325608,0.279151,20.2,21.2,99.0,41.7,97.3
+2022,284,Rutgers University – New Brunswick,United States,190.0,0.461566,-94.0,0.267532,0.229339,46.6,47.5,70.4,47.2,52.8
+2022,285,Istanbul Technical University,Turkey,773.0,0.460828,488.0,0.296008,0.252997,28.3,34.8,27.6,100.0,36.9
+2022,286,Tufts University,United States,174.0,0.460804,-112.0,0.300454,0.256772,45.6,33.0,91.6,39.5,50.4
+2022,287,Oregon Health and Science University,United States,274.0,0.460467,-13.0,0.312166,0.266419,35.8,17.7,99.1,52.6,28.6
+2022,288,University of York,United Kingdom,169.0,0.460274,-119.0,0.291923,0.24895,39.0,43.7,79.1,37.1,86.7
+2022,289,University of Iceland,Iceland,443.0,0.459604,154.0,0.269929,0.229573,20.7,32.8,66.9,69.5,62.6
+2022,290,National and Kapodistrian University of Athens,Greece,448.0,0.458681,158.0,0.291012,0.246586,22.7,18.1,81.1,68.6,55.2
+2022,291,Copenhagen Business School,Denmark,238.0,0.458613,-53.0,0.302291,0.256073,24.1,33.4,86.2,42.4,94.5
+2022,292,United Arab Emirates University,United Arab Emirates,404.0,0.458404,112.0,0.285014,0.241234,24.5,21.4,73.3,65.9,88.8
+2022,293,Durham University,United Kingdom,162.0,0.457902,-131.0,0.285788,0.241401,44.9,47.8,69.7,37.8,93.8
+2022,294,Université Paris Cité,France,155.0,0.457861,-139.0,0.299979,0.253346,48.8,35.5,86.5,36.3,67.7
+2022,295,École Normale Supérieure de Lyon,France,309.0,0.457443,14.0,0.254663,0.214712,38.3,45.8,52.6,64.3,64.7
+2022,296,University College Dublin,Ireland,240.0,0.457239,-56.0,0.279342,0.235327,32.2,39.0,71.8,48.7,93.6
+2022,297,James Cook University,Australia,257.0,0.456988,-40.0,0.300523,0.252914,25.4,29.9,88.6,45.5,78.7
+2022,298,Western Sydney University,Australia,237.0,0.456923,-61.0,0.304992,0.256608,26.2,30.5,88.7,42.4,87.9
+2022,299,National Tsing Hua University,Taiwan,386.0,0.45646,87.0,0.256051,0.215029,36.2,46.0,50.0,70.7,42.9
+2022,300,Texas A&M University,United States,195.0,0.455705,-105.0,0.267456,0.223925,47.4,51.1,64.6,46.5,56.1
+2022,301,Ruhr University Bochum,Germany,285.0,0.453835,-16.0,0.260186,0.216201,38.2,45.1,61.6,58.1,54.0
+2022,302,Queen’s University Belfast,United Kingdom,222.0,0.453797,-80.0,0.298285,0.247821,29.3,36.3,80.3,41.3,97.2
+2022,303,Auckland University of Technology,New Zealand,247.0,0.45303,-56.0,0.335159,0.277598,20.8,21.5,98.9,37.0,96.2
+2022,304,University of Reading,United Kingdom,212.0,0.452084,-92.0,0.29583,0.244089,35.9,36.7,78.8,40.4,92.6
+2022,305,Curtin University,Australia,252.0,0.451954,-53.0,0.301397,0.248552,25.2,32.6,82.5,43.5,95.5
+2022,306,University of Electronic Science and Technology of China,China,523.0,0.451786,217.0,0.276358,0.227748,27.4,27.7,64.0,76.0,35.8
+2022,307,University of Waterloo,Canada,230.0,0.451401,-77.0,0.277235,0.228116,35.6,43.2,67.7,47.1,87.1
+2022,308,Tel Aviv University,Israel,208.0,0.450936,-100.0,0.276357,0.226967,40.6,51.7,68.4,43.1,56.4
+2022,309,Pontifical Catholic University of Rio de Janeiro (PUC-Rio),Brazil,831.0,0.450889,522.0,0.303879,0.249523,29.1,29.1,28.0,100.0,37.8
+2022,310,Northwestern Polytechnical University,China,583.0,0.450583,273.0,0.271928,0.223012,28.7,34.5,49.6,81.5,37.4
+2022,311,University of Bergen,Norway,225.0,0.450309,-86.0,0.315227,0.258235,28.7,30.3,91.6,37.5,78.7
+2022,312,University of Macau,Macao,243.0,0.450149,-69.0,0.287539,0.2354,30.2,39.3,71.2,45.7,99.4
+2022,313,Sejong University,South Korea,293.0,0.450119,-20.0,0.302794,0.24786,26.0,27.8,90.2,48.0,53.2
+2022,314,Brighton and Sussex Medical School,United Kingdom,245.0,0.449186,-69.0,0.336111,0.274097,21.5,24.2,100.0,34.8,80.6
+2022,315,Swansea University,United Kingdom,259.0,0.449154,-56.0,0.321595,0.262225,22.2,26.8,93.8,39.0,83.0
+2022,316,Johannes Gutenberg University of Mainz,Germany,302.0,0.448078,-14.0,0.284476,0.230952,35.5,26.4,78.2,56.3,58.6
+2022,317,University of Tartu,Estonia,268.0,0.44804,-49.0,0.305682,0.24813,25.9,31.0,89.3,43.3,62.6
+2022,318,Australian Catholic University,Australia,265.0,0.447322,-53.0,0.328251,0.265677,19.5,27.5,95.9,36.6,80.2
+2022,319,Universiti Pendidikan Sultan Idris,Malaysia,881.0,0.447234,562.0,0.30841,0.24953,26.2,24.5,29.0,99.9,51.4
+2022,320,Shenzhen University,China,370.0,0.447086,50.0,0.303167,0.24514,22.3,26.0,89.4,53.6,36.7
+2022,321,Macau University of Science and Technology,Macao,273.0,0.445326,-48.0,0.308089,0.247353,30.3,22.8,82.3,46.4,99.9
+2022,322,University of Oulu,Finland,300.0,0.443807,-22.0,0.283443,0.22617,30.6,35.1,76.2,51.6,57.1
+2022,323,"China University of Petroleum, Beijing",China,904.0,0.443761,581.0,0.310926,0.248053,25.1,22.9,36.3,99.2,24.3
+2022,324,Xi’an Jiaotong University,China,465.0,0.443726,141.0,0.26545,0.211743,38.5,40.1,44.8,75.8,39.7
+2022,325,American University of Beirut,Lebanon,329.0,0.442571,4.0,0.315452,0.250453,26.9,16.3,89.2,49.7,77.5
+2022,326,University of Utah,United States,291.0,0.442252,-35.0,0.291965,0.231507,37.2,30.7,81.8,51.2,33.1
+2022,327,University of Luxembourg,Luxembourg,261.0,0.442081,-66.0,0.285891,0.226533,33.0,39.2,65.7,47.3,99.5
+2022,328,Flinders University,Australia,267.0,0.441461,-61.0,0.310161,0.245147,25.5,31.0,83.3,40.7,89.9
+2022,329,University of Miami,United States,232.0,0.441161,-97.0,0.286784,0.226394,45.2,32.1,75.9,47.5,59.5
+2022,330,University of Surrey,United Kingdom,246.0,0.44107,-84.0,0.29781,0.235012,31.5,34.7,75.0,43.0,94.6
+2022,331,Vita-Salute San Raffaele University,Italy,228.0,0.440883,-103.0,0.332523,0.262206,37.6,22.5,98.6,36.0,42.8
+2022,332,Reykjavík University,Iceland,304.0,0.440479,-28.0,0.340826,0.268313,16.8,21.8,100.0,36.7,69.1
+2022,333,University of Notre Dame,United States,183.0,0.439623,-150.0,0.287799,0.225783,51.2,43.2,70.7,39.7,59.0
+2022,334,University of Bath,United Kingdom,233.0,0.439544,-101.0,0.306769,0.240587,32.2,34.0,78.9,38.7,92.9
+2022,335,Deakin University,Australia,278.0,0.438921,-57.0,0.304055,0.237857,26.5,32.3,79.3,42.8,89.2
+2022,336,Brandeis University,United States,263.0,0.438842,-73.0,0.337161,0.26367,28.2,21.7,99.0,35.6,57.5
+2022,337,Chongqing University,China,704.0,0.438174,367.0,0.289676,0.225921,25.3,28.7,46.9,86.6,25.8
+2022,338,Virginia Polytechnic Institute and State University,United States,270.0,0.437756,-68.0,0.285336,0.222159,35.8,36.5,74.3,48.4,56.4
+2022,339,Anglia Ruskin University (ARU),United Kingdom,314.0,0.437257,-25.0,0.352893,0.274202,16.9,15.6,99.7,35.1,89.9
+2022,340,University of Otago,New Zealand,244.0,0.436858,-96.0,0.304926,0.236547,31.3,34.7,77.5,39.6,90.1
+2022,341,University of Saskatchewan,Canada,508.0,0.43639,167.0,0.275548,0.21335,35.3,29.9,45.5,75.8,73.7
+2022,342,École des Mines de Saint-Étienne,France,468.0,0.435575,126.0,0.276677,0.213516,34.4,27.0,54.2,71.5,71.4
+2022,343,Qatar University,Qatar,336.0,0.435351,-7.0,0.293845,0.226557,26.0,31.7,69.0,50.7,99.1
+2022,344,University of Hail,Saudi Arabia,374.0,0.434909,30.0,0.352633,0.271396,18.1,8.7,100.0,40.9,82.0
+2022,345,University of St Gallen,Switzerland,337.0,0.433314,-8.0,0.309578,0.236718,28.8,20.5,78.4,49.1,95.6
+2022,346,Centrale Nantes,France,555.0,0.432839,209.0,0.281539,0.214861,33.0,29.7,40.7,76.9,85.5
+2022,347,"University of California, Merced",United States,331.0,0.432742,-16.0,0.329096,0.251056,22.7,23.9,94.9,40.9,44.0
+2022,348,"University of California, Riverside",United States,279.0,0.431635,-69.0,0.310855,0.236073,30.5,29.7,84.1,40.9,65.0
+2022,349,University of Padua,Italy,235.0,0.431602,-114.0,0.302095,0.22939,41.3,33.8,80.3,40.9,49.4
+2022,350,University of Iowa,United States,282.0,0.431559,-68.0,0.294,0.223204,40.6,29.6,77.6,48.6,47.4
+2022,351,University of Colorado Denver/Anschutz Medical Campus,United States,298.0,0.431128,-53.0,0.330065,0.250144,35.1,19.4,94.8,42.0,31.0
+2022,352,Dalhousie University,Canada,297.0,0.430648,-55.0,0.307205,0.232364,27.6,29.7,77.5,43.3,89.0
+2022,353,Universiti Tenaga Nasional (UNITEN),Malaysia,887.0,0.430287,534.0,0.311261,0.235086,18.9,14.9,46.9,91.0,48.5
+2022,354,Zhejiang Normal University,China,563.0,0.430261,209.0,0.317174,0.239526,17.7,14.2,85.0,62.5,32.8
+2022,355,National Taiwan Normal University,Taiwan,670.0,0.430136,315.0,0.286682,0.216388,32.2,36.4,29.3,85.2,54.4
+2022,356,University of Ulsan,South Korea,612.0,0.428918,256.0,0.291374,0.218839,22.5,26.0,64.7,72.9,24.4
+2022,357,Heinrich Heine University Düsseldorf,Germany,275.0,0.428616,-82.0,0.300836,0.225668,34.9,32.0,78.6,43.7,59.6
+2022,358,University of Victoria,Canada,329.0,0.428483,-29.0,0.302607,0.226874,22.8,33.5,73.7,45.2,88.6
+2022,359,Jordan University of Science and Technology,Jordan,424.0,0.42805,65.0,0.349639,0.261672,16.5,10.2,99.2,43.3,58.3
+2022,360,National University of Science and Technology (MISiS),Russian Federation,744.0,0.428032,384.0,0.301449,0.225589,27.7,19.2,39.6,87.6,67.9
+2022,361,East China Normal University,China,324.0,0.427944,-37.0,0.273689,0.204741,39.8,37.2,59.0,57.2,62.8
+2022,362,Koç University,Turkey,509.0,0.42695,147.0,0.273757,0.203962,30.2,36.1,50.5,70.6,51.0
+2022,363,University of Tasmania,Australia,319.0,0.426815,-44.0,0.298679,0.222407,27.6,32.3,70.3,47.0,91.3
+2022,364,University of Milan-Bicocca,Italy,310.0,0.426259,-54.0,0.328827,0.244301,27.5,24.2,91.8,39.2,45.4
+2022,365,University at Buffalo,United States,287.0,0.42619,-78.0,0.291027,0.216157,37.9,33.4,71.4,47.4,64.8
+2022,366,Hunan University,China,446.0,0.426075,80.0,0.312729,0.232166,23.2,22.4,84.9,54.5,25.6
+2022,367,Ton Duc Thang University,Vietnam,410.0,0.425062,43.0,0.354574,0.262143,14.5,13.4,99.3,38.4,62.6
+2022,368,Babol Noshirvani University of Technology,Iran,365.0,0.424698,-3.0,0.348934,0.25759,23.3,21.2,99.4,37.2,20.7
+2022,369,University of St Andrews,United Kingdom,216.0,0.424311,-153.0,0.298751,0.220194,45.2,43.8,60.2,37.7,95.5
+2022,370,RMIT University,Australia,322.0,0.4243,-48.0,0.301406,0.222141,27.6,32.1,69.8,46.0,93.9
+2022,371,Howard University,United States,255.0,0.423864,-116.0,0.345364,0.254085,43.9,16.1,95.7,34.8,35.4
+2022,372,Catholic University of Portugal,Portugal,378.0,0.423791,6.0,0.353155,0.259739,19.0,14.5,98.3,36.6,62.0
+2022,373,TU Wien,Austria,459.0,0.423532,86.0,0.277837,0.204127,35.8,36.0,41.2,68.3,87.0
+2022,374,Hasselt University,Belgium,403.0,0.42303,29.0,0.277929,0.203775,28.2,39.0,57.5,58.2,69.4
+2022,375,George Washington University,United States,220.0,0.421678,-155.0,0.313387,0.228503,46.3,31.4,79.0,36.0,57.9
+2022,376,Rush University,United States,332.0,0.421618,-44.0,0.331526,0.24167,40.0,15.8,90.9,45.0,21.6
+2022,377,University of Kiel,Germany,281.0,0.420681,-96.0,0.324534,0.235665,30.3,31.1,85.0,34.8,57.7
+2022,378,Harokopio University of Athens,Greece,391.0,0.419886,13.0,0.347636,0.251618,18.4,19.3,96.3,37.3,45.2
+2022,379,University of Brescia,Italy,372.0,0.419836,-7.0,0.34043,0.246352,24.6,18.1,93.9,39.6,44.7
+2022,380,Kyushu University,Japan,552.0,0.419832,172.0,0.279653,0.202368,43.2,37.5,34.0,77.4,42.4
+2022,381,National Taipei University of Technology,Taiwan,1045.0,0.419561,664.0,0.325856,0.23554,22.8,22.4,24.7,98.0,36.5
+2022,382,Amirkabir University of Technology,Iran,575.0,0.419043,193.0,0.281253,0.202868,31.7,32.6,50.4,73.3,34.3
+2022,383,"Northeastern University, China",China,922.0,0.418996,539.0,0.311767,0.224834,25.3,26.2,28.7,92.9,37.6
+2022,384,Swinburne University of Technology,Australia,343.0,0.418281,-41.0,0.313471,0.225399,24.8,29.3,76.7,42.2,81.8
+2022,385,Cankaya University,Turkey,415.0,0.418099,30.0,0.361026,0.259399,17.0,13.6,100.0,36.0,46.0
+2022,386,Scuola Normale Superiore di Pisa,Italy,201.0,0.417573,-185.0,0.301992,0.216513,56.5,38.6,67.8,36.9,55.4
+2022,387,Semmelweis University,Hungary,276.0,0.417541,-111.0,0.325143,0.233082,44.5,15.6,81.0,41.4,77.8
+2022,388,Indian Institute of Technology Ropar,India,394.0,0.417361,6.0,0.358571,0.256855,26.8,13.9,99.7,37.7,18.9
+2022,389,Autonomous University of Madrid,Spain,301.0,0.417289,-88.0,0.321656,0.230344,31.6,27.7,83.8,38.3,55.1
+2022,390,Wake Forest University,United States,334.0,0.417253,-56.0,0.322212,0.230707,39.1,18.9,85.6,45.4,33.7
+2022,391,JSS Academy of Higher Education and Research,India,354.0,0.417158,-37.0,0.362618,0.259537,33.3,9.0,100.0,35.8,32.4
+2022,392,Kurdistan University of Medical Sciences,Iran,360.0,0.416729,-32.0,0.36254,0.259023,34.3,9.9,100.0,36.4,22.3
+2022,393,An-Najah National University,Palestine,454.0,0.416483,61.0,0.369111,0.263451,13.2,8.6,100.0,36.0,63.7
+2022,394,UiT The Arctic University of Norway,Norway,358.0,0.416239,-36.0,0.335829,0.239456,23.5,21.1,87.9,37.8,68.8
+2022,395,University of Milan,Italy,303.0,0.416166,-92.0,0.3177,0.226462,32.7,29.7,82.6,39.8,43.5
+2022,396,Universiti Teknologi Petronas,Malaysia,596.0,0.416139,200.0,0.284453,0.202741,29.2,31.6,41.8,73.7,73.8
+2022,397,University of New Mexico (Main campus),United States,296.0,0.415953,-101.0,0.311573,0.221899,39.4,29.1,80.1,42.8,34.1
+2022,398,Durban University of Technology,South Africa,449.0,0.415282,51.0,0.362846,0.257703,16.9,11.5,99.9,37.8,39.1
+2022,399,Gwangju Institute of Science and Technology (GIST),South Korea,560.0,0.414742,161.0,0.28067,0.198896,41.4,39.9,33.2,75.9,39.9
+2022,400,Goethe University Frankfurt,Germany,311.0,0.414685,-89.0,0.303548,0.215058,31.9,33.3,73.7,43.5,61.0
+2022,401,George Mason University,United States,299.0,0.414605,-102.0,0.326845,0.231488,32.0,28.5,84.9,36.0,48.5
+2022,402,Hofstra University,United States,307.0,0.414508,-95.0,0.350353,0.248038,37.1,16.4,94.6,34.8,30.2
+2022,403,Addis Ababa University,Ethiopia,450.0,0.414436,47.0,0.351053,0.24846,18.9,11.9,95.2,41.5,47.0
+2022,404,Royal Veterinary College,United Kingdom,407.0,0.414094,3.0,0.319538,0.225836,25.6,18.4,75.8,48.0,90.7
+2022,405,Duy Tan University,Vietnam,469.0,0.413429,64.0,0.368325,0.259604,13.1,10.8,100.0,35.9,49.4
+2022,406,University of Galway,Ireland,376.0,0.413158,-30.0,0.298775,0.210348,27.6,31.9,66.7,48.8,81.5
+2022,407,Kyungpook National University,South Korea,792.0,0.413082,385.0,0.300184,0.211274,28.9,33.8,27.0,86.5,41.7
+2022,408,Nova Southeastern University,United States,321.0,0.412803,-87.0,0.359164,0.252494,39.2,10.8,96.5,34.8,29.7
+2022,409,Ajou University,South Korea,666.0,0.412678,257.0,0.286123,0.201043,28.1,36.2,39.3,77.8,38.1
+2022,410,"University of Occupational and Environmental Health, Japan",Japan,438.0,0.412576,28.0,0.358682,0.251919,25.3,10.9,97.8,40.5,20.2
+2022,411,Washington State University,United States,377.0,0.41228,-34.0,0.297334,0.208577,31.5,30.9,71.3,50.3,50.1
+2022,412,SUNY University at Albany,United States,393.0,0.412073,-19.0,0.324247,0.227261,25.2,22.7,84.3,43.5,49.9
+2022,413,University of Bayreuth,Germany,389.0,0.411552,-24.0,0.28025,0.196003,35.8,37.2,55.7,57.3,60.6
+2022,414,Universiti Brunei Darussalam,Brunei Darussalam,366.0,0.411327,-48.0,0.34066,0.238032,24.0,18.7,83.9,36.9,88.2
+2022,415,Polytechnic University of Bari,Italy,549.0,0.411171,134.0,0.314987,0.219951,17.3,22.2,79.2,55.5,34.6
+2022,416,Nankai University,China,340.0,0.411009,-76.0,0.312062,0.217762,37.2,25.1,78.7,45.5,41.3
+2022,417,University of Stirling,United Kingdom,344.0,0.410926,-73.0,0.333269,0.232481,23.9,25.8,80.9,35.5,84.7
+2022,418,Aswan University,Egypt,480.0,0.4105,62.0,0.372179,0.259167,13.9,9.8,100.0,34.8,47.9
+2022,419,University of Peradeniya,Sri Lanka,470.0,0.40945,51.0,0.372046,0.257954,17.4,8.4,100.0,35.6,41.3
+2022,420,University of Texas at Dallas,United States,371.0,0.409135,-49.0,0.321161,0.222383,24.9,28.1,80.6,40.7,56.6
+2022,421,University of Hawai’i at Mānoa,United States,283.0,0.408607,-138.0,0.303718,0.209846,36.5,39.9,67.1,39.1,66.9
+2022,422,Örebro University,Sweden,408.0,0.40775,-14.0,0.344988,0.237516,18.6,21.0,89.0,36.2,58.3
+2022,423,Florida State University,United States,290.0,0.407703,-133.0,0.30342,0.208857,39.0,38.0,70.1,40.8,47.3
+2022,424,National Institute of Applied Sciences of Lyon (INSA Lyon),France,794.0,0.407615,370.0,0.307503,0.21159,29.1,22.5,30.8,84.8,71.0
+2022,425,University of Insubria,Italy,416.0,0.407025,-9.0,0.346257,0.237675,19.3,21.6,90.7,36.7,41.1
+2022,426,NOVA University of Lisbon,Portugal,414.0,0.406975,-12.0,0.303004,0.207943,25.3,29.5,70.4,49.7,63.6
+2022,427,University of Sharjah,United Arab Emirates,411.0,0.406933,-16.0,0.342497,0.235004,20.2,17.4,80.2,38.8,98.8
+2022,428,Missouri University of Science and Technology,United States,496.0,0.406871,68.0,0.295365,0.202613,26.0,26.3,63.7,59.1,64.1
+2022,429,University of Crete,Greece,425.0,0.406296,-4.0,0.337725,0.231119,19.3,22.3,87.1,39.5,48.2
+2022,430,The University of Tennessee-Knoxville,United States,351.0,0.406213,-79.0,0.315785,0.216031,32.8,27.5,78.1,42.6,46.8
+2022,431,"Islamic Azad University, Najafabad Branch (IAUN)",Iran,515.0,0.404665,84.0,0.370145,0.251598,16.3,11.5,98.3,37.1,22.4
+2022,432,University of Bordeaux,France,335.0,0.404646,-97.0,0.32368,0.219997,33.1,25.3,79.1,39.0,60.1
+2022,433,University of Rome II – Tor Vergata,Italy,350.0,0.404568,-83.0,0.301484,0.204845,38.2,27.4,68.5,48.4,62.1
+2022,434,University of São Paulo,Brazil,239.0,0.404372,-195.0,0.293694,0.199389,55.8,58.9,43.3,42.3,35.9
+2022,435,Universidad Autónoma de Chile,Chile,506.0,0.403733,71.0,0.371785,0.251735,13.4,9.8,96.7,34.8,51.7
+2022,436,Yokohama City University,Japan,493.0,0.403615,57.0,0.355887,0.240853,26.4,8.9,93.0,43.2,22.3
+2022,437,University of Kragujevac,Serbia,497.0,0.403513,60.0,0.371826,0.251535,18.2,9.4,97.9,35.6,33.9
+2022,438,University of Malaya,Malaysia,339.0,0.403406,-99.0,0.300562,0.203235,37.5,30.8,61.9,47.1,84.0
+2022,439,University of Sannio,Italy,579.0,0.403277,140.0,0.326062,0.220359,18.7,17.4,81.1,54.1,29.5
+2022,440,University of Pavia,Italy,358.0,0.402872,-82.0,0.30662,0.206871,36.8,28.1,72.4,46.5,46.7
+2022,441,University of Tabuk,Saudi Arabia,495.0,0.402633,54.0,0.368459,0.248346,15.7,7.8,92.5,35.7,72.9
+2022,442,University of Bremen,Germany,399.0,0.402263,-43.0,0.286958,0.193116,33.5,37.6,56.6,53.7,62.0
+2022,443,University of Waikato,New Zealand,426.0,0.401845,-17.0,0.311868,0.209515,22.1,29.8,64.4,46.7,95.3
+2022,444,Stony Brook University,United States,312.0,0.400937,-132.0,0.328245,0.219686,34.6,25.3,77.2,36.2,70.2
+2022,445,University of Stavanger,Norway,481.0,0.40054,36.0,0.344033,0.229872,18.5,14.0,83.4,41.7,76.1
+2022,446,CEU Universities,Spain,504.0,0.400374,58.0,0.362155,0.241813,18.3,9.2,92.7,38.5,50.0
+2022,447,University of Nairobi,Kenya,533.0,0.400207,86.0,0.375522,0.250564,14.1,8.0,96.7,34.8,47.1
+2022,448,The University of the West Indies,Jamaica,472.0,0.399046,24.0,0.363464,0.241348,18.9,10.9,91.7,35.5,57.7
+2022,449,Xiamen University,China,464.0,0.39888,15.0,0.311767,0.206877,29.1,23.9,74.0,52.0,33.5
+2022,450,Chung-Ang University,South Korea,659.0,0.398733,209.0,0.292473,0.193955,35.5,37.4,27.5,76.9,53.5
+2022,451,Umeå University,Sweden,384.0,0.398625,-67.0,0.330058,0.218781,23.0,29.0,78.2,36.6,64.0
+2022,452,"Soochow University, China",China,605.0,0.39847,153.0,0.307857,0.203933,23.3,22.3,68.3,61.9,28.3
+2022,453,Mazandaran University of Medical Sciences,Iran,397.0,0.398023,-56.0,0.349423,0.231036,40.5,11.3,87.6,40.9,19.7
+2022,454,Graz University of Technology,Austria,649.0,0.397849,195.0,0.304375,0.201105,29.4,18.0,47.2,71.6,81.2
+2022,455,Don State Technical University,Russian Federation,548.0,0.397808,93.0,0.375605,0.248125,17.1,8.2,96.9,36.2,27.4
+2022,456,Bandung Institute of Technology (ITB),Indonesia,1190.0,0.397768,734.0,0.34427,0.227387,23.1,20.7,16.3,97.5,29.1
+2022,457,University of Vic – Central University of Catalonia,Spain,500.0,0.397664,43.0,0.360429,0.237956,16.2,11.8,90.0,37.0,60.3
+2022,458,University of Oregon,United States,382.0,0.397438,-76.0,0.341832,0.225466,31.0,21.5,85.3,36.4,35.3
+2022,459,University of Alaska Fairbanks,United States,427.0,0.397131,-32.0,0.315561,0.207871,27.8,24.0,73.7,46.9,57.9
+2022,460,Aix-Marseille University,France,320.0,0.396663,-140.0,0.321786,0.211558,39.8,24.2,74.4,39.7,60.9
+2022,461,Beijing University of Chemical Technology,China,599.0,0.396254,138.0,0.31393,0.20604,21.9,22.5,71.9,58.4,23.1
+2022,462,University of the West of England,United Kingdom,474.0,0.396207,12.0,0.358518,0.235258,16.9,14.2,87.3,35.2,70.0
+2022,463,National Yunlin University of Science and Technology,Taiwan,1173.0,0.395625,710.0,0.33979,0.222427,20.0,28.2,13.7,95.3,27.0
+2022,464,Kafrelsheikh University,Egypt,561.0,0.395238,97.0,0.369934,0.241768,14.3,8.0,93.1,37.5,47.6
+2022,465,University of Greifswald,Germany,383.0,0.395145,-82.0,0.31839,0.208,31.4,27.6,74.7,42.3,48.7
+2022,466,University of Essex,United Kingdom,338.0,0.394912,-128.0,0.322825,0.210692,30.2,34.9,63.5,35.9,96.3
+2022,467,University of Trento,Italy,380.0,0.394784,-87.0,0.310529,0.20256,30.2,32.5,69.5,43.1,56.6
+2022,468,University of Innsbruck,Austria,440.0,0.394739,-28.0,0.301703,0.196764,31.4,29.5,52.9,53.6,95.9
+2022,469,Northumbria University,United Kingdom,431.0,0.394275,-38.0,0.345634,0.224978,19.3,20.9,80.7,35.5,77.0
+2022,470,Montpellier University,France,332.0,0.394128,-138.0,0.316876,0.206133,35.0,31.6,70.4,38.7,62.5
+2022,471,Drexel University,United States,381.0,0.394005,-90.0,0.323621,0.210411,35.2,21.9,76.2,42.5,51.7
+2022,472,University of Turku,Finland,373.0,0.393768,-99.0,0.325434,0.21138,27.6,31.4,75.3,37.0,54.1
+2022,473,Ewha Womans University,South Korea,716.0,0.393731,243.0,0.298356,0.193762,33.3,32.9,29.4,79.1,46.1
+2022,474,"City, University of London",United Kingdom,385.0,0.393657,-89.0,0.334243,0.217001,25.0,26.3,70.9,36.2,95.2
+2022,475,Ferhat Abbas Sétif University 1,Algeria,518.0,0.39361,43.0,0.373253,0.24228,19.5,8.1,93.8,34.8,40.8
+2022,476,Dicle University,Turkey,1285.0,0.393475,809.0,0.359443,0.233184,26.0,22.7,6.8,99.9,16.3
+2022,477,University of Turin,Italy,455.0,0.392887,-22.0,0.322702,0.208834,22.3,27.8,76.4,43.8,41.8
+2022,478,"Royal Holloway, University of London",United Kingdom,363.0,0.39285,-115.0,0.325422,0.210561,30.0,29.0,67.3,37.6,91.8
+2022,479,University of Fribourg,Switzerland,442.0,0.392506,-37.0,0.305161,0.197167,27.5,29.7,59.2,50.3,85.8
+2022,480,Yıldız Technical University,Turkey,1160.0,0.392462,680.0,0.338626,0.218748,19.7,20.4,23.7,94.0,23.1
+2022,481,University of Ibadan,Nigeria,485.0,0.392352,4.0,0.364335,0.235247,23.4,12.6,91.2,35.3,32.2
+2022,482,"Colorado State University, Fort Collins",United States,396.0,0.392341,-86.0,0.325663,0.210268,31.5,26.1,77.3,40.8,39.2
+2022,483,Verona University,Italy,439.0,0.392285,-44.0,0.321958,0.207826,29.2,22.7,76.1,45.8,42.4
+2022,484,North Carolina State University,United States,347.0,0.392268,-137.0,0.297917,0.192294,39.3,37.0,60.5,46.2,53.6
+2022,485,Mahidol University,Thailand,687.0,0.392076,202.0,0.300595,0.193866,33.5,22.4,42.8,76.1,46.1
+2022,486,William & Mary,United States,308.0,0.391805,-178.0,0.335742,0.216289,45.8,21.3,78.9,36.2,36.9
+2022,487,University of Manitoba,Canada,348.0,0.391762,-139.0,0.326821,0.210503,32.0,30.7,74.4,35.6,55.9
+2022,488,University of Alabama in Huntsville,United States,710.0,0.391736,222.0,0.305261,0.196595,23.2,20.4,53.9,72.0,42.3
+2022,489,Middlesex University,United Kingdom,428.0,0.391516,-61.0,0.34655,0.222979,21.4,20.1,77.0,35.2,89.5
+2022,490,University of Salerno,Italy,494.0,0.391433,4.0,0.346671,0.22298,17.9,22.4,85.1,37.8,35.2
+2022,491,Bournemouth University,United Kingdom,357.0,0.391003,-134.0,0.338001,0.217011,33.6,21.3,74.6,35.1,82.1
+2022,492,Edith Cowan University,Australia,445.0,0.390949,-47.0,0.334955,0.215007,19.2,24.4,73.2,38.8,86.5
+2022,493,Mansoura University,Egypt,536.0,0.390885,43.0,0.359556,0.230737,18.5,11.0,88.5,38.8,47.0
+2022,494,Temple University,United States,341.0,0.390718,-153.0,0.33671,0.215924,38.4,24.6,79.4,34.8,38.9
+2022,495,University of Vaasa,Finland,409.0,0.390452,-86.0,0.333289,0.213492,24.7,25.6,76.8,37.3,63.7
+2022,496,Bucharest University of Economic Studies,Romania,558.0,0.390331,62.0,0.37219,0.238289,17.9,11.4,93.1,35.8,22.6
+2022,497,Universidad del Desarrollo,Chile,564.0,0.390293,67.0,0.364559,0.233366,14.9,10.1,89.4,38.0,50.4
+2022,498,Suez Canal University,Egypt,542.0,0.390233,44.0,0.367299,0.23506,19.0,8.2,90.4,37.2,46.8
+2022,499,University of Southern Queensland,Australia,434.0,0.389846,-65.0,0.333887,0.213331,21.7,23.8,74.2,38.9,79.3
+2022,500,Brunel University London,United Kingdom,395.0,0.3898,-105.0,0.334799,0.213872,26.1,26.0,69.0,36.3,96.5
+2022,501,University of Klagenfurt,Austria,402.0,0.38969,-99.0,0.342759,0.218855,29.0,17.7,74.6,36.8,90.3
+2022,502,Universitat Ramon Llull,Spain,484.0,0.389587,-18.0,0.347777,0.221963,20.0,16.6,82.0,38.1,65.9
+2022,503,University of Costa Rica,Costa Rica,535.0,0.38941,32.0,0.371172,0.236719,18.3,8.9,91.0,34.8,48.2
+2022,504,University of Naples Federico II,Italy,406.0,0.389295,-98.0,0.326426,0.208081,32.5,26.0,76.7,41.4,32.3
+2022,505,Victoria University,Australia,418.0,0.388444,-87.0,0.316723,0.201174,27.0,28.8,63.4,43.9,87.8
+2022,506,SRUC (Scotland’s Rural College),United Kingdom,502.0,0.388304,-4.0,0.346186,0.219758,23.6,12.4,81.9,41.8,59.0
+2022,507,University of Modena and Reggio Emilia,Italy,462.0,0.388059,-45.0,0.317298,0.201212,30.8,22.8,72.4,49.0,38.9
+2022,508,Iowa State University,United States,416.0,0.387809,-92.0,0.297283,0.188321,34.1,33.6,58.9,51.1,56.3
+2022,509,University of Jyväskylä,Finland,400.0,0.387708,-109.0,0.330728,0.20942,25.3,30.5,75.4,36.3,51.5
+2022,510,University of Plymouth,United Kingdom,447.0,0.387477,-63.0,0.346796,0.21938,20.4,20.8,79.2,35.2,72.4
+2022,511,Southwestern University of Finance and Economics,China,520.0,0.387317,9.0,0.357776,0.226173,20.5,13.3,87.0,37.8,41.8
+2022,512,University of Tuscia,Italy,530.0,0.387068,18.0,0.351331,0.221866,18.2,17.8,85.2,38.8,37.2
+2022,513,University of Cyprus,Cyprus,491.0,0.386591,-22.0,0.31855,0.200761,26.1,21.3,65.5,49.1,82.1
+2022,514,University of Illinois Chicago,United States,352.0,0.385728,-162.0,0.306758,0.192627,41.6,31.9,63.5,44.3,51.7
+2022,515,Tokyo Medical and Dental University (TMDU),Japan,589.0,0.385584,74.0,0.295442,0.185408,45.4,28.4,41.3,70.9,29.3
+2022,516,University of Strathclyde,United Kingdom,433.0,0.385553,-83.0,0.30512,0.191457,30.4,32.1,54.2,49.5,88.2
+2022,516,"Birkbeck, University of London",United Kingdom,362.0,0.385553,-154.0,0.32776,0.205662,30.5,32.6,64.1,35.1,89.9
+2022,518,Shahid Chamran University of Ahvaz,Iran,1098.0,0.385274,580.0,0.339669,0.212885,29.2,17.9,22.8,92.2,18.6
+2022,519,Liverpool John Moores University,United Kingdom,461.0,0.384943,-58.0,0.349698,0.218864,20.9,18.6,78.7,35.3,75.6
+2022,520,University of Passau,Germany,390.0,0.384475,-130.0,0.299238,0.186913,33.9,39.9,56.3,46.5,58.4
+2022,521,Loughborough University,United Kingdom,369.0,0.384372,-152.0,0.31938,0.199407,32.0,33.6,61.1,38.6,86.6
+2022,522,University of Lagos,Nigeria,593.0,0.383487,71.0,0.372657,0.231802,16.1,10.2,90.3,35.9,32.1
+2022,523,Riga Stradiņš University,Latvia,577.0,0.383428,54.0,0.360352,0.224092,15.7,9.8,82.1,38.9,73.9
+2022,524,China University of Petroleum (East China),China,1113.0,0.382866,589.0,0.335899,0.20839,20.2,17.8,30.8,89.4,18.5
+2022,525,Victoria University of Wellington,New Zealand,503.0,0.382791,-22.0,0.305296,0.189344,25.5,32.1,51.9,52.5,88.8
+2022,526,Northern Arizona University,United States,511.0,0.382518,-15.0,0.360849,0.223539,22.0,15.1,86.3,35.4,35.1
+2022,527,Free University of Bozen-Bolzano,Italy,488.0,0.382187,-39.0,0.350353,0.216733,20.9,16.8,77.8,36.5,76.7
+2022,528,Isfahan University of Technology,Iran,865.0,0.382084,337.0,0.312041,0.192948,25.9,24.4,38.3,79.9,26.3
+2022,529,Pontifical Javeriana University,Colombia,574.0,0.382061,45.0,0.369847,0.22867,16.5,10.9,88.2,35.1,44.0
+2022,530,University of Kent,United Kingdom,388.0,0.382022,-142.0,0.331589,0.204982,27.8,30.6,64.5,35.4,91.5
+2022,531,Wayne State University,United States,489.0,0.38118,-42.0,0.325214,0.200325,32.5,18.9,73.1,48.2,36.2
+2022,532,University of Lincoln,United Kingdom,522.0,0.38104,-10.0,0.3563,0.219343,17.2,16.0,79.9,35.5,73.3
+2022,533,University of KwaZulu-Natal,South Africa,405.0,0.380245,-128.0,0.318561,0.19545,28.8,34.7,66.7,39.7,53.3
+2022,534,Hebrew University of Jerusalem,Israel,325.0,0.380012,-209.0,0.301952,0.185077,43.4,42.8,51.8,42.6,59.6
+2022,535,Boston College,United States,294.0,0.378928,-241.0,0.321596,0.196212,47.5,34.6,64.4,35.1,46.4
+2022,536,Diego Portales University,Chile,588.0,0.378858,52.0,0.369663,0.225472,15.6,11.0,86.2,34.8,51.4
+2022,537,Constructor University Bremen,Germany,466.0,0.378843,-71.0,0.304513,0.185722,33.9,31.5,46.6,53.1,92.4
+2022,538,University of Kansas,United States,419.0,0.378595,-119.0,0.316596,0.192888,36.4,25.0,67.3,45.7,48.7
+2022,539,University of Perugia,Italy,546.0,0.378223,7.0,0.339506,0.206519,21.4,17.9,77.2,43.1,48.3
+2022,540,University of Florence,Italy,429.0,0.37708,-111.0,0.316251,0.191441,33.3,28.3,66.8,44.7,46.1
+2022,541,Chang Gung University,Taiwan,943.0,0.3769,402.0,0.315903,0.191083,23.0,28.5,30.8,81.4,27.8
+2022,542,University of Mohaghegh Ardabili,Iran,591.0,0.376158,49.0,0.372299,0.224486,20.8,10.9,87.6,35.6,22.8
+2022,543,Nottingham Trent University,United Kingdom,516.0,0.376113,-27.0,0.356486,0.214909,20.3,14.9,77.0,35.5,78.2
+2022,544,Duzce University,Turkey,1162.0,0.376049,618.0,0.340423,0.20517,15.8,14.4,34.6,87.6,20.7
+2022,545,Syracuse University,United States,379.0,0.375298,-166.0,0.329816,0.198141,35.4,29.7,69.7,35.8,49.8
+2022,546,University of Pisa,Italy,458.0,0.375091,-88.0,0.325612,0.195443,28.1,28.0,70.6,41.8,41.3
+2022,547,York University,Canada,436.0,0.374685,-111.0,0.314873,0.18867,27.4,33.9,59.3,43.1,73.5
+2022,548,Murdoch University,Australia,532.0,0.374517,-16.0,0.322963,0.193379,20.9,27.2,58.5,46.2,92.6
+2022,549,Sumy State University,Ukraine,580.0,0.374478,31.0,0.353956,0.211901,21.0,11.5,79.9,40.7,53.1
+2022,550,University of Urbino Carlo Bo,Italy,597.0,0.374383,47.0,0.349025,0.208865,16.0,16.3,78.7,41.3,50.4
+2022,551,Gazi University,Turkey,1254.0,0.373602,703.0,0.353186,0.21065,22.7,16.2,18.9,92.9,17.8
+2022,552,University of Valencia,Spain,487.0,0.373408,-65.0,0.341722,0.203644,24.1,22.7,75.5,37.5,49.6
+2022,553,University of Bari Aldo Moro,Italy,556.0,0.373227,3.0,0.355666,0.211789,18.1,20.5,81.2,35.9,33.2
+2022,554,Saveetha Institute of Medical and Technical Sciences,India,601.0,0.373193,47.0,0.37429,0.222847,21.0,9.0,86.9,35.7,26.2
+2022,555,Birmingham City University,United Kingdom,587.0,0.373152,32.0,0.367224,0.218602,17.1,10.8,81.2,34.9,66.9
+2022,556,University of Côte d’Azur,France,460.0,0.372537,-96.0,0.34596,0.205403,26.3,19.9,72.1,35.6,76.2
+2022,557,Bangor University,United Kingdom,444.0,0.372341,-113.0,0.340697,0.202109,25.1,25.2,68.1,35.2,81.9
+2022,558,Aston University,United Kingdom,486.0,0.372047,-72.0,0.34173,0.202467,21.5,24.5,66.0,36.7,91.6
+2022,559,Shanghai University,China,791.0,0.372017,232.0,0.306584,0.18162,24.1,29.1,39.5,73.6,34.0
+2022,560,Dalian University of Technology,China,793.0,0.370913,233.0,0.309132,0.182266,25.6,25.7,42.1,73.5,31.1
+2022,561,Hokkaido University,Japan,571.0,0.370869,10.0,0.295377,0.174123,44.2,38.5,31.3,66.3,41.0
+2022,562,Colorado School of Mines,United States,498.0,0.370704,-64.0,0.318744,0.187765,29.7,27.2,66.3,46.8,39.0
+2022,563,TU Dortmund University,Germany,420.0,0.370368,-143.0,0.299682,0.176282,37.3,42.7,49.8,48.5,42.9
+2022,564,University of Marburg,Germany,421.0,0.37022,-143.0,0.31992,0.188067,33.9,28.9,64.3,42.1,55.1
+2022,565,Lincoln University,New Zealand,578.0,0.370213,13.0,0.319314,0.187705,26.6,22.5,51.6,53.3,96.0
+2022,566,University of Portsmouth,United Kingdom,527.0,0.370116,-39.0,0.353716,0.207841,20.0,17.8,70.6,35.6,90.0
+2022,567,Indraprastha Institute of Information Technology Delhi,India,788.0,0.369968,221.0,0.330009,0.193788,17.0,12.9,64.2,63.5,31.9
+2022,568,Universidade Federal de Sergipe,Brazil,629.0,0.369836,61.0,0.378956,0.222405,17.7,9.5,87.0,34.8,22.2
+2022,569,University of Camerino (Unicam),Italy,598.0,0.369612,29.0,0.338974,0.198749,21.8,15.6,73.5,46.1,48.9
+2022,570,Thapar Institute of Engineering and Technology,India,594.0,0.369489,24.0,0.372247,0.218143,23.0,11.3,85.0,35.1,21.5
+2022,571,"Goldsmiths, University of London",United Kingdom,423.0,0.3687,-148.0,0.337283,0.196985,28.5,27.9,64.7,34.8,81.0
+2022,572,North-West University,South Africa,539.0,0.368644,-33.0,0.345515,0.201743,22.6,19.1,75.5,39.1,49.0
+2022,573,University of Ferrara,Italy,471.0,0.368516,-102.0,0.332731,0.194173,31.0,22.3,71.0,41.4,44.6
+2022,574,University of Genoa,Italy,453.0,0.368105,-121.0,0.319873,0.186339,35.4,25.5,65.1,45.3,44.8
+2022,575,National Taiwan University of Science and Technology (Taiwan Tech),Taiwan,641.0,0.367927,66.0,0.297272,0.173041,28.6,38.4,36.9,64.8,50.3
+2022,576,University of the West of Scotland,United Kingdom,565.0,0.367703,-11.0,0.35982,0.209248,18.4,14.5,74.5,35.4,79.2
+2022,577,Plekhanov Russian University of Economics,Russian Federation,592.0,0.367159,15.0,0.363991,0.211179,23.3,11.0,81.5,37.4,36.0
+2022,578,Edinburgh Napier University,United Kingdom,573.0,0.366228,-5.0,0.359439,0.207704,17.5,15.7,72.3,35.2,85.1
+2022,579,Urmia University of Medical Sciences,Iran,562.0,0.366113,-17.0,0.353688,0.204279,34.4,10.4,77.5,43.4,17.6
+2022,580,Justus Liebig University Giessen,Germany,430.0,0.365527,-150.0,0.315196,0.181588,32.1,35.3,59.1,42.4,52.8
+2022,581,University of Denver,United States,412.0,0.365262,-169.0,0.342004,0.196808,39.3,23.8,72.2,35.9,27.9
+2022,582,Leibniz University Hannover,Germany,476.0,0.364742,-106.0,0.301737,0.173247,36.8,33.9,50.1,52.4,54.2
+2022,583,Xidian University,China,998.0,0.364622,415.0,0.327157,0.187744,22.6,19.4,36.9,80.1,21.4
+2022,584,Charles Darwin University,Australia,540.0,0.364383,-44.0,0.318789,0.182754,23.0,30.0,55.9,46.8,79.4
+2022,585,Eastern Mediterranean University,Northern Cyprus,584.0,0.364354,-1.0,0.353892,0.202852,21.9,12.6,68.8,39.6,89.2
+2022,586,Institut Agro,France,473.0,0.364154,-113.0,0.318754,0.182553,34.4,24.5,60.9,46.6,60.8
+2022,587,Heriot-Watt University,United Kingdom,505.0,0.363914,-82.0,0.324146,0.185449,27.7,27.7,53.2,45.0,94.2
+2022,588,King Mongkut’s University of Technology Thonburi,Thailand,895.0,0.363529,307.0,0.322014,0.183923,19.7,17.4,47.4,72.9,35.0
+2022,589,University of Georgia,United States,361.0,0.363523,-228.0,0.315383,0.180131,42.2,42.4,53.2,38.2,47.0
+2022,590,Cyprus University of Technology,Cyprus,544.0,0.36313,-46.0,0.35079,0.200014,21.9,17.6,70.0,37.0,78.4
+2022,591,Illinois Institute of Technology,United States,401.0,0.363111,-190.0,0.334385,0.190644,41.8,20.6,62.9,38.6,74.1
+2022,592,Université Grenoble Alpes,France,398.0,0.362453,-194.0,0.322906,0.183576,37.4,31.9,58.0,38.7,68.7
+2022,593,University of Porto,Portugal,499.0,0.36217,-94.0,0.32795,0.186215,25.1,28.9,64.0,40.8,60.8
+2022,594,Capital Medical University,China,517.0,0.361442,-77.0,0.357584,0.202402,30.6,17.9,77.3,35.2,23.8
+2022,595,Norwegian University of Science and Technology,Norway,467.0,0.361357,-128.0,0.329441,0.186405,27.2,29.8,62.8,38.8,65.6
+2022,596,University of Kaiserslautern,Germany,708.0,0.360793,112.0,0.308611,0.174192,34.9,25.7,33.9,70.8,55.3
+2022,597,Abdul Wali Khan University Mardan,Pakistan,654.0,0.360006,57.0,0.374305,0.210552,14.6,10.4,80.9,34.8,45.9
+2022,598,Tulane University,United States,413.0,0.359882,-185.0,0.338418,0.190262,40.4,22.6,68.1,36.8,44.4
+2022,599,Delhi Technological University,India,677.0,0.359723,78.0,0.359819,0.202155,17.0,15.0,78.2,42.2,16.3
+2022,600,University of the Philippines,Philippines,604.0,0.359491,4.0,0.34799,0.195312,22.6,17.5,74.3,41.7,33.1
+2022,601,Aberystwyth University,United Kingdom,513.0,0.359048,-88.0,0.337895,0.189281,24.1,24.9,63.0,38.6,79.0
+2022,602,Southern Medical University,China,451.0,0.357525,-151.0,0.320956,0.178606,36.6,34.8,60.1,42.6,24.5
+2022,603,Xi’an Jiaotong-Liverpool University,China,613.0,0.357433,10.0,0.361358,0.201008,16.8,14.4,71.8,36.1,75.8
+2022,604,Maynooth University,Ireland,525.0,0.356645,-79.0,0.338115,0.187435,22.2,27.6,61.5,37.7,79.0
+2022,605,University of L’Aquila,Italy,528.0,0.356544,-77.0,0.331123,0.183478,31.4,23.5,66.6,43.8,34.8
+2022,606,Universidad Peruana Cayetano Heredia,Peru,626.0,0.356517,20.0,0.369787,0.204877,19.4,10.2,78.3,35.7,47.5
+2022,607,University of Connecticut,United States,422.0,0.356292,-185.0,0.328352,0.181742,36.6,29.5,61.4,38.2,54.5
+2022,608,Hong Kong Baptist University,Hong Kong,478.0,0.356145,-130.0,0.33913,0.187588,30.0,26.5,54.3,37.7,98.7
+2022,609,Monterrey Institute of Technology,Mexico,795.0,0.356134,186.0,0.319107,0.176504,20.8,19.1,46.8,66.5,59.6
+2022,610,Bauman Moscow State Technical University,Russian Federation,849.0,0.356126,239.0,0.325584,0.18008,40.7,18.0,26.6,78.0,43.4
+2022,611,Polytechnic University of Turin,Italy,610.0,0.355712,-1.0,0.315353,0.174107,24.7,27.2,56.5,52.7,51.2
+2022,612,Quaid-i-Azam University,Pakistan,554.0,0.35513,-58.0,0.355365,0.195699,26.7,16.4,73.6,36.1,46.4
+2022,613,Moscow State University of Civil Engineering,Russian Federation,741.0,0.354998,128.0,0.34968,0.192458,19.9,9.6,71.3,52.2,23.6
+2022,614,"International Institute of Information Technology, Hyderabad",India,766.0,0.354349,152.0,0.337173,0.185049,20.5,11.4,63.8,58.8,31.6
+2022,615,Kansai Medical University,Japan,640.0,0.354177,25.0,0.375684,0.20603,25.4,8.9,80.2,36.1,17.6
+2022,616,Claude Bernard University Lyon 1,France,452.0,0.354161,-164.0,0.328779,0.180293,36.4,25.5,61.2,40.6,58.5
+2022,617,Memorial University of Newfoundland,Canada,700.0,0.35256,83.0,0.321425,0.17503,23.0,20.6,46.4,59.6,80.7
+2022,618,University of Eastern Finland,Finland,537.0,0.352451,-81.0,0.336079,0.182922,24.0,28.1,65.0,38.8,50.5
+2022,619,University of Nebraska Medical Center,United States,534.0,0.35241,-85.0,0.353272,0.192246,35.3,12.3,71.5,38.7,44.1
+2022,620,Université Bourgogne Franche-Comté (UBFC),France,633.0,0.352011,13.0,0.350744,0.190537,18.3,16.2,70.4,41.0,56.0
+2022,621,Bond University,Australia,569.0,0.351948,-52.0,0.351435,0.19086,21.6,20.5,62.4,36.4,89.1
+2022,622,University of Indonesia,Indonesia,973.0,0.351783,351.0,0.336593,0.182667,38.6,20.7,14.5,80.7,52.9
+2022,623,University of Kashan,Iran,607.0,0.351505,-16.0,0.358813,0.194488,23.5,19.4,74.7,36.7,20.7
+2022,624,University of Kurdistan,Iran,688.0,0.351359,64.0,0.36496,0.197694,15.1,14.8,76.7,38.9,26.8
+2022,625,University of Nebraska-Lincoln,United States,490.0,0.350795,-135.0,0.334082,0.18052,30.9,26.9,62.8,38.6,54.9
+2022,626,University of Canterbury,New Zealand,541.0,0.350721,-85.0,0.339997,0.183656,24.5,26.5,55.0,38.8,93.5
+2022,627,University of Toulouse,France,514.0,0.350398,-113.0,0.340461,0.183646,26.4,25.7,63.8,36.9,63.3
+2022,628,Rensselaer Polytechnic Institute,United States,581.0,0.350211,-47.0,0.313942,0.169202,30.2,27.9,52.2,52.0,57.4
+2022,629,Georgia State University,United States,475.0,0.35001,-154.0,0.340805,0.183518,32.9,25.9,65.8,36.0,44.5
+2022,630,Donghua University,China,851.0,0.349948,221.0,0.323879,0.174357,20.6,18.7,49.6,67.2,32.5
+2022,631,University of Lille,France,521.0,0.349894,-110.0,0.334235,0.179888,31.1,22.1,61.9,41.6,63.3
+2022,632,University of Parma,Italy,623.0,0.349308,-9.0,0.346547,0.186035,18.7,21.6,69.8,40.9,37.7
+2022,633,Keele University,United Kingdom,557.0,0.349237,-76.0,0.347276,0.186368,21.8,24.2,64.2,35.7,71.5
+2022,634,New Jersey Institute of Technology,United States,595.0,0.349196,-39.0,0.348822,0.187164,21.4,19.8,61.8,38.5,85.5
+2022,635,Alagappa University,India,570.0,0.348938,-65.0,0.368364,0.197426,34.4,9.5,75.2,35.2,31.0
+2022,636,University of Trieste,Italy,507.0,0.348837,-129.0,0.342154,0.183297,30.1,24.2,66.2,36.9,47.8
+2022,637,Sciences Po,France,479.0,0.348231,-158.0,0.340881,0.182128,33.3,24.0,57.3,36.9,83.7
+2022,638,Indian Institute of Technology Indore,India,492.0,0.348009,-146.0,0.342669,0.182904,37.9,24.1,66.7,38.1,22.4
+2022,639,University of Sassari,Italy,531.0,0.347717,-108.0,0.339931,0.181209,28.4,26.8,65.8,37.9,38.1
+2022,640,Lithuanian University of Health Sciences,Lithuania,657.0,0.347356,17.0,0.372739,0.198383,19.9,9.1,75.0,35.1,53.2
+2022,641,Clark University,United States,572.0,0.347255,-69.0,0.35339,0.188001,23.2,20.9,68.5,34.8,57.1
+2022,642,Dublin City University,Ireland,551.0,0.346985,-91.0,0.328837,0.17473,23.1,32.7,54.9,41.0,70.7
+2022,643,University of Strasbourg,France,567.0,0.346775,-76.0,0.337671,0.179258,26.7,21.2,60.3,42.0,72.5
+2022,644,Indian Institute of Technology Gandhinagar,India,631.0,0.346746,-13.0,0.31684,0.168178,29.1,28.4,54.0,55.1,25.0
+2022,645,University of Lisbon,Portugal,543.0,0.346697,-102.0,0.326156,0.173085,24.8,32.6,56.2,42.0,60.6
+2022,646,Marche Polytechnic University,Italy,643.0,0.346685,-3.0,0.342182,0.181581,20.8,21.4,67.7,43.8,32.8
+2022,647,Oklahoma State University,United States,549.0,0.346475,-98.0,0.346017,0.183446,29.6,20.3,67.5,38.1,45.6
+2022,648,Wenzhou Medical University,China,679.0,0.346316,31.0,0.369276,0.195639,17.7,13.6,76.0,36.7,28.7
+2022,649,University of South Carolina-Columbia,United States,463.0,0.345979,-186.0,0.337768,0.17868,35.1,27.5,62.5,36.4,46.4
+2022,650,Universiti Putra Malaysia,Malaysia,698.0,0.345964,48.0,0.316354,0.167341,33.8,27.2,29.6,64.9,77.3
+2022,651,Azarbaijan Shahid Madani University,Iran,695.0,0.34579,44.0,0.372496,0.196887,16.7,13.0,76.8,36.7,23.4
+2022,652,Shiraz University of Technology,Iran,609.0,0.345642,-43.0,0.346141,0.182837,24.6,22.5,68.7,40.5,25.9
+2022,653,Nanjing Tech University,China,868.0,0.344999,215.0,0.335526,0.176726,18.8,13.4,57.0,62.7,28.5
+2022,654,American University,United States,512.0,0.344834,-142.0,0.342226,0.180124,40.2,17.4,65.4,41.4,34.3
+2022,655,University of Messina,Italy,553.0,0.344163,-102.0,0.348621,0.182946,29.1,23.3,68.1,36.6,31.4
+2022,656,China Agricultural University,China,621.0,0.343629,-35.0,0.316918,0.165916,31.3,29.0,52.7,54.5,24.2
+2022,657,Jagiellonian University,Poland,529.0,0.343591,-128.0,0.347097,0.181685,30.4,23.8,66.5,35.7,40.6
+2022,658,University of International Business and Economics,China,575.0,0.343579,-83.0,0.352693,0.184604,27.1,17.5,66.9,36.7,59.3
+2022,659,The University of Texas at San Antonio,United States,622.0,0.343236,-37.0,0.355604,0.185845,19.8,20.1,70.3,37.1,38.9
+2022,660,Guangzhou University,China,730.0,0.342459,70.0,0.373318,0.19443,16.4,10.1,75.7,38.2,28.8
+2022,661,King Mongkut’s Institute of Technology Ladkrabang,Thailand,1415.0,0.342258,754.0,0.366687,0.190807,18.4,21.6,6.6,87.9,23.2
+2022,662,Wenzhou University,China,737.0,0.341893,75.0,0.373522,0.194048,16.3,10.5,75.7,38.5,24.5
+2022,663,University of Catania,Italy,606.0,0.341739,-57.0,0.357004,0.18534,25.0,19.7,70.4,36.1,31.4
+2022,664,Open University of Catalonia,Spain,632.0,0.341446,-32.0,0.36204,0.18771,20.5,16.3,70.9,35.7,46.6
+2022,665,Gabriele d‘Annunzio University,Italy,681.0,0.341365,16.0,0.365946,0.189667,15.0,16.6,72.7,36.1,38.7
+2022,666,University of Udine,Italy,642.0,0.340179,-24.0,0.354066,0.182543,22.3,17.3,69.0,39.4,39.8
+2022,667,Hazara University Mansehra,Pakistan,715.0,0.339291,48.0,0.378285,0.194259,16.3,9.3,74.8,34.8,42.2
+2022,668,Government College University Faisalabad,Pakistan,707.0,0.339207,39.0,0.374881,0.192439,14.6,12.1,73.9,34.8,43.0
+2022,669,Norwegian University of Life Sciences,Norway,630.0,0.339164,-39.0,0.357149,0.183302,25.9,10.9,62.5,40.5,78.8
+2022,670,University of Campinas,Brazil,456.0,0.338942,-214.0,0.312595,0.160276,47.2,44.9,36.2,47.7,33.0
+2022,671,University of Greenwich,United Kingdom,655.0,0.338935,-16.0,0.364605,0.186937,17.7,15.9,60.3,35.8,93.5
+2022,672,Florida International University,United States,510.0,0.338734,-162.0,0.342823,0.175612,32.1,27.8,62.4,35.6,40.3
+2022,673,Kashan University of Medical Sciences and Health Services,Iran,656.0,0.338049,-17.0,0.371005,0.189467,25.0,13.3,73.4,35.3,22.4
+2022,674,Southern Cross University,Australia,646.0,0.337926,-28.0,0.337728,0.172378,19.7,23.0,57.0,44.4,71.4
+2022,675,University of Guelph,Canada,590.0,0.337508,-85.0,0.319107,0.16257,29.0,31.3,48.7,48.4,60.6
+2022,676,Zayed University,United Arab Emirates,662.0,0.33745,-14.0,0.362476,0.184616,17.6,16.1,64.9,35.9,74.0
+2022,677,University of the Western Cape,South Africa,603.0,0.336746,-74.0,0.35256,0.179001,20.6,24.1,63.0,34.8,62.8
+2022,678,Stevens Institute of Technology,United States,617.0,0.336669,-61.0,0.354036,0.179688,22.5,18.2,62.3,37.4,72.6
+2022,679,Technion Israel Institute of Technology,Israel,482.0,0.336346,-197.0,0.335937,0.170256,34.7,30.3,52.7,36.8,70.1
+2022,680,Fu Jen Catholic University,Taiwan,1003.0,0.33561,323.0,0.330056,0.166725,20.9,22.5,33.0,73.7,30.7
+2022,681,University of Nicosia,Cyprus,667.0,0.334383,-14.0,0.366267,0.184,19.1,15.2,58.5,35.7,94.7
+2022,682,National Research University of Electronic Technology (MIET),Russian Federation,1236.0,0.334358,554.0,0.368996,0.18535,39.2,13.5,5.9,85.3,23.9
+2022,683,Montana State University,United States,691.0,0.334145,8.0,0.349939,0.17561,20.5,18.3,66.2,43.9,28.3
+2022,684,Jiangsu University,China,823.0,0.332944,139.0,0.339511,0.169458,20.8,12.1,56.3,57.8,42.5
+2022,685,Parthenope University of Naples,Italy,671.0,0.332319,-14.0,0.362169,0.180259,20.6,19.0,69.1,36.7,26.9
+2022,686,Manchester Metropolitan University,United Kingdom,663.0,0.332291,-23.0,0.363572,0.180935,19.0,16.2,64.1,35.3,70.3
+2022,687,University of Central Florida,United States,614.0,0.33196,-73.0,0.329999,0.163982,27.2,28.6,56.6,45.5,34.5
+2022,688,University of Hull,United Kingdom,602.0,0.33165,-86.0,0.349731,0.173544,23.4,23.9,56.6,36.5,77.8
+2022,689,University of Siena,Italy,638.0,0.330706,-51.0,0.347409,0.171659,21.6,23.5,62.8,39.3,43.6
+2022,690,Carleton University,Canada,611.0,0.330103,-79.0,0.337742,0.166428,22.1,29.8,52.3,40.3,71.6
+2022,691,University of Limerick,Ireland,608.0,0.330085,-83.0,0.344252,0.169622,22.9,26.9,52.8,38.4,80.0
+2022,692,Tomsk State University,Russian Federation,652.0,0.329823,-40.0,0.320319,0.157643,40.4,34.9,21.9,59.4,73.6
+2022,693,University of Regensburg,Germany,615.0,0.329251,-78.0,0.361874,0.177633,27.8,15.1,65.0,35.1,55.2
+2022,694,Rovira i Virgili University,Spain,644.0,0.329158,-50.0,0.351028,0.172237,21.1,21.4,62.1,38.3,54.9
+2022,695,University of Haifa,Israel,620.0,0.32908,-75.0,0.354726,0.17399,24.0,22.7,64.5,35.7,39.7
+2022,696,CY Cergy Paris University,France,619.0,0.328755,-77.0,0.343499,0.168235,24.6,24.8,49.2,41.0,88.5
+2022,697,"International Islamic University, Islamabad",Pakistan,699.0,0.328321,2.0,0.374325,0.182973,20.3,10.3,68.9,34.8,51.7
+2022,698,University of Kentucky,United States,526.0,0.328277,-172.0,0.337221,0.164803,36.8,27.5,56.7,39.2,38.8
+2022,699,University of Montana,United States,568.0,0.327954,-131.0,0.355037,0.173256,35.1,20.6,64.0,35.6,28.6
+2022,700,Iran University of Medical Sciences,Iran,547.0,0.32766,-153.0,0.350131,0.170634,46.2,15.7,60.8,40.8,24.1
+2022,701,Aristotle University of Thessaloniki,Greece,713.0,0.32693,12.0,0.352341,0.171142,18.6,17.6,63.8,42.7,41.5
+2022,702,San Diego State University,United States,685.0,0.326499,-17.0,0.372799,0.180725,24.4,11.2,69.5,35.4,34.6
+2022,703,Mizzou - University of Missouri,United States,538.0,0.326325,-165.0,0.338295,0.163869,36.3,26.0,56.3,39.4,43.9
+2022,704,University of Rhode Island,United States,651.0,0.326192,-53.0,0.363592,0.176016,23.3,17.4,66.2,34.9,43.0
+2022,705,National Central University,Taiwan,1064.0,0.325397,359.0,0.339666,0.163839,26.1,23.5,18.2,75.8,45.4
+2022,706,University of Antioquia,Colombia,1140.0,0.325086,434.0,0.342307,0.164879,18.4,22.5,22.3,76.6,37.6
+2022,707,Near East University,Northern Cyprus,873.0,0.324669,166.0,0.352589,0.169509,17.3,11.3,44.3,54.2,95.5
+2022,708,University of Tsukuba,Japan,519.0,0.324587,-189.0,0.317249,0.152462,43.6,38.3,37.9,48.1,42.5
+2022,709,Guangdong University of Technology,China,785.0,0.324479,76.0,0.363092,0.174407,16.0,14.5,67.0,42.4,25.9
+2022,710,University of Regina,Canada,680.0,0.324374,-30.0,0.359974,0.172826,18.5,17.8,61.0,37.1,67.1
+2022,711,SOAS University of London,United Kingdom,457.0,0.324001,-254.0,0.33974,0.162835,41.9,41.1,34.7,34.9,79.6
+2022,712,Fuzhou University,China,912.0,0.323152,200.0,0.34457,0.16451,17.6,13.1,55.0,58.5,28.8
+2022,713,KIIT University,India,950.0,0.322819,237.0,0.340685,0.162408,26.4,12.3,45.6,66.2,22.1
+2022,714,University of Tabriz,Iran,636.0,0.322793,-78.0,0.348527,0.166126,28.5,21.3,61.4,40.6,30.3
+2022,715,Harbin Institute of Technology,China,524.0,0.322681,-191.0,0.323663,0.154196,40.8,37.2,44.4,44.2,33.0
+2022,716,Johannes Kepler University of Linz,Austria,725.0,0.32238,9.0,0.330354,0.157167,27.2,20.3,42.8,55.6,71.5
+2022,717,Tallinn University of Technology,Estonia,743.0,0.322148,26.0,0.337078,0.160195,20.4,19.7,48.2,51.7,72.7
+2022,718,Prince Sattam Bin Abdulaziz University,Saudi Arabia,739.0,0.321568,21.0,0.374913,0.177704,17.3,10.5,62.7,35.4,73.2
+2022,719,Moscow Power Engineering Institute,Russian Federation,1250.0,0.320355,531.0,0.353695,0.166717,17.9,26.1,11.6,78.9,32.4
+2022,720,Charles University,Czech Republic,544.0,0.319996,-176.0,0.345384,0.16253,33.0,28.3,52.0,35.2,63.8
+2022,721,Lviv Polytechnic National University,Ukraine,760.0,0.319553,39.0,0.380004,0.178459,20.0,10.1,69.6,35.8,24.5
+2022,722,Complutense University of Madrid,Spain,582.0,0.319419,-140.0,0.339364,0.159274,30.0,31.5,53.3,38.1,43.9
+2022,723,University of Coimbra,Portugal,650.0,0.319349,-73.0,0.327792,0.153794,24.5,32.0,45.4,47.0,60.0
+2022,724,Beni-Suef University,Egypt,808.0,0.319242,84.0,0.383679,0.179927,14.9,8.1,68.9,34.8,44.6
+2022,725,TU Braunschweig,Germany,678.0,0.319201,-47.0,0.344769,0.161649,25.9,17.8,56.2,44.7,56.5
+2022,726,Saint Louis University,United States,600.0,0.319104,-126.0,0.357521,0.167553,37.8,16.0,61.5,37.3,33.8
+2022,727,NorthWest A&F University,China,869.0,0.318605,142.0,0.338416,0.158236,21.9,17.1,51.2,58.6,25.7
+2022,728,"University of Maryland, Baltimore County",United States,647.0,0.318389,-81.0,0.356027,0.166305,23.5,23.8,61.2,35.7,38.3
+2022,729,Umm Al-Qura University,Saudi Arabia,786.0,0.317941,57.0,0.340334,0.158646,32.7,13.4,36.0,59.3,81.6
+2022,730,The Open University,United Kingdom,712.0,0.317713,-18.0,0.368349,0.171525,18.0,15.8,62.8,35.1,57.8
+2022,731,University of the Sunshine Coast,Australia,668.0,0.316824,-63.0,0.339584,0.157483,22.2,27.1,48.3,43.2,71.9
+2022,732,Sahand University of Technology,Iran,755.0,0.316202,23.0,0.345433,0.159735,29.3,15.3,56.0,52.4,16.8
+2022,733,University of La Laguna,Spain,746.0,0.315984,13.0,0.371369,0.171556,17.8,13.0,64.7,36.4,48.0
+2022,734,Jiangsu Normal University,China,859.0,0.315872,125.0,0.360295,0.166353,16.3,13.0,62.7,46.9,24.6
+2022,735,University of Graz,Austria,669.0,0.315738,-66.0,0.358508,0.165426,22.3,20.0,53.6,36.8,79.2
+2022,736,Glasgow Caledonian University,United Kingdom,718.0,0.315619,-18.0,0.370217,0.170735,19.2,13.8,61.0,35.3,66.0
+2022,737,Teikyo University,Japan,827.0,0.31527,90.0,0.382862,0.176282,16.1,10.8,69.0,35.8,21.6
+2022,738,University of Malakand,Pakistan,796.0,0.314891,58.0,0.379203,0.17429,16.1,10.7,67.0,35.4,40.3
+2022,739,Tribhuvan University,Nepal,855.0,0.314726,116.0,0.386228,0.177383,12.4,7.9,67.8,34.8,45.6
+2022,740,Erciyes University,Turkey,1299.0,0.314526,559.0,0.360732,0.16552,19.8,14.8,20.2,79.3,21.7
+2022,741,University of Huddersfield,United Kingdom,647.0,0.314482,-94.0,0.353244,0.162051,24.3,23.4,49.9,37.5,81.3
+2022,742,Huazhong Agricultural University,China,731.0,0.314408,-11.0,0.356505,0.163491,24.2,16.6,61.7,42.8,25.1
+2022,743,University of Neuchâtel,Switzerland,639.0,0.314202,-104.0,0.35331,0.161871,26.2,23.9,46.7,37.7,88.1
+2022,744,University of New Brunswick UNB,Canada,742.0,0.314045,-2.0,0.338889,0.15515,21.3,21.0,46.5,50.1,71.6
+2022,745,Makerere University,Uganda,789.0,0.313253,44.0,0.336087,0.153303,18.4,22.3,48.0,52.3,57.2
+2022,746,Nantes Université,France,664.0,0.313129,-82.0,0.34624,0.157843,25.5,22.6,55.1,41.0,52.5
+2022,746,University of Windsor,Canada,645.0,0.313129,-101.0,0.335294,0.152853,34.2,28.1,33.2,48.5,87.3
+2022,748,SUNY Binghamton University,United States,673.0,0.312806,-75.0,0.354596,0.16141,24.6,21.2,59.6,38.5,38.1
+2022,749,University of Wuppertal,Germany,686.0,0.312548,-63.0,0.33555,0.152557,26.8,23.1,50.8,48.1,47.6
+2022,750,University of Latvia,Latvia,706.0,0.312468,-44.0,0.337516,0.153393,19.7,27.1,50.3,45.9,53.7
+2022,751,Pontifical Catholic University of Rio Grande do Sul (PUCRS),Brazil,928.0,0.312092,177.0,0.341156,0.154777,22.9,14.3,46.9,61.3,31.2
+2022,752,Nanjing University of Aeronautics and Astronautics,China,1142.0,0.312012,390.0,0.346502,0.157143,22.4,24.3,20.6,74.8,20.4
+2022,753,Lehigh University,United States,624.0,0.311824,-129.0,0.351436,0.159241,28.8,21.3,53.4,38.0,65.0
+2022,754,China University of Mining and Technology,China,951.0,0.311769,197.0,0.342854,0.155313,20.5,16.4,48.5,60.6,19.5
+2022,755,"China University of Geosciences, Wuhan",China,814.0,0.311035,59.0,0.345695,0.156065,21.3,17.3,55.3,51.1,29.0
+2022,756,Oxford Brookes University,United Kingdom,635.0,0.311001,-121.0,0.356934,0.161113,26.1,23.7,49.3,35.3,81.0
+2022,757,Mae Fah Luang University,Thailand,800.0,0.310795,43.0,0.375736,0.169437,15.0,12.0,63.3,36.0,53.0
+2022,758,Jamia Millia Islamia,India,684.0,0.310555,-74.0,0.370742,0.166998,31.9,11.9,63.5,36.6,25.8
+2022,759,National Sun Yat-Sen University,Taiwan,844.0,0.310289,85.0,0.325494,0.146434,25.9,35.4,25.4,62.5,44.5
+2022,760,University of Lorraine,France,728.0,0.310166,-32.0,0.364142,0.163727,20.6,14.8,57.5,38.1,66.3
+2022,761,University of Wisconsin-Milwaukee,United States,693.0,0.308355,-68.0,0.359453,0.160254,22.5,22.0,59.7,36.9,33.7
+2022,762,University of Calabria,Italy,762.0,0.306681,0.0,0.370876,0.164052,16.2,17.6,62.3,35.5,38.2
+2022,763,University of Derby,United Kingdom,780.0,0.306597,17.0,0.376525,0.166485,17.2,11.7,59.2,35.2,67.3
+2022,764,Kerman University of Medical Sciences,Iran,798.0,0.306386,34.0,0.370644,0.163723,25.6,10.1,62.8,41.7,18.6
+2022,765,University of North Carolina at Charlotte,United States,803.0,0.306197,38.0,0.381951,0.168567,19.9,10.0,65.2,34.8,33.5
+2022,766,University of the Balearic Islands,Spain,763.0,0.30612,-3.0,0.373536,0.164794,16.8,15.4,62.1,34.9,45.4
+2022,767,Nanjing Normal University,China,898.0,0.305613,131.0,0.353991,0.155798,20.0,12.5,55.6,52.1,26.9
+2022,768,University of Science and Technology Beijing,China,921.0,0.305246,153.0,0.332525,0.146098,25.2,26.4,35.0,63.7,21.9
+2022,769,Covenant University,Nigeria,784.0,0.305075,15.0,0.351792,0.154438,19.0,20.5,56.7,44.7,31.0
+2022,770,University of Brighton,United Kingdom,738.0,0.305003,-32.0,0.370724,0.162694,19.8,15.5,54.4,35.2,76.6
+2022,771,Qingdao University,China,861.0,0.304738,90.0,0.375468,0.16457,15.8,14.0,64.0,38.6,20.1
+2022,772,Massey University,New Zealand,714.0,0.304178,-58.0,0.353775,0.154652,23.3,23.9,39.9,41.8,93.1
+2022,773,Nippon Medical School,Japan,758.0,0.304097,-15.0,0.382342,0.167077,26.8,9.9,64.7,35.1,18.2
+2022,774,Nanjing University of Information Science and Technology,China,813.0,0.304082,39.0,0.360881,0.157687,18.7,15.5,59.4,43.0,33.2
+2022,775,Mahatma Gandhi University,India,690.0,0.303967,-85.0,0.327771,0.143142,42.0,28.9,35.1,57.0,20.8
+2022,776,University of Missouri-St Louis,United States,692.0,0.303916,-84.0,0.34653,0.151298,29.6,18.9,53.5,44.9,39.9
+2022,777,University of Fortaleza (UNIFOR),Brazil,858.0,0.303636,81.0,0.386337,0.168455,16.7,8.4,65.2,34.8,35.6
+2022,778,University of Deusto,Spain,748.0,0.303542,-30.0,0.357238,0.155698,18.8,19.6,56.9,40.5,45.6
+2022,779,Amrita Vishwa Vidyapeetham,India,877.0,0.303283,98.0,0.338267,0.147249,25.2,17.3,43.5,58.8,40.5
+2022,780,University of the Aegean,Greece,872.0,0.30326,92.0,0.342242,0.148963,18.1,19.9,49.5,53.4,37.5
+2022,781,Ahvaz Jundishapur University of Medical Sciences (AJUMS),Iran,722.0,0.303037,-59.0,0.379324,0.164929,33.1,10.1,62.9,35.5,16.1
+2022,782,Yasouj University,Iran,878.0,0.30265,96.0,0.377525,0.163846,15.3,14.4,63.8,38.0,17.3
+2022,783,University of Bradford,United Kingdom,719.0,0.302526,-64.0,0.361235,0.156684,21.4,19.6,49.3,37.9,79.8
+2022,784,Concordia University,Canada,676.0,0.302246,-108.0,0.355297,0.153904,23.5,27.7,42.4,37.1,85.0
+2022,785,Istanbul Medeniyet University,Turkey,888.0,0.302222,103.0,0.388876,0.16843,17.0,9.2,66.0,34.8,21.0
+2022,786,University of Girona,Spain,733.0,0.302133,-53.0,0.360224,0.155955,19.5,20.1,56.0,37.9,53.0
+2022,787,De Montfort University,United Kingdom,777.0,0.301541,-10.0,0.375762,0.162225,17.5,15.0,51.1,34.9,86.5
+2022,788,Beijing Forestry University,China,1105.0,0.301535,317.0,0.345115,0.14899,22.5,25.5,22.6,71.2,20.0
+2022,789,Al-Balqa Applied University,Jordan,905.0,0.301523,116.0,0.3666,0.158256,13.3,11.4,58.2,44.2,48.1
+2022,790,The University of Alabama,United States,697.0,0.30121,-93.0,0.364503,0.157117,27.0,18.8,59.0,36.3,30.1
+2022,791,Bar-Ilan University,Israel,661.0,0.301129,-130.0,0.330517,0.142413,30.6,33.3,39.4,46.9,51.7
+2022,792,Ontario Tech University,Canada,711.0,0.30105,-81.0,0.355472,0.153108,18.6,25.7,51.4,37.4,60.8
+2022,793,University of Ioannina,Greece,820.0,0.300538,27.0,0.370831,0.159335,15.6,15.1,60.0,37.7,44.2
+2022,794,Federation University Australia,Australia,799.0,0.300347,5.0,0.367059,0.157571,17.6,14.8,51.2,39.5,78.8
+2022,795,University of Palermo,Italy,769.0,0.300138,-26.0,0.36962,0.158513,17.3,20.1,60.1,35.5,31.4
+2022,796,University of Granada,Spain,694.0,0.300118,-102.0,0.361058,0.154826,21.8,23.2,55.1,35.1,50.1
+2022,797,Banaras Hindu University,India,665.0,0.299958,-132.0,0.367759,0.15758,35.4,18.2,58.4,34.9,18.9
+2022,798,Hacettepe University,Turkey,745.0,0.299674,-53.0,0.372427,0.159363,26.8,13.5,61.1,37.0,24.3
+2022,799,Jinan University,China,732.0,0.299219,-67.0,0.354913,0.151541,23.2,18.6,52.8,41.3,56.8
+2022,800,University of Alcalá,Spain,778.0,0.29807,-22.0,0.363278,0.154264,20.6,14.5,53.8,40.5,63.1
+2022,801,Edge Hill University,United Kingdom,826.0,0.297793,25.0,0.379231,0.160825,16.6,12.7,60.8,34.8,45.6
+2022,802,Coventry University,United Kingdom,782.0,0.297772,-20.0,0.378338,0.16043,20.0,13.9,47.7,35.0,92.7
+2022,803,University of Hertfordshire,United Kingdom,797.0,0.297749,-6.0,0.377648,0.16012,18.8,12.9,51.1,35.3,84.3
+2022,804,Arts et Métiers,France,1000.0,0.297741,196.0,0.346097,0.146737,26.3,16.8,25.7,65.3,66.2
+2022,805,Tokyo Metropolitan University,Japan,764.0,0.297595,-41.0,0.367623,0.155754,24.4,14.5,59.4,39.3,27.8
+2022,806,University of Texas at Arlington,United States,750.0,0.297387,-56.0,0.356219,0.150773,21.6,18.9,54.7,41.6,44.5
+2022,807,COMSATS University Islamabad,Pakistan,848.0,0.297268,41.0,0.382498,0.161803,16.8,10.3,61.3,34.9,46.1
+2022,808,Universitat Internacional de Catalunya,Spain,811.0,0.29723,3.0,0.367312,0.155351,18.1,13.7,54.6,39.7,63.6
+2022,809,Kindai University,Japan,874.0,0.297102,65.0,0.375013,0.158511,19.4,10.8,61.3,40.3,25.1
+2022,810,Bilkent University,Turkey,770.0,0.296312,-40.0,0.344799,0.14519,22.6,20.7,45.2,48.1,63.1
+2022,811,The Jikei University School of Medicine,Japan,810.0,0.296282,-1.0,0.378961,0.159552,28.1,9.0,61.4,38.5,16.5
+2022,812,Zewail City of Science and Technology,Egypt,853.0,0.296227,41.0,0.355685,0.149712,21.1,15.6,54.7,47.6,28.4
+2022,813,Mashhad University of Medical Sciences,Iran,724.0,0.295988,-89.0,0.376018,0.15809,31.0,13.1,60.1,34.8,23.7
+2022,814,Chulalongkorn University,Thailand,899.0,0.295864,85.0,0.336713,0.14148,32.8,20.6,30.9,63.7,37.9
+2022,815,University of Bergamo,Italy,770.0,0.295852,-45.0,0.358052,0.150438,18.8,21.9,55.4,40.3,35.3
+2022,816,Ulster University,United Kingdom,709.0,0.29549,-107.0,0.362672,0.152114,24.5,19.6,47.5,37.1,77.7
+2022,817,University of Dhaka,Bangladesh,890.0,0.295218,73.0,0.386045,0.161706,16.3,8.4,61.8,35.2,42.6
+2022,818,Boğaziçi University,Turkey,909.0,0.294614,91.0,0.335078,0.13995,24.3,24.2,34.7,60.8,39.1
+2022,819,Renmin University of China,China,653.0,0.2946,-166.0,0.349671,0.146035,34.5,21.9,50.5,40.6,40.3
+2022,820,University of Houston,United States,625.0,0.294581,-195.0,0.352442,0.147179,33.1,25.8,50.0,36.6,43.5
+2022,821,Tomsk Polytechnic University,Russian Federation,974.0,0.294064,153.0,0.342857,0.14282,30.1,20.8,22.4,65.1,59.8
+2022,822,Reichman University,Israel,871.0,0.293983,49.0,0.384179,0.15997,15.8,9.4,57.0,34.8,65.6
+2022,823,Amedeo Avogadro University of Eastern Piedmont,Italy,818.0,0.293752,-5.0,0.371411,0.154482,13.5,21.1,57.4,34.9,40.8
+2022,824,The University of Aizu,Japan,775.0,0.293156,-49.0,0.374308,0.15524,21.7,13.0,52.3,35.9,72.8
+2022,825,Siberian Federal University,Russian Federation,1096.0,0.292908,271.0,0.350301,0.14511,23.6,17.7,21.9,68.8,53.8
+2022,826,Universiti Kebangsaan Malaysia,Malaysia,618.0,0.292699,-208.0,0.352207,0.145752,38.1,22.2,44.6,38.3,64.3
+2022,827,Tehran University of Medical Sciences,Iran,616.0,0.292228,-211.0,0.352794,0.145664,48.5,17.7,48.0,42.1,27.2
+2022,828,Zhejiang University of Technology,China,1028.0,0.291922,200.0,0.347904,0.143432,17.7,17.1,41.9,60.9,25.7
+2022,829,Tabriz University of Medical Sciences,Iran,659.0,0.29192,-170.0,0.373116,0.153825,43.0,13.3,55.6,34.9,21.5
+2022,830,University of Thessaly,Greece,852.0,0.291251,22.0,0.370651,0.152314,16.3,15.6,57.5,38.6,39.8
+2022,831,Åbo Akademi University,Finland,689.0,0.291049,-142.0,0.351537,0.144318,23.4,30.5,42.5,37.9,66.8
+2022,832,University of Beira Interior,Portugal,772.0,0.290984,-60.0,0.364438,0.149567,18.6,19.6,52.6,37.5,57.4
+2022,833,Universidade Federal do Rio Grande do Sul,Brazil,735.0,0.290884,-98.0,0.347514,0.142552,31.5,20.0,49.5,46.7,28.1
+2022,834,Konkuk University,South Korea,672.0,0.290741,-162.0,0.333013,0.13651,32.8,37.8,31.1,47.2,50.8
+2022,835,Southwest Jiaotong University,China,1181.0,0.289809,346.0,0.353727,0.144346,19.9,17.5,26.3,70.2,25.8
+2022,836,Zagazig University,Egypt,934.0,0.289378,98.0,0.389568,0.158639,14.2,8.2,60.7,34.8,42.1
+2022,837,Zhejiang University of Finance and Economics,China,937.0,0.289142,100.0,0.388189,0.157896,14.6,10.6,61.7,35.3,25.9
+2022,838,Auburn University,United States,683.0,0.288917,-155.0,0.34879,0.141716,31.1,22.7,47.5,41.8,48.1
+2022,839,European University of Madrid,Spain,854.0,0.28878,15.0,0.382752,0.15541,18.7,9.7,56.2,35.0,59.8
+2022,840,South China Normal University,China,923.0,0.287505,83.0,0.351298,0.141755,20.0,16.6,48.3,52.2,32.3
+2022,841,Fujita Health University,Japan,841.0,0.28724,0.0,0.380025,0.153149,24.6,10.9,59.2,37.1,22.5
+2022,842,University of Johannesburg,South Africa,727.0,0.287135,-115.0,0.347661,0.140034,24.0,31.0,35.6,42.5,74.3
+2022,843,Istanbul University-Cerrahpaşa,Turkey,969.0,0.2869,126.0,0.360918,0.145207,20.9,11.7,51.7,51.4,22.3
+2022,844,Universiti Teknologi Malaysia,Malaysia,721.0,0.286823,-123.0,0.342771,0.137855,31.3,22.9,39.4,47.5,62.6
+2022,845,University of Peshawar,Pakistan,757.0,0.286792,-88.0,0.378757,0.152304,28.4,10.9,57.2,34.8,38.8
+2022,846,Universiti Utara Malaysia,Malaysia,675.0,0.286784,-171.0,0.354964,0.142731,30.6,24.3,42.4,38.2,70.2
+2022,847,National Autonomous University of Mexico,Mexico,941.0,0.286664,94.0,0.339373,0.136382,30.6,28.2,20.2,63.1,47.3
+2022,848,Central Queensland University,Australia,840.0,0.286526,-8.0,0.371064,0.149016,17.1,15.4,52.0,37.9,63.1
+2022,849,University of Minho,Portugal,830.0,0.285848,-19.0,0.34141,0.136654,24.0,22.8,38.6,52.3,57.1
+2022,850,Bahçeşehir University,Turkey,901.0,0.285665,51.0,0.348372,0.139315,19.3,18.6,45.0,51.6,47.1
+2022,851,University of Malta,Malta,805.0,0.285516,-46.0,0.373487,0.14925,19.4,16.3,52.9,35.2,59.1
+2022,852,Oran 1 University,Algeria,767.0,0.284786,-85.0,0.380533,0.151522,30.2,8.8,56.6,35.3,39.5
+2022,853,Leeds Beckett University,United Kingdom,834.0,0.284611,-19.0,0.375253,0.149291,17.4,15.8,54.2,35.4,54.0
+2022,854,Cairo University,Egypt,783.0,0.284395,-71.0,0.372443,0.148016,23.2,16.7,55.6,35.6,36.9
+2022,855,Universitat Politècnica de Catalunya,Spain,776.0,0.284378,-79.0,0.35744,0.142041,24.7,17.4,48.1,42.6,57.7
+2022,856,École Centrale de Lyon,France,960.0,0.283905,104.0,0.346295,0.137293,27.8,23.4,21.2,60.5,69.3
+2022,857,Estonian University of Life Sciences,Estonia,845.0,0.283466,-12.0,0.376974,0.149134,22.0,9.8,51.3,38.0,66.9
+2022,858,Inha University,South Korea,1012.0,0.283243,154.0,0.344135,0.135993,26.6,21.6,27.1,64.7,34.7
+2022,859,Louisiana State University,United States,674.0,0.282961,-185.0,0.359531,0.14188,32.6,23.3,49.4,36.1,39.0
+2022,860,Eötvös Loránd University,Hungary,702.0,0.282597,-158.0,0.368275,0.145069,32.0,16.3,50.4,35.3,53.8
+2022,861,University of Lleida,Spain,828.0,0.282114,-33.0,0.368921,0.144978,20.2,16.5,53.9,38.5,41.5
+2022,862,Universiti Sains Malaysia,Malaysia,696.0,0.282076,-166.0,0.344596,0.135394,33.5,23.9,39.9,45.2,57.3
+2022,863,University of Wyoming,United States,747.0,0.281883,-116.0,0.371993,0.146018,30.4,13.4,54.3,36.9,35.8
+2022,864,University of Clermont Auvergne,France,807.0,0.281862,-57.0,0.37253,0.146214,21.4,15.2,51.4,36.4,59.8
+2022,865,Indian Institute of Science Education and Research Kolkata,India,835.0,0.281823,-30.0,0.374844,0.147095,26.2,13.2,56.3,38.8,19.6
+2022,866,Wuhan University of Technology,China,984.0,0.281471,118.0,0.354608,0.138911,20.2,15.2,46.2,54.5,24.6
+2022,867,Shantou University,China,839.0,0.281121,-28.0,0.368964,0.144285,20.2,16.4,53.9,38.9,39.0
+2022,868,Worcester Polytechnic Institute,United States,749.0,0.280858,-119.0,0.365104,0.14259,24.4,19.3,50.1,37.0,52.6
+2022,869,University of Ljubljana,Slovenia,809.0,0.278971,-60.0,0.36119,0.139747,22.5,18.6,50.0,41.0,45.3
+2022,870,Roskilde University,Denmark,756.0,0.278737,-114.0,0.349986,0.135255,20.3,31.6,38.9,41.5,59.5
+2022,871,Veltech University,India,978.0,0.278733,107.0,0.390534,0.150922,16.4,8.6,59.0,36.2,25.2
+2022,872,Kalasalingam Academy of Research and Education,India,956.0,0.278231,84.0,0.387592,0.14941,19.0,8.8,58.3,37.2,23.1
+2022,873,Moscow Aviation Institute,Russian Federation,1372.0,0.278222,499.0,0.375089,0.144584,24.0,11.6,14.1,74.1,25.5
+2022,874,Technical University of Crete,Greece,971.0,0.278216,97.0,0.379304,0.146205,13.7,11.0,55.0,39.6,43.6
+2022,875,University of Foggia,Italy,876.0,0.278118,1.0,0.370241,0.142642,16.9,20.9,53.7,38.0,25.7
+2022,876,University of Maragheh,Iran,976.0,0.277864,100.0,0.390173,0.150131,14.3,11.9,58.7,34.8,23.2
+2022,877,Kurume University,Japan,900.0,0.277755,23.0,0.380938,0.146498,22.2,11.2,56.7,38.0,23.0
+2022,878,Menoufia University,Egypt,967.0,0.2777,89.0,0.388534,0.149378,16.0,8.3,57.2,36.1,39.7
+2022,879,Federal University of Minas Gerais,Brazil,726.0,0.277274,-153.0,0.36196,0.138866,33.3,18.8,50.0,39.3,29.5
+2022,880,Institute of Chemical Technology,India,751.0,0.277174,-129.0,0.342077,0.131173,36.5,28.5,36.8,51.0,14.6
+2022,881,King Khalid University,Saudi Arabia,863.0,0.277074,-18.0,0.387658,0.148577,24.1,8.1,46.5,34.8,81.0
+2022,882,Beijing Jiaotong University,China,1018.0,0.276786,136.0,0.344935,0.132012,25.9,26.6,21.6,63.7,37.5
+2022,883,University of Rome III,Italy,781.0,0.276411,-102.0,0.357572,0.136593,23.6,22.4,48.0,40.8,41.5
+2022,884,Université du Québec,Canada,752.0,0.275572,-132.0,0.353039,0.134296,25.5,26.9,35.5,42.5,72.5
+2022,885,University of Córdoba,Spain,837.0,0.275429,-48.0,0.370549,0.140855,20.0,17.5,51.4,37.4,46.3
+2022,886,University of the Basque Country,Spain,815.0,0.275381,-71.0,0.366368,0.139233,20.7,20.2,50.2,37.8,44.6
+2022,887,Southwest Petroleum University,China,1297.0,0.27511,410.0,0.366876,0.139237,17.7,13.3,25.7,69.7,17.7
+2022,888,University of Idaho,United States,720.0,0.274638,-168.0,0.362809,0.137368,29.2,21.8,47.1,36.5,48.4
+2022,889,Texas Tech University,United States,740.0,0.274609,-149.0,0.366921,0.138904,27.9,19.1,48.0,36.1,52.8
+2022,890,King Saud bin Abdulaziz University for Health Sciences,Saudi Arabia,806.0,0.274273,-84.0,0.375803,0.142026,28.3,10.9,46.9,37.5,67.7
+2022,891,Federal University of Rio de Janeiro,Brazil,1007.0,0.274022,116.0,0.34801,0.131357,31.9,22.0,23.1,64.2,29.6
+2022,892,University of Toledo,United States,753.0,0.273901,-139.0,0.364875,0.137639,32.2,14.0,48.2,40.5,47.0
+2022,893,Sultan Qaboos University,Oman,829.0,0.273596,-64.0,0.370533,0.139559,23.9,15.0,43.4,39.3,74.4
+2022,894,ISCTE-University Institute of Lisbon,Portugal,723.0,0.273452,-171.0,0.350595,0.131954,27.8,28.8,39.6,40.8,53.8
+2022,895,Shahid Beheshti University of Medical Sciences,Iran,790.0,0.273451,-105.0,0.353843,0.133176,41.5,15.1,41.5,50.9,20.0
+2022,896,University of Jaén,Spain,884.0,0.273429,-12.0,0.378526,0.14245,17.6,16.1,53.0,35.1,44.0
+2022,897,University of Siegen,Germany,765.0,0.273407,-132.0,0.35797,0.134699,23.3,24.0,44.5,39.7,53.6
+2022,898,University of Salento,Italy,821.0,0.272762,-77.0,0.370988,0.139145,23.2,19.3,52.1,36.9,28.5
+2022,899,American University of Sharjah,United Arab Emirates,857.0,0.272555,-42.0,0.380637,0.142615,21.0,18.8,35.9,35.5,93.8
+2022,900,Northern Illinois University,United States,774.0,0.272323,-126.0,0.372523,0.139412,27.0,16.2,50.0,35.6,48.1
+2022,901,Shahid Beheshti University,Iran,866.0,0.272279,-35.0,0.346507,0.129647,25.2,26.4,40.5,50.4,21.6
+2022,902,Yeditepe University,Turkey,1490.0,0.272194,588.0,0.380944,0.14247,19.2,13.7,10.4,74.3,23.6
+2022,903,Keio University,Japan,734.0,0.272074,-169.0,0.347676,0.129949,32.9,25.0,41.6,45.0,34.7
+2022,904,Jaume I University,Spain,825.0,0.27206,-79.0,0.367541,0.137365,21.3,19.1,49.5,38.1,45.3
+2022,905,University of Warsaw,Poland,703.0,0.271816,-202.0,0.35959,0.134227,29.5,27.3,44.1,35.9,44.1
+2022,906,East China University of Science and Technology,China,995.0,0.271107,89.0,0.350256,0.130276,22.7,20.7,38.1,56.9,20.0
+2022,907,Lahore University of Management Sciences,Pakistan,836.0,0.271093,-71.0,0.374978,0.139461,21.6,16.6,50.9,35.6,46.7
+2022,908,London South Bank University,United Kingdom,930.0,0.271089,22.0,0.386886,0.143887,17.4,12.1,43.3,35.4,84.2
+2022,909,National Technical University of Athens,Greece,966.0,0.270694,57.0,0.352524,0.130845,22.6,16.8,41.1,53.5,38.3
+2022,910,University of Rennes 1,France,801.0,0.270636,-109.0,0.365519,0.135628,26.2,16.7,46.0,39.7,57.1
+2022,911,Panjab University,India,787.0,0.270476,-124.0,0.379142,0.140569,32.9,14.8,52.6,35.4,16.5
+2022,912,Volgograd State Technical University,Russian Federation,1005.0,0.270448,93.0,0.382866,0.14193,16.5,9.7,54.9,41.4,21.3
+2022,913,Kingston University,United Kingdom,867.0,0.270389,-46.0,0.380049,0.140844,19.6,18.0,39.6,35.1,85.7
+2022,914,Shanghai Maritime University,China,1019.0,0.270289,105.0,0.367806,0.136238,16.0,10.8,48.1,49.1,39.0
+2022,915,University of Arkansas,United States,736.0,0.270093,-179.0,0.358231,0.132558,28.5,27.6,45.1,38.1,30.1
+2022,916,Niigata University,Japan,897.0,0.270066,-19.0,0.373148,0.13806,24.4,13.0,52.3,41.2,24.5
+2022,917,"University of Agriculture, Faisalabad",Pakistan,958.0,0.269449,41.0,0.358671,0.132289,19.1,16.1,44.9,48.9,42.8
+2022,918,Kobe University,Japan,754.0,0.268848,-164.0,0.349817,0.128629,32.9,23.1,41.8,46.0,30.9
+2022,919,Benha University,Egypt,989.0,0.268837,70.0,0.391908,0.144098,15.5,7.9,54.6,35.4,43.7
+2022,920,Yeungnam University,South Korea,908.0,0.268804,-12.0,0.371207,0.136464,20.1,14.1,50.6,41.1,39.5
+2022,921,Iuliu Haţieganu University of Medicine and Pharmacy Cluj-Napoca,Romania,910.0,0.26788,-11.0,0.387076,0.14163,21.2,9.1,51.8,35.0,52.0
+2022,922,Lakehead University,Canada,838.0,0.267843,-84.0,0.367356,0.134389,18.2,23.2,45.2,37.0,55.4
+2022,923,The University of Jordan,Jordan,822.0,0.267839,-101.0,0.371532,0.135914,27.9,13.0,43.8,39.5,66.9
+2022,924,Ben-Gurion University of the Negev,Israel,812.0,0.267632,-112.0,0.341701,0.124869,28.1,32.1,31.9,50.0,37.3
+2022,925,Karlstad University,Sweden,926.0,0.267082,1.0,0.381461,0.139008,17.5,14.3,52.5,35.9,39.5
+2022,926,Sidi Mohamed Ben Abdellah University,Morocco,918.0,0.266596,-8.0,0.390417,0.141918,24.6,9.3,54.9,34.8,23.0
+2022,927,Ural Federal University,Russian Federation,1112.0,0.266393,185.0,0.358246,0.130089,25.2,22.6,14.0,64.2,55.0
+2022,928,Athens University of Economics and Business,Greece,833.0,0.266134,-95.0,0.363921,0.131975,19.7,23.8,45.2,38.5,47.9
+2022,929,Ohio University (Main campus),United States,761.0,0.266125,-168.0,0.369787,0.134096,30.4,18.7,48.8,36.7,31.2
+2022,930,University of Roehampton,United Kingdom,846.0,0.265641,-84.0,0.376673,0.136254,20.6,21.0,38.3,35.0,80.6
+2022,931,University of Colombo,Sri Lanka,869.0,0.265406,-62.0,0.385949,0.139442,27.6,9.3,52.3,34.9,37.6
+2022,932,Kazan Federal University,Russian Federation,802.0,0.264973,-130.0,0.351301,0.126642,37.2,18.6,31.4,50.5,60.0
+2022,933,University of North Carolina at Greensboro,United States,842.0,0.264593,-91.0,0.375711,0.135178,24.2,19.3,50.7,35.6,24.1
+2022,934,Polytechnic University of Valencia,Spain,883.0,0.264197,-51.0,0.355323,0.127582,24.5,19.0,39.9,47.4,53.2
+2022,935,Kansas State University,United States,803.0,0.263988,-132.0,0.359476,0.128935,26.6,21.1,43.4,41.4,47.3
+2022,936,Universidade Federal de Santa Catarina,Brazil,886.0,0.263106,-50.0,0.365879,0.130636,28.1,13.8,47.1,44.4,30.9
+2022,937,University of Pretoria,South Africa,779.0,0.26305,-158.0,0.352547,0.12584,25.9,29.0,35.8,42.4,54.9
+2022,938,University of Central Lancashire,United Kingdom,914.0,0.262636,-24.0,0.383596,0.13663,18.7,13.6,45.4,35.2,68.1
+2022,939,University of Texas Rio Grande Valley,United States,977.0,0.262605,38.0,0.388656,0.13841,17.3,11.4,53.2,35.2,34.5
+2022,940,University of Namur,Belgium,894.0,0.261885,-46.0,0.367713,0.130465,19.4,19.3,40.3,40.8,67.9
+2022,941,University of Westminster,United Kingdom,916.0,0.261256,-25.0,0.382647,0.135323,17.9,17.9,38.0,35.4,83.1
+2022,942,Montanuniversität Leoben,Austria,992.0,0.261099,50.0,0.362382,0.128052,27.9,12.6,29.1,54.4,69.5
+2022,943,University of Salford,United Kingdom,891.0,0.261098,-52.0,0.378432,0.133723,20.5,16.3,42.1,36.3,71.6
+2022,944,National Institute of Technology Silchar,India,889.0,0.260676,-55.0,0.384603,0.135606,27.4,14.4,51.7,35.3,14.9
+2022,945,Miguel Hernández University of Elche,Spain,948.0,0.260394,3.0,0.375613,0.132242,17.2,16.2,49.3,38.9,38.2
+2022,946,Indian Institute of Technology (Indian School of Mines) Dhanbad,India,1033.0,0.260388,87.0,0.355658,0.125213,22.1,20.8,36.7,55.9,15.0
+2022,947,"Birla Institute of Technology and Science, Pilani",India,983.0,0.260303,36.0,0.390409,0.137387,20.0,11.1,53.6,36.0,18.8
+2022,948,Ca’ Foscari University of Venice,Italy,729.0,0.260148,-219.0,0.355074,0.124852,33.7,27.3,33.5,40.9,58.8
+2022,949,Kuwait University,Kuwait,954.0,0.260141,5.0,0.387108,0.136111,19.9,10.0,45.1,36.1,69.1
+2022,950,Metropolitan Autonomous University,Mexico,968.0,0.259669,18.0,0.38162,0.133852,17.6,16.0,51.4,37.0,25.2
+2022,951,Imam Abdulrahman Bin Faisal University,Saudi Arabia,947.0,0.259584,-4.0,0.390083,0.13676,21.2,8.9,45.0,35.1,70.2
+2022,952,University of Aveiro,Portugal,817.0,0.258356,-135.0,0.365813,0.127433,23.3,23.8,42.4,37.5,50.0
+2022,953,Universidad San Francisco de Quito,Ecuador,979.0,0.258303,26.0,0.390684,0.13606,18.2,9.2,46.6,35.2,64.8
+2022,954,Symbiosis International University,India,999.0,0.25825,45.0,0.392662,0.136711,17.4,9.9,53.0,35.1,30.4
+2022,955,University of Belgrade,Serbia,856.0,0.257939,-99.0,0.359382,0.12492,20.1,27.5,40.8,40.9,41.7
+2022,956,South Valley University,Egypt,939.0,0.257934,-17.0,0.387426,0.134665,21.5,10.6,50.1,35.0,44.6
+2022,957,Vilnius University,Lithuania,924.0,0.257774,-33.0,0.36468,0.126653,21.3,16.9,41.4,44.2,56.1
+2022,958,"University of Technology, Iraq",Iraq,987.0,0.257765,29.0,0.394092,0.136861,21.5,7.9,53.1,35.3,26.3
+2022,959,University of Santiago de Compostela,Spain,907.0,0.257703,-52.0,0.377362,0.131009,23.8,12.0,47.6,39.0,46.0
+2022,960,Nanjing Medical University,China,705.0,0.257634,-255.0,0.364303,0.126429,38.1,27.8,40.4,36.3,20.6
+2022,961,University of Bedfordshire,United Kingdom,946.0,0.257042,-15.0,0.38612,0.133587,18.4,14.9,39.6,35.2,79.2
+2022,962,Riga Technical University,Latvia,1152.0,0.256859,190.0,0.362859,0.125419,22.4,20.1,15.8,62.6,57.3
+2022,963,Charles Sturt University,Australia,943.0,0.256017,-20.0,0.382207,0.131524,16.9,16.9,41.7,35.5,70.3
+2022,964,Fayoum University,Egypt,1013.0,0.255956,49.0,0.385244,0.132526,15.0,10.6,49.9,38.9,41.0
+2022,965,St Francis Xavier University,Canada,1002.0,0.255844,37.0,0.391788,0.134698,16.8,8.5,48.7,35.7,54.5
+2022,966,Clarkson University,United States,832.0,0.255821,-134.0,0.368164,0.126561,27.6,17.3,43.0,39.6,50.8
+2022,967,Northeast Normal University,China,911.0,0.255098,-56.0,0.378411,0.12959,24.7,14.6,49.1,38.4,24.8
+2022,968,Tanta University,Egypt,1037.0,0.255095,69.0,0.396271,0.135704,14.8,8.1,51.6,34.8,41.1
+2022,969,Palacký University Olomouc,Czech Republic,880.0,0.254237,-89.0,0.373944,0.127481,20.1,21.4,41.6,35.9,59.2
+2022,970,Polytechnic Institute of Porto,Portugal,1036.0,0.254114,66.0,0.39443,0.134377,14.5,9.8,51.6,35.0,36.5
+2022,971,National University of Sciences and Technology,Pakistan,906.0,0.254093,-65.0,0.375776,0.128008,21.9,15.6,46.2,38.1,45.7
+2022,972,Sheffield Hallam University,United Kingdom,962.0,0.253828,-10.0,0.385448,0.131119,17.9,13.5,46.8,35.2,54.0
+2022,973,China Pharmaceutical University,China,1115.0,0.252823,142.0,0.368884,0.124819,18.1,12.7,40.7,54.3,18.1
+2022,974,King Faisal University,Saudi Arabia,1027.0,0.252538,53.0,0.388764,0.131348,17.7,7.8,41.0,39.7,73.7
+2022,975,Toronto Metropolitan University,Canada,850.0,0.252328,-125.0,0.365349,0.1233,20.2,28.9,36.3,37.7,56.4
+2022,976,Universitas Gadjah Mada,Indonesia,1305.0,0.25229,329.0,0.37447,0.126353,23.4,14.8,12.5,67.5,39.6
+2022,977,University of Oviedo,Spain,938.0,0.252265,-39.0,0.375289,0.126612,20.3,17.1,47.0,38.8,34.6
+2022,978,Aligarh Muslim University,India,892.0,0.252243,-86.0,0.377919,0.127485,30.2,12.6,47.4,39.3,25.3
+2022,979,Florida Atlantic University,United States,925.0,0.252135,-54.0,0.369976,0.124734,20.1,18.5,43.7,40.4,46.5
+2022,980,Technical University of Madrid,Spain,935.0,0.251789,-45.0,0.366601,0.123369,22.9,15.9,40.9,44.2,52.2
+2022,981,Jianghan University,China,1054.0,0.251615,73.0,0.390264,0.131211,16.8,9.8,51.1,38.7,22.4
+2022,982,University of Szeged,Hungary,902.0,0.251246,-80.0,0.377639,0.126717,23.8,14.4,42.3,37.9,60.1
+2022,983,Karabük University,Turkey,1067.0,0.250529,84.0,0.397224,0.132782,13.7,8.4,50.9,35.2,37.6
+2022,984,New Mexico State University (Main campus),United States,879.0,0.25036,-105.0,0.369473,0.123394,24.1,20.3,43.8,38.9,38.1
+2022,985,University of Patras,Greece,993.0,0.249922,8.0,0.378945,0.126263,18.1,13.4,47.0,40.3,38.2
+2022,986,Universidade Federal de São Paulo (UNIFESP),Brazil,864.0,0.249606,-122.0,0.37891,0.126038,27.4,17.7,46.5,35.3,29.2
+2022,987,Jawaharlal Nehru University,India,701.0,0.24939,-286.0,0.368911,0.122571,45.1,25.0,37.2,36.3,19.2
+2022,988,Clemson University,United States,843.0,0.249292,-145.0,0.365538,0.121386,26.5,21.5,41.2,39.9,42.2
+2022,989,Panthéon-Sorbonne University – Paris 1,France,717.0,0.249047,-272.0,0.373818,0.123973,43.0,37.5,14.6,35.0,62.5
+2022,990,Anna University,India,940.0,0.248817,-50.0,0.36166,0.119794,21.9,27.2,39.5,44.6,15.4
+2022,991,RUDN University,Russian Federation,759.0,0.248721,-232.0,0.366309,0.121271,37.6,19.2,33.0,40.4,62.8
+2022,992,University of Algarve,Portugal,972.0,0.248338,-20.0,0.383626,0.126744,17.4,16.1,40.3,36.1,68.1
+2022,993,Juntendo University,Japan,959.0,0.24755,-34.0,0.364201,0.119819,32.7,13.9,38.5,50.4,22.2
+2022,994,Okayama University,Japan,1070.0,0.247166,76.0,0.357839,0.117484,27.9,19.3,25.2,59.4,31.2
+2022,995,Indian Institute of Technology Patna,India,936.0,0.246451,-59.0,0.38441,0.125723,23.6,18.1,47.5,35.1,16.9
+2022,996,University of Lahore,Pakistan,1047.0,0.246168,51.0,0.395079,0.129016,15.8,8.9,48.2,35.3,45.1
+2022,997,Yangzhou University,China,1051.0,0.245833,54.0,0.379301,0.123639,17.7,12.6,46.5,43.3,25.5
+2022,998,University of Tehran,Iran,882.0,0.24538,-116.0,0.386855,0.125794,32.8,12.0,46.5,34.8,26.6
+2022,999,University of Memphis,United States,903.0,0.244233,-96.0,0.380063,0.122821,26.2,17.4,45.7,36.3,25.4
+2022,1000,University of Northern British Columbia (UNBC),Canada,913.0,0.243099,-87.0,0.379025,0.121734,21.0,20.1,43.5,35.2,40.8
+2022,1001,Czech University of Life Sciences Prague (CZU),Czech Republic,1087.0,0.242868,86.0,0.37122,0.119078,17.5,13.7,31.9,50.4,64.5
+2022,1002,Masaryk University,Czech Republic,862.0,0.242781,-140.0,0.372021,0.119278,23.5,27.8,31.4,36.2,64.9
+2022,1003,"University of Nevada, Las Vegas",United States,816.0,0.24249,-187.0,0.372673,0.119298,29.8,24.0,40.7,35.4,31.1
+2022,1004,Baylor University,United States,824.0,0.242062,-180.0,0.377599,0.120594,32.4,18.1,42.4,35.3,34.6
+2022,1005,South Ural State University,Russian Federation,1050.0,0.241411,45.0,0.383973,0.122195,17.3,11.8,46.2,40.6,32.6
+2022,1006,The New School,United States,920.0,0.241293,-86.0,0.374397,0.11907,25.1,15.9,40.4,39.8,50.7
+2022,1007,University of Split,Croatia,1016.0,0.239902,9.0,0.389738,0.123009,16.9,13.1,46.4,35.8,38.0
+2022,1008,University of East London,United Kingdom,970.0,0.239753,-38.0,0.39062,0.123186,23.5,15.1,32.3,35.0,80.9
+2022,1009,"University of the Andes, Colombia",Colombia,955.0,0.239497,-54.0,0.37601,0.118413,21.6,17.1,39.2,39.3,55.5
+2022,1010,Kazan National Research Technical University,Russian Federation,1211.0,0.239477,201.0,0.371973,0.117129,18.3,10.9,31.9,57.9,31.7
+2022,1011,University of Pécs,Hungary,885.0,0.239448,-126.0,0.383166,0.120634,32.8,11.5,39.1,36.8,56.5
+2022,1012,Lebanese American University,Lebanon,952.0,0.239418,-60.0,0.396663,0.124862,30.8,10.9,29.2,34.8,86.0
+2022,1013,Alexandria University,Egypt,1008.0,0.238761,-5.0,0.384112,0.120476,18.5,12.8,43.8,38.6,45.4
+2022,1014,National Taiwan Ocean University,Taiwan,1238.0,0.238651,224.0,0.367133,0.115081,19.3,22.4,16.8,62.2,31.4
+2022,1015,Lorestan University,Iran,1014.0,0.238241,-1.0,0.395359,0.123649,21.9,11.3,48.0,35.0,19.1
+2022,1016,University of Technology of Compiègne,France,1041.0,0.238191,25.0,0.388011,0.121317,23.4,10.9,28.6,42.1,83.9
+2022,1017,Chiang Mai University,Thailand,1100.0,0.237919,83.0,0.36257,0.113193,25.2,17.6,25.9,57.9,34.4
+2022,1018,Hiroshima University,Japan,919.0,0.237873,-99.0,0.35749,0.111579,31.1,21.8,30.4,49.5,40.0
+2022,1019,Minia University,Egypt,1084.0,0.237859,65.0,0.399534,0.124692,14.9,8.0,46.5,34.9,45.0
+2022,1020,Rochester Institute of Technology,United States,953.0,0.237795,-67.0,0.379861,0.11851,20.5,19.1,42.4,36.2,41.1
+2022,1021,Old Dominion University,United States,929.0,0.237731,-92.0,0.382227,0.119206,23.4,19.2,43.7,34.8,31.1
+2022,1022,VIT University,India,981.0,0.237215,-41.0,0.385166,0.119781,22.3,15.0,45.4,36.8,27.0
+2022,1023,University of the South Pacific,Fiji,1102.0,0.236937,79.0,0.377302,0.117155,16.0,12.6,32.7,47.8,66.0
+2022,1024,Teesside University,United Kingdom,1020.0,0.236755,-4.0,0.392255,0.121676,16.8,12.7,40.8,35.0,61.6
+2022,1025,University of Concepción,Chile,1188.0,0.236374,163.0,0.370954,0.114826,16.7,13.3,28.3,56.1,50.4
+2022,1026,University of Jeddah,Saudi Arabia,1073.0,0.236331,47.0,0.400357,0.123897,17.1,8.4,38.5,34.8,72.2
+2022,1027,Shahrekord University,Iran,1077.0,0.235916,50.0,0.396039,0.12228,16.7,12.3,47.8,35.9,17.8
+2022,1028,Kent State University,United States,933.0,0.235,-95.0,0.381112,0.117074,23.6,18.3,41.8,35.6,40.2
+2022,1029,Shiraz University,Iran,957.0,0.234884,-72.0,0.365187,0.112109,24.7,23.9,37.1,44.4,22.1
+2022,1030,Rikkyo University,Japan,1075.0,0.233421,45.0,0.397263,0.120965,16.9,8.6,44.1,35.5,48.8
+2022,1031,National Institute of Technology Rourkela,India,988.0,0.2334,-43.0,0.387915,0.118105,24.1,15.3,44.9,36.3,18.4
+2022,1032,University of Texas at El Paso,United States,927.0,0.233273,-105.0,0.378333,0.115106,20.6,24.4,38.5,34.8,42.7
+2022,1033,Universiti Malaysia Perlis,Malaysia,1046.0,0.232995,13.0,0.395726,0.120211,20.0,10.6,46.3,35.1,29.3
+2022,1034,Staffordshire University,United Kingdom,1031.0,0.232615,-3.0,0.393755,0.119358,18.3,11.4,42.4,34.9,52.1
+2022,1035,University of South Bohemia in České Budějovice,Czech Republic,997.0,0.23213,-38.0,0.388226,0.117362,18.8,15.7,41.4,34.8,49.4
+2022,1036,University of Las Palmas de Gran Canaria,Spain,1038.0,0.231949,2.0,0.392481,0.118528,16.8,13.5,44.0,34.8,41.5
+2022,1037,"China University of Geosciences, Beijing",China,986.0,0.231704,-51.0,0.368119,0.111018,27.0,17.7,37.2,46.7,25.1
+2022,1038,KL University,India,1124.0,0.231463,86.0,0.40405,0.121689,16.2,8.8,47.9,35.1,16.5
+2022,1039,Chapman University,United States,847.0,0.231437,-192.0,0.38528,0.11602,38.1,12.9,38.7,35.1,41.3
+2022,1040,Huaqiao University,China,1068.0,0.231346,28.0,0.391311,0.117775,15.4,12.2,39.8,37.1,59.1
+2022,1041,University of Debrecen,Hungary,896.0,0.231329,-145.0,0.377403,0.113578,34.3,14.0,32.3,40.6,61.1
+2022,1042,Bowling Green State University,United States,1021.0,0.2311,-21.0,0.393765,0.11835,20.6,13.0,45.5,34.8,26.0
+2022,1043,Saint Petersburg State University,Russian Federation,768.0,0.230886,-275.0,0.368715,0.110687,43.7,34.1,16.4,40.1,43.4
+2022,1044,Cardiff Metropolitan University,United Kingdom,1030.0,0.230859,-14.0,0.392008,0.117662,18.8,12.7,37.0,36.0,66.6
+2022,1045,University of Wolverhampton,United Kingdom,1039.0,0.230573,-6.0,0.393807,0.118011,17.4,13.5,36.7,35.0,67.9
+2022,1046,Ilmenau University of Technology,Germany,1056.0,0.230406,10.0,0.368342,0.110277,25.5,17.4,23.7,51.9,60.5
+2022,1047,Kaohsiung Medical University,Taiwan,1043.0,0.230366,-4.0,0.360108,0.107787,24.1,24.9,27.0,52.8,27.6
+2022,1048,AGH University of Krakow,Poland,1249.0,0.230269,201.0,0.37207,0.111307,21.8,17.2,20.3,61.4,23.8
+2022,1049,University of Vigo,Spain,1006.0,0.23014,-43.0,0.379885,0.113562,19.4,15.9,40.3,39.9,43.4
+2022,1050,University of Chile,Chile,965.0,0.230121,-85.0,0.374788,0.112026,23.8,18.1,36.7,40.3,50.4
+2022,1051,King George’s Medical University,India,1017.0,0.229328,-34.0,0.393635,0.117134,26.9,10.3,44.7,37.3,15.4
+2022,1052,Jamia Hamdard University,India,1055.0,0.229191,3.0,0.389846,0.115916,19.1,12.2,44.3,38.0,29.2
+2022,1053,Tokushima University,Japan,1282.0,0.229025,229.0,0.375243,0.111469,23.8,18.0,15.0,62.8,24.3
+2022,1054,University of Technology of Troyes,France,1052.0,0.22873,-2.0,0.383778,0.113815,24.1,10.7,30.6,43.8,70.4
+2022,1055,University of Puerto Rico,Puerto Rico,1044.0,0.227646,-11.0,0.392433,0.115667,21.5,9.5,42.4,37.1,43.2
+2022,1056,Ozyegin University,Turkey,1029.0,0.227569,-27.0,0.390341,0.115,18.9,13.2,41.3,36.0,47.2
+2022,1057,Ain Shams University,Egypt,1032.0,0.226852,-25.0,0.39367,0.115508,22.1,10.4,43.3,35.9,36.9
+2022,1058,Lovely Professional University,India,1127.0,0.225467,69.0,0.401489,0.116873,16.3,9.1,45.8,36.1,22.0
+2022,1059,Shiraz University of Medical Sciences,Iran,932.0,0.225104,-127.0,0.394149,0.114498,37.2,10.9,41.0,34.8,18.9
+2022,1060,University of Trás-os-Montes and Alto Douro,Portugal,942.0,0.224924,-118.0,0.378355,0.109797,20.6,28.1,33.6,34.8,43.4
+2022,1061,"Vietnam National University, Hanoi",Vietnam,1059.0,0.224861,-2.0,0.393429,0.11413,19.4,10.5,41.5,36.6,45.6
+2022,1062,University of Salamanca,Spain,964.0,0.224823,-98.0,0.379927,0.110189,23.9,19.1,34.7,37.5,55.1
+2022,1063,"Visvesvaraya National Institute of Technology, Nagpur",India,1183.0,0.224604,120.0,0.374799,0.108566,24.6,13.0,29.4,56.1,16.7
+2022,1064,Marquette University,United States,893.0,0.224527,-171.0,0.381698,0.110515,35.3,16.3,38.3,37.1,27.2
+2022,1065,Public University of Navarre,Spain,1040.0,0.224277,-25.0,0.388082,0.112202,19.2,13.4,40.1,37.6,46.2
+2022,1066,Normandy University,France,996.0,0.222954,-70.0,0.388222,0.111391,22.5,15.1,36.7,35.8,55.8
+2022,1067,Shanghai University of Finance and Economics (SUFE),China,1001.0,0.222862,-66.0,0.383721,0.110041,24.3,13.6,38.9,39.0,42.8
+2022,1068,Hyogo College of Medicine,Japan,1011.0,0.221809,-57.0,0.386162,0.110068,27.3,13.9,40.9,39.6,16.9
+2022,1069,National University of Colombia,Colombia,1035.0,0.221509,-34.0,0.391848,0.111495,20.3,14.1,41.4,35.3,36.9
+2022,1070,Novosibirsk State University,Russian Federation,819.0,0.22128,-251.0,0.371923,0.105685,38.6,32.1,20.2,38.3,43.7
+2022,1071,Óbuda University,Hungary,1080.0,0.221201,9.0,0.390135,0.110809,15.7,14.5,41.0,37.4,38.6
+2022,1072,Institut Teknologi Sepuluh Nopember,Indonesia,1353.0,0.221033,281.0,0.381647,0.108293,19.0,13.1,16.5,61.4,38.4
+2022,1073,North China Electric Power University,China,1189.0,0.220992,116.0,0.371759,0.105462,18.5,18.9,29.1,54.3,18.1
+2022,1074,Pusan National University,South Korea,931.0,0.220909,-143.0,0.363647,0.103111,31.8,30.4,24.3,45.6,26.0
+2022,1075,Sogang University,South Korea,1023.0,0.220812,-52.0,0.362967,0.10286,25.9,25.7,23.2,50.8,37.6
+2022,1076,Al-Azhar University,Egypt,1124.0,0.220746,48.0,0.401982,0.113873,14.4,9.3,41.5,34.8,47.4
+2022,1077,Florida Institute of Technology,United States,963.0,0.220495,-114.0,0.379575,0.107368,28.1,16.6,32.9,39.4,54.9
+2022,1078,SWPS University,Poland,1066.0,0.220337,-12.0,0.393898,0.111318,16.2,14.9,37.8,34.8,54.5
+2022,1079,National Chiayi University,Taiwan,1553.0,0.220257,474.0,0.392672,0.110919,15.5,13.0,12.1,65.0,18.8
+2022,1080,American University in Cairo,Egypt,945.0,0.22004,-135.0,0.38075,0.107416,25.0,29.5,22.5,36.0,63.4
+2022,1081,St Petersburg Electrotechnical University (LETI),Russian Federation,1338.0,0.219914,257.0,0.381253,0.107479,20.0,14.4,14.9,61.4,38.0
+2022,1082,University of Delhi,India,860.0,0.219767,-222.0,0.382958,0.107867,37.6,22.4,34.7,34.8,17.8
+2022,1083,Istanbul University,Turkey,1026.0,0.219416,-57.0,0.369271,0.103799,23.4,20.4,32.9,46.7,30.8
+2022,1084,Savitribai Phule Pune University,India,875.0,0.219293,-209.0,0.378643,0.106357,35.0,26.2,32.8,36.2,16.4
+2022,1085,Mississippi State University,United States,1024.0,0.219132,-61.0,0.3811,0.106947,20.8,18.1,38.8,39.8,29.6
+2022,1086,University of Zaragoza,Spain,1014.0,0.218636,-72.0,0.383523,0.107315,21.6,15.8,38.1,38.9,40.6
+2022,1087,Portland State University,United States,985.0,0.218525,-102.0,0.384029,0.107387,22.9,20.1,38.5,36.1,30.3
+2022,1088,Tokyo Medical University,Japan,1010.0,0.217992,-78.0,0.393448,0.109677,28.2,12.7,41.2,36.2,18.1
+2022,1089,Rowan University,United States,1061.0,0.217982,-28.0,0.399517,0.111363,24.8,8.1,42.1,35.5,30.7
+2022,1090,Morgan State University,United States,1057.0,0.217886,-33.0,0.396691,0.110512,21.2,10.6,39.5,35.1,47.1
+2022,1091,Vilnius Gediminas Technical University (Vilnius Tech),Lithuania,1089.0,0.217558,-2.0,0.384362,0.106872,17.6,13.7,36.2,41.7,49.0
+2022,1092,Chiba University,Japan,1053.0,0.217502,-39.0,0.36971,0.102764,25.5,18.6,31.4,48.9,27.9
+2022,1093,Universitas Pendidikan Indonesia,Indonesia,1150.0,0.217173,57.0,0.404579,0.112239,17.2,9.3,44.1,35.6,17.5
+2022,1094,Assiut University,Egypt,1104.0,0.217023,10.0,0.400831,0.111101,17.0,9.7,40.3,34.8,46.8
+2022,1095,Carlos III University of Madrid,Spain,994.0,0.216445,-101.0,0.380093,0.104995,25.3,18.6,28.4,40.5,62.3
+2022,1096,Tshwane University of Technology,South Africa,1110.0,0.216171,14.0,0.389413,0.107395,16.2,12.2,38.3,40.2,44.5
+2022,1097,Shahrood University of Technology,Iran,1009.0,0.216071,-88.0,0.389871,0.107458,23.8,16.8,40.0,35.6,24.4
+2022,1098,Guangxi University,China,1164.0,0.215207,66.0,0.389572,0.106829,16.3,11.7,40.1,43.1,22.0
+2022,1099,University Rey Juan Carlos,Spain,1134.0,0.213121,35.0,0.398071,0.107815,14.8,11.3,39.9,36.5,41.4
+2022,1100,Technological University Dublin,Ireland,1116.0,0.213057,16.0,0.40233,0.108926,17.0,12.0,30.8,35.1,71.3
+2022,1101,Comenius University in Bratislava,Slovakia,1022.0,0.213028,-79.0,0.393533,0.106527,23.3,13.5,35.5,35.1,53.0
+2022,1102,Chengdu University,China,1176.0,0.212963,74.0,0.400981,0.1085,15.8,9.8,42.4,37.8,20.7
+2022,1103,Ibn Tofaïl University,Morocco,1081.0,0.212944,-22.0,0.394946,0.106856,23.9,10.0,40.6,38.2,24.8
+2022,1104,University of Ghana,Ghana,1119.0,0.212218,15.0,0.378239,0.101893,18.2,15.6,30.6,46.8,48.8
+2022,1105,Université Polytechnique Hauts-de-France,France,1182.0,0.212069,77.0,0.407407,0.109652,15.9,8.3,30.3,36.1,73.9
+2022,1106,University of Seville,Spain,1034.0,0.211773,-72.0,0.383146,0.10294,19.8,19.3,34.2,38.4,46.0
+2022,1107,University of León,Spain,1095.0,0.211481,-12.0,0.392839,0.10536,18.2,12.4,37.5,37.8,45.6
+2022,1108,Suranaree University of Technology,Thailand,1260.0,0.210766,152.0,0.378043,0.100957,20.9,14.9,21.3,57.3,31.2
+2022,1109,University of Castilla-La Mancha,Spain,1069.0,0.210561,-40.0,0.391672,0.104468,20.1,14.2,38.0,36.8,39.2
+2022,1110,Shiga University of Medical Science,Japan,1088.0,0.210238,-22.0,0.386745,0.102953,26.5,10.8,37.0,43.7,21.3
+2022,1111,Indian Institute of Technology Bhubaneswar,India,1060.0,0.210145,-51.0,0.395942,0.105343,24.9,13.1,40.0,36.1,18.8
+2022,1112,University of Murcia,Spain,1062.0,0.210099,-50.0,0.389852,0.103693,19.5,15.7,37.1,37.0,40.7
+2022,1113,Creighton University,United States,915.0,0.210015,-198.0,0.390507,0.103815,40.5,13.6,34.1,36.1,25.5
+2022,1114,"Indian Institute of Science Education and Research, Pune",India,917.0,0.209631,-197.0,0.387739,0.102841,38.7,15.7,34.0,36.5,24.3
+2022,1115,Robert Gordon University,United Kingdom,1159.0,0.208996,44.0,0.404293,0.106821,16.7,12.5,25.9,36.4,77.5
+2022,1116,Kyoto Prefectural University of Medicine,Japan,1049.0,0.208988,-67.0,0.381597,0.100819,29.5,14.9,34.6,44.1,17.0
+2022,1117,K.N. Toosi University of Technology,Iran,1042.0,0.208691,-75.0,0.376632,0.099329,21.3,23.2,32.9,42.0,25.7
+2022,1118,Gdańsk University of Technology,Poland,1123.0,0.208011,5.0,0.382109,0.100358,18.7,15.5,35.3,44.6,28.1
+2022,1119,Guru Jambheshwar University of Science and Technology,India,1136.0,0.207828,17.0,0.407156,0.106818,22.6,8.5,41.5,34.8,15.3
+2022,1120,Indian Institute of Technology Mandi,India,1091.0,0.207495,-29.0,0.400973,0.104983,23.3,10.8,40.3,35.2,22.2
+2022,1121,University of Social Welfare and Rehabilitation Sciences,Iran,1004.0,0.207448,-117.0,0.379509,0.099335,27.3,17.6,33.6,41.4,32.4
+2022,1122,University of Almería,Spain,1065.0,0.207011,-57.0,0.38878,0.101492,19.0,17.4,35.2,37.1,43.1
+2022,1123,SASTRA University,India,1197.0,0.206596,74.0,0.393661,0.102506,18.7,9.9,38.3,43.6,16.9
+2022,1124,Atatürk University,Turkey,1129.0,0.206513,5.0,0.399124,0.103876,18.2,13.5,40.2,36.2,19.1
+2022,1125,University of South Wales,United Kingdom,1145.0,0.206125,20.0,0.401653,0.104287,17.0,11.1,30.9,36.5,65.9
+2022,1126,Shahid Rajaee Teacher Training University,Iran,1228.0,0.204723,102.0,0.380272,0.097891,16.5,16.0,29.7,51.2,22.5
+2022,1127,University of Brasília,Brazil,1063.0,0.204497,-64.0,0.385763,0.099167,26.2,13.0,35.0,41.7,31.5
+2022,1128,University of South Africa,South Africa,949.0,0.203835,-179.0,0.38216,0.097841,28.6,26.1,28.4,35.6,37.4
+2022,1129,Ocean University of China,China,1082.0,0.20363,-47.0,0.381953,0.097664,23.5,16.1,34.0,43.5,26.2
+2022,1130,University of Žilina,Slovakia,1078.0,0.203064,-52.0,0.385393,0.0982,20.9,16.8,34.9,40.3,32.8
+2022,1131,National University of San Martín,Argentina,1143.0,0.202713,12.0,0.40207,0.102228,17.2,10.5,37.7,35.5,40.7
+2022,1132,Medical University of Warsaw,Poland,1072.0,0.202671,-60.0,0.390275,0.099203,28.3,10.7,35.5,40.8,28.7
+2022,1133,Tokyo University of Agriculture and Technology,Japan,1114.0,0.202401,-19.0,0.373742,0.094842,28.9,26.3,13.9,52.5,28.8
+2022,1134,Xiangtan University,China,1174.0,0.202389,40.0,0.39698,0.100731,15.5,13.5,38.7,38.5,22.3
+2022,1135,Autonomous University of Sinaloa,Mexico,1255.0,0.202312,120.0,0.384118,0.097421,18.2,12.2,29.3,52.0,23.8
+2022,1136,Kharkiv National University of Radio Electronics,Ukraine,1157.0,0.20229,21.0,0.404941,0.102688,18.5,9.1,39.4,35.3,30.5
+2022,1137,Dr B.R. Ambedkar National Institute of Technology Jalandhar,India,1178.0,0.202049,41.0,0.404338,0.102383,16.7,13.2,39.9,35.4,13.8
+2022,1138,Beijing University of Technology,China,1194.0,0.201996,56.0,0.375812,0.095128,25.1,20.9,19.2,54.5,21.6
+2022,1139,University of South Dakota,United States,980.0,0.201666,-159.0,0.390965,0.098761,33.7,16.2,33.9,35.7,25.3
+2022,1140,Kazan National Research Technological University,Russian Federation,1429.0,0.20161,289.0,0.390699,0.09866,18.1,9.7,18.6,58.7,30.5
+2022,1141,The Islamia University of Bahawalpur,Pakistan,1093.0,0.201395,-48.0,0.401059,0.101141,22.6,10.5,36.7,34.8,40.3
+2022,1142,Bharathiar University,India,975.0,0.201264,-167.0,0.394917,0.09951,37.1,14.3,33.7,34.9,22.5
+2022,1143,Waseda University,Japan,961.0,0.200831,-182.0,0.378098,0.095016,31.6,24.3,24.4,39.7,44.1
+2022,1144,Université Saint-Joseph de Beyrouth,Lebanon,1138.0,0.20069,-6.0,0.400026,0.100438,24.9,9.9,22.9,40.4,72.2
+2022,1145,Jadavpur University,India,982.0,0.199758,-163.0,0.377094,0.094131,35.6,24.3,25.0,43.3,16.0
+2022,1146,Pontifícia Universidade Católica do Paraná,Brazil,1122.0,0.199725,-24.0,0.396067,0.098847,20.5,12.4,37.4,38.0,27.2
+2022,1147,Czech Technical University in Prague,Czech Republic,1169.0,0.199657,22.0,0.382862,0.09551,22.4,15.9,20.1,49.1,57.3
+2022,1148,Qassim University,Saudi Arabia,1216.0,0.198922,68.0,0.412093,0.10233,18.8,8.1,24.8,36.1,75.3
+2022,1149,"National Institute of Technology, Tiruchirappalli",India,1076.0,0.198822,-73.0,0.390611,0.096935,26.1,13.7,35.4,39.7,23.2
+2022,1150,IPB University,Indonesia,1320.0,0.198632,170.0,0.389707,0.096595,25.2,10.3,14.6,56.9,42.6
+2022,1151,Florida Agricultural and Mechanical University,United States,991.0,0.19837,-160.0,0.39548,0.097865,34.9,12.6,33.2,35.4,31.6
+2022,1152,Tallinn University,Estonia,1099.0,0.197671,-53.0,0.398464,0.09817,19.8,20.7,21.4,35.3,69.5
+2022,1153,University of Pau and Pays de l’Adour,France,1210.0,0.197432,57.0,0.398925,0.098136,17.6,11.9,23.4,41.6,70.1
+2022,1154,Atılım University,Turkey,1187.0,0.197352,33.0,0.404465,0.099448,16.5,9.3,36.8,36.1,39.9
+2022,1155,Kwame Nkrumah University of Science and Technology,Ghana,1155.0,0.197258,0.0,0.401304,0.098612,14.6,14.1,34.3,34.9,47.3
+2022,1156,Saitama Medical University,Japan,1150.0,0.196726,-6.0,0.401733,0.098387,24.2,9.1,37.5,38.6,15.7
+2022,1157,Aichi Medical University,Japan,1106.0,0.196185,-51.0,0.394919,0.096387,25.8,12.0,35.8,39.6,18.5
+2022,1158,Taif University,Saudi Arabia,1234.0,0.196042,76.0,0.410242,0.100036,15.3,9.7,25.8,36.5,71.8
+2022,1159,Bangladesh Agricultural University (BAU),Bangladesh,1198.0,0.195959,39.0,0.402072,0.097992,17.1,8.3,34.5,38.5,46.2
+2022,1160,University of La Frontera,Chile,1111.0,0.195712,-49.0,0.395819,0.096317,15.3,19.9,30.6,34.8,49.6
+2022,1161,University of Primorska,Slovenia,1144.0,0.195637,-17.0,0.400951,0.097519,17.4,14.8,27.3,36.0,64.1
+2022,1162,Toyohashi University of Technology (TUT),Japan,1268.0,0.195543,106.0,0.38103,0.092619,22.1,20.4,14.1,55.4,32.7
+2022,1163,Ilia State University,Georgia,1204.0,0.194093,41.0,0.409166,0.098543,16.6,8.0,34.6,34.9,48.4
+2022,1164,Sechenov University,Russian Federation,1058.0,0.193771,-106.0,0.391022,0.093979,27.8,13.6,28.9,39.1,49.6
+2022,1165,Universidad Católica San Antonio de Murcia (UCAM),Spain,1193.0,0.193618,28.0,0.386271,0.092746,16.6,15.1,28.8,45.2,44.0
+2022,1166,University of Malaga,Spain,1147.0,0.193316,-19.0,0.397978,0.095372,17.9,12.7,34.3,37.4,40.6
+2022,1166,Chung Yuan Christian University,Taiwan,1130.0,0.193316,-36.0,0.381307,0.091377,17.1,22.0,26.5,43.7,41.7
+2022,1168,Isfahan University of Medical Sciences,Iran,990.0,0.193275,-178.0,0.397756,0.095294,39.7,12.9,31.0,35.9,20.0
+2022,1169,Northwest University,China,1133.0,0.193104,-36.0,0.395338,0.094611,22.1,12.0,35.2,39.4,27.3
+2022,1170,Jilin University,China,1074.0,0.1924,-96.0,0.384749,0.091661,27.6,17.2,30.9,42.3,22.2
+2022,1171,Osmania University,India,1025.0,0.192313,-146.0,0.390526,0.092985,35.3,14.7,30.8,40.0,17.0
+2022,1172,Federico Santa María Technical University,Chile,1225.0,0.192047,53.0,0.397291,0.094435,14.3,12.0,28.7,41.3,56.1
+2022,1173,Universiti Tunku Abdul Rahman (UTAR),Malaysia,1166.0,0.191762,-7.0,0.396065,0.09397,16.6,14.2,34.5,38.4,34.2
+2022,1174,Kyushu Institute of Technology (Kyutech),Japan,1259.0,0.191745,85.0,0.384819,0.091292,19.4,13.4,24.1,51.9,33.9
+2022,1175,University of Guilan,Iran,1071.0,0.191663,-104.0,0.391761,0.092889,25.6,18.5,33.1,37.4,19.1
+2022,1176,Khon Kaen University,Thailand,1265.0,0.191407,89.0,0.384469,0.09101,24.1,14.2,18.7,54.5,31.7
+2022,1177,"University of the Andes, Chile",Chile,1149.0,0.191249,-28.0,0.400472,0.094702,17.8,12.9,32.3,36.2,48.1
+2022,1178,Pontifical Catholic University of Valparaíso,Chile,1141.0,0.191076,-37.0,0.382289,0.090301,17.4,25.2,20.4,43.9,49.3
+2022,1179,Federal University of Pelotas,Brazil,1184.0,0.190926,5.0,0.406325,0.095885,18.4,12.2,37.2,34.8,20.5
+2022,1180,University of Manouba,Tunisia,1179.0,0.19064,-1.0,0.408252,0.096161,19.7,8.2,34.5,34.8,43.3
+2022,1181,Lebanese University,Lebanon,1168.0,0.190511,-13.0,0.41396,0.097424,25.9,12.5,16.0,34.9,78.2
+2022,1182,San Jose State University,United States,1138.0,0.19009,-44.0,0.401192,0.094162,19.1,13.1,33.3,35.3,42.7
+2022,1183,Semnan University,Iran,1128.0,0.190013,-55.0,0.405396,0.095101,24.6,11.5,36.2,34.8,18.0
+2022,1184,University of A Coruña,Spain,1131.0,0.189876,-53.0,0.39506,0.092594,18.7,15.8,33.6,37.5,33.4
+2022,1185,Central University of Finance and Economics,China,1135.0,0.18963,-50.0,0.393506,0.092082,21.9,12.4,32.5,40.2,36.9
+2022,1186,Jeonbuk National University,South Korea,1090.0,0.189496,-96.0,0.380554,0.088973,23.2,21.4,27.1,43.7,30.2
+2022,1187,University of Botswana,Botswana,1209.0,0.189437,22.0,0.408684,0.095514,16.6,12.0,26.0,35.2,66.1
+2022,1188,University of Zagreb,Croatia,1163.0,0.18932,-25.0,0.38781,0.090566,20.5,14.0,30.3,44.1,35.2
+2022,1189,Bahauddin Zakariya University,Pakistan,1217.0,0.187907,28.0,0.407017,0.094178,14.8,11.2,34.5,35.0,40.2
+2022,1190,Austral University of Chile,Chile,1235.0,0.187816,45.0,0.390642,0.090335,16.3,13.8,24.9,45.8,51.7
+2022,1191,Unisinos University,Brazil,1208.0,0.187792,17.0,0.384232,0.088839,26.6,14.4,23.1,51.3,22.8
+2022,1192,Universidad Andrés Bello (UNAB),Chile,1233.0,0.187679,41.0,0.410313,0.094799,14.9,8.9,33.1,35.0,48.1
+2022,1193,Chonnam National University,South Korea,1083.0,0.187612,-110.0,0.383748,0.088622,23.0,21.4,28.2,41.2,30.7
+2022,1194,Babeş-Bolyai University,Romania,1121.0,0.187556,-73.0,0.398036,0.091888,19.4,15.6,31.2,35.8,44.4
+2022,1195,Pontifical Catholic University of Peru,Peru,1165.0,0.187191,-30.0,0.405335,0.093349,20.9,9.3,32.8,35.8,44.3
+2022,1196,Ming Chi University of Technology,Taiwan,1244.0,0.187184,48.0,0.3843,0.088501,17.3,17.8,25.8,49.5,22.8
+2022,1197,Universidade Federal do ABC (UFABC),Brazil,1171.0,0.186769,-26.0,0.40202,0.092329,17.2,13.7,34.0,35.6,35.5
+2022,1198,Kumamoto University,Japan,1120.0,0.186564,-78.0,0.384826,0.088261,25.8,15.1,27.6,45.2,32.2
+2022,1199,University of Cadiz,Spain,1132.0,0.186508,-67.0,0.396529,0.090912,18.3,16.6,31.7,36.5,39.4
+2022,1200,National Chengchi University,Taiwan,1097.0,0.186411,-103.0,0.385746,0.088383,25.1,28.5,12.6,42.7,50.0
+2022,1201,Escuela Superior Politécnica del Litoral,Ecuador,1222.0,0.185751,21.0,0.409882,0.093505,16.6,9.3,30.3,35.2,54.7
+2022,1202,National Chung Hsing University,Taiwan,1214.0,0.185317,12.0,0.38082,0.086626,22.7,21.5,17.9,51.2,29.1
+2022,1203,University of Mazandaran,Iran,1092.0,0.184659,-111.0,0.395596,0.089595,26.7,14.1,32.1,37.8,27.2
+2022,1204,"Adam Mickiewicz University, Poznań",Poland,1108.0,0.184614,-96.0,0.393566,0.089109,20.8,18.4,31.2,37.1,32.0
+2022,1205,Hamamatsu University School of Medicine,Japan,1094.0,0.184011,-111.0,0.394847,0.089041,26.8,15.8,31.9,38.1,20.1
+2022,1206,St Marianna University School of Medicine,Japan,1170.0,0.183641,-36.0,0.410514,0.092346,25.8,8.6,35.1,34.9,17.4
+2022,1207,Pavol Jozef Šafárik University in Košice,Slovakia,1079.0,0.183281,-128.0,0.412297,0.092524,38.8,10.0,16.3,34.9,64.4
+2022,1208,National Dong Hwa University,Taiwan,1118.0,0.182552,-90.0,0.390569,0.087222,18.4,22.0,26.1,38.3,43.3
+2022,1209,Federal University of Lavras,Brazil,1280.0,0.182078,71.0,0.387221,0.086199,25.5,16.9,15.8,54.0,22.0
+2022,1210,Adolfo Ibáñez University,Chile,1213.0,0.181505,3.0,0.404012,0.089592,15.5,15.1,25.1,36.6,59.6
+2022,1211,Hellenic Open University,Greece,1224.0,0.181171,13.0,0.412326,0.09123,19.9,8.0,35.1,34.8,26.6
+2022,1212,Georgia Southern University,United States,1158.0,0.181135,-54.0,0.395413,0.087466,22.0,13.4,31.6,40.1,28.7
+2022,1213,University of Maribor,Slovenia,1172.0,0.180751,-41.0,0.391153,0.0863,18.3,16.8,28.3,41.3,39.3
+2022,1214,University of Toyama,Japan,1223.0,0.179861,9.0,0.387809,0.085048,21.8,14.3,25.5,47.9,28.8
+2022,1215,Technical University of Cartagena,Spain,1180.0,0.179695,-35.0,0.39875,0.087349,20.3,12.2,31.1,39.0,36.7
+2022,1216,Democritus University of Thrace,Greece,1220.0,0.179157,4.0,0.405261,0.088452,16.4,12.7,33.2,36.0,31.8
+2022,1217,Brno University of Technology,Czech Republic,1207.0,0.178988,-10.0,0.392876,0.085651,19.2,17.3,19.9,43.4,56.4
+2022,1218,Ferdowsi University of Mashhad,Iran,1085.0,0.178818,-133.0,0.384063,0.083632,26.7,22.6,23.7,42.4,27.7
+2022,1219,Texas State University,United States,1126.0,0.178731,-93.0,0.394805,0.085921,21.6,16.8,29.7,38.0,34.4
+2022,1220,University of Engineering & Technology (UET) Lahore,Pakistan,1232.0,0.178421,12.0,0.411316,0.089325,17.2,9.2,31.2,34.8,45.5
+2022,1221,Al-Farabi Kazakh National University,Kazakhstan,1221.0,0.178172,0.0,0.410453,0.088986,26.8,10.0,15.3,39.6,70.1
+2022,1222,Port Said University,Egypt,1281.0,0.177757,59.0,0.414737,0.08966,14.4,7.9,32.5,34.8,41.8
+2022,1223,Chang Gung University of Science and Technology,Taiwan,1307.0,0.177362,84.0,0.391689,0.084449,15.1,15.9,26.4,48.1,18.9
+2022,1224,Urmia University,Iran,1154.0,0.176757,-70.0,0.395188,0.08485,23.2,16.0,30.4,40.0,19.3
+2022,1225,MIREA - Russian Technological University,Russian Federation,1652.0,0.176122,427.0,0.414868,0.088687,15.8,10.7,3.4,59.8,19.7
+2022,1226,German University in Cairo,Egypt,1257.0,0.17533,31.0,0.413114,0.08783,16.0,8.9,31.0,34.8,44.2
+2022,1227,University of Seoul,South Korea,1107.0,0.175276,-120.0,0.389924,0.082869,25.2,18.8,26.8,40.4,29.3
+2022,1228,University of West Bohemia,Czech Republic,1191.0,0.175181,-37.0,0.396277,0.084164,18.1,16.6,29.9,39.1,30.4
+2022,1229,University of North Carolina Wilmington,United States,1269.0,0.174744,40.0,0.413332,0.087521,16.8,8.7,33.7,35.2,28.5
+2022,1230,Hasanuddin University,Indonesia,1276.0,0.174151,46.0,0.398622,0.08406,18.7,10.1,29.5,44.3,26.4
+2022,1231,Yokohama National University,Japan,1311.0,0.173952,80.0,0.389944,0.082116,22.6,17.6,13.7,52.9,30.3
+2022,1232,Damghan University,Iran,1240.0,0.173875,8.0,0.407528,0.085773,17.2,13.2,33.1,36.2,19.4
+2022,1233,Amity University,India,1226.0,0.17372,-7.0,0.40838,0.08586,19.4,11.6,33.1,36.0,21.2
+2022,1234,Gubkin Russian State University of Oil and Gas,Russian Federation,1570.0,0.173703,336.0,0.404669,0.085069,17.8,11.1,9.8,57.5,24.1
+2022,1235,Transilvania University of Brașov,Romania,1275.0,0.173509,40.0,0.412533,0.086605,15.1,10.0,33.2,35.2,29.8
+2022,1236,Oakland University,United States,1086.0,0.173356,-150.0,0.401046,0.084104,29.3,14.8,28.1,35.1,33.3
+2022,1237,Zanjan University of Medical Sciences,Iran,1137.0,0.173278,-100.0,0.411207,0.086187,32.2,9.2,30.7,34.8,16.5
+2022,1238,Universidade Estadual Paulista (Unesp),Brazil,1048.0,0.172467,-190.0,0.389007,0.081073,33.4,24.5,18.6,39.6,29.2
+2022,1239,Canterbury Christ Church University,United Kingdom,1200.0,0.171741,-39.0,0.407136,0.08442,19.1,12.9,28.3,35.0,45.3
+2022,1240,Vytautas Magnus University,Lithuania,1333.0,0.171689,93.0,0.424464,0.087981,18.4,13.0,11.2,34.9,76.2
+2022,1241,Muroran Institute of Technology,Japan,1247.0,0.171084,6.0,0.403582,0.083297,17.5,11.1,30.5,39.3,32.8
+2022,1242,Hakim Sabzevari University,Iran,1278.0,0.170581,36.0,0.412361,0.084807,15.8,9.7,32.4,35.7,30.1
+2022,1243,Catholic University of the North,Chile,1267.0,0.169273,24.0,0.412289,0.08401,15.1,12.4,25.4,34.9,54.4
+2022,1244,University of Talca,Chile,1256.0,0.168306,12.0,0.410414,0.083054,16.4,11.8,25.5,36.0,52.9
+2022,1245,Sri Venkateswara University,India,1101.0,0.168035,-144.0,0.409657,0.08274,36.4,9.7,26.9,35.1,23.6
+2022,1246,University of the Punjab,Pakistan,1177.0,0.167751,-69.0,0.405468,0.081727,22.5,13.1,28.8,35.5,35.8
+2022,1247,Kanazawa University,Japan,1103.0,0.167642,-144.0,0.395539,0.079664,27.0,18.8,25.8,37.8,27.5
+2022,1248,Nicolaus Copernicus University in Toruń,Poland,1175.0,0.167124,-73.0,0.400449,0.080354,19.8,18.3,28.0,36.3,29.4
+2022,1249,Perm National Research Polytechnic University,Russian Federation,1600.0,0.166716,351.0,0.412615,0.082553,20.5,10.4,4.2,57.4,24.0
+2022,1250,Londrina State University,Brazil,1387.0,0.166487,137.0,0.396804,0.079258,23.3,13.4,15.3,53.1,20.1
+2022,1251,Yamagata University,Japan,1381.0,0.166372,130.0,0.396608,0.079153,22.6,12.5,15.9,52.7,25.6
+2022,1252,Sakarya University,Turkey,1326.0,0.164877,74.0,0.407502,0.080452,16.0,9.8,30.4,40.7,22.2
+2022,1253,Osaka City University,Japan,1219.0,0.164768,-34.0,0.395579,0.078037,24.6,13.5,25.5,43.9,24.0
+2022,1254,Chungnam National University,South Korea,1192.0,0.164625,-62.0,0.388574,0.076575,24.6,23.6,17.5,45.3,23.5
+2022,1255,Razi University,Iran,1218.0,0.164617,-37.0,0.408298,0.080458,21.3,14.0,30.3,35.4,19.3
+2022,1256,Incheon National University,South Korea,1186.0,0.164383,-70.0,0.397109,0.07812,17.3,26.4,21.6,37.1,29.1
+2022,1257,University of Sargodha,Pakistan,1148.0,0.164172,-109.0,0.408969,0.080329,28.9,10.4,25.5,35.2,41.5
+2022,1258,Medical University of Bialystok,Poland,1109.0,0.163769,-149.0,0.406623,0.079634,37.2,10.0,24.2,37.3,27.5
+2022,1259,Samara National Research University (Samara University),Russian Federation,1229.0,0.163637,-30.0,0.39648,0.077572,21.2,13.8,23.8,43.1,38.6
+2022,1260,Del Rosario University,Colombia,1262.0,0.163172,2.0,0.407754,0.079507,18.2,11.0,25.2,38.2,47.9
+2022,1261,Manipal Academy of Higher Education,India,1146.0,0.162115,-115.0,0.396883,0.07679,29.8,13.6,22.5,41.5,35.5
+2022,1262,Poznan University of Technology,Poland,1278.0,0.1607,16.0,0.405437,0.077628,18.7,12.0,29.0,39.9,21.5
+2022,1263,Tezpur University,India,1161.0,0.160324,-102.0,0.400994,0.076564,22.8,26.2,21.4,35.8,15.7
+2022,1264,Bezmiâlem Vakif University,Turkey,1199.0,0.159955,-65.0,0.405854,0.07728,27.2,11.1,27.6,38.4,21.9
+2022,1265,The Hashemite University,Jordan,1383.0,0.159794,118.0,0.405232,0.077069,14.8,12.3,17.4,44.8,53.4
+2022,1266,Shinshu University,Japan,1230.0,0.159785,-36.0,0.398571,0.075797,21.9,14.1,25.8,41.9,26.8
+2022,1267,The Catholic University of Korea,South Korea,1156.0,0.159744,-111.0,0.39624,0.07533,25.9,19.6,23.8,39.8,19.9
+2022,1268,Showa University,Japan,1202.0,0.159306,-66.0,0.412405,0.078148,29.4,9.6,28.1,36.1,16.9
+2022,1269,PMAS Arid Agriculture University Rawalpindi,Pakistan,1296.0,0.159162,27.0,0.415302,0.078612,15.7,10.5,27.6,34.8,41.2
+2022,1270,Nara Medical University,Japan,1272.0,0.158412,2.0,0.399037,0.07511,26.4,12.2,22.3,46.4,16.3
+2022,1271,L.N. Gumilyov Eurasian National University,Kazakhstan,1322.0,0.158254,51.0,0.418798,0.078737,16.1,10.0,22.6,34.8,55.2
+2022,1272,University of Nigeria Nsukka,Nigeria,1227.0,0.158139,-45.0,0.412175,0.077425,24.1,9.7,28.3,35.6,29.0
+2022,1273,University of Yamanashi,Japan,1203.0,0.157895,-70.0,0.406374,0.076195,25.3,12.5,27.5,37.3,23.6
+2022,1274,Tokyo University of Marine Science and Technology,Japan,1367.0,0.157339,93.0,0.398893,0.07448,23.4,14.7,11.4,50.9,35.1
+2022,1275,I-Shou University,Taiwan,1368.0,0.157286,93.0,0.397442,0.074179,16.4,19.4,12.4,48.2,41.2
+2022,1276,Budapest University of Technology and Economics,Hungary,1291.0,0.157069,15.0,0.397535,0.074075,18.0,15.4,20.5,44.6,39.5
+2022,1277,Yuan Ze University,Taiwan,1310.0,0.157066,33.0,0.39703,0.07398,20.1,13.7,19.9,47.2,33.1
+2022,1278,Escuela Politécnica Nacional,Ecuador,1325.0,0.157062,47.0,0.417548,0.0778,16.7,9.0,23.3,35.9,52.6
+2022,1279,Telkom University,Indonesia,1388.0,0.156944,109.0,0.420446,0.07827,13.8,9.7,31.0,35.3,15.9
+2022,1280,University of Chester,United Kingdom,1271.0,0.156754,-9.0,0.410188,0.076251,18.2,13.4,20.8,37.2,53.4
+2022,1281,Tokyo University of Science,Japan,1252.0,0.156666,-29.0,0.392841,0.072978,23.6,23.1,13.8,46.8,23.0
+2022,1282,Tomsk State University of Control Systems and Radioelectronics,Russian Federation,1413.0,0.156495,131.0,0.400549,0.074313,17.8,11.8,17.8,49.6,33.4
+2022,1283,University of Valladolid,Spain,1243.0,0.156042,-40.0,0.405693,0.07501,20.0,12.7,25.1,38.4,39.2
+2022,1284,Nagasaki University,Japan,1195.0,0.155737,-89.0,0.401002,0.073971,25.9,13.7,23.6,39.8,34.4
+2022,1285,Federal University of Uberlândia,Brazil,1289.0,0.155646,4.0,0.404831,0.074625,21.1,11.1,26.8,41.7,21.1
+2022,1286,University of Alicante,Spain,1215.0,0.15562,-71.0,0.403648,0.074393,20.0,17.1,23.5,36.9,39.5
+2022,1287,University of Tunis El Manar,Tunisia,1196.0,0.155616,-91.0,0.410861,0.07572,26.0,11.6,24.1,35.0,41.3
+2022,1288,Kagawa University,Japan,1246.0,0.155485,-42.0,0.402775,0.074156,21.9,12.3,25.7,40.8,29.2
+2022,1289,Acharya Nagarjuna University,India,1153.0,0.155278,-136.0,0.407412,0.074891,41.1,9.8,17.6,41.4,23.3
+2022,1290,Nagoya City University,Japan,1241.0,0.154972,-49.0,0.396574,0.072729,24.4,15.9,21.9,44.6,20.2
+2022,1291,University of Burgos,Spain,1258.0,0.154807,-33.0,0.40646,0.074448,18.1,13.7,25.7,37.8,36.5
+2022,1292,Université Hassan II de Casablanca,Morocco,1301.0,0.154672,9.0,0.414339,0.075813,19.0,9.3,29.0,36.7,24.9
+2022,1293,Indian Institute of Science Education and Research Bhopal,India,1201.0,0.154398,-92.0,0.40973,0.074812,25.6,14.4,26.9,35.1,18.8
+2022,1294,"University of Chemistry and Technology, Prague",Czech Republic,1245.0,0.154394,-49.0,0.404106,0.073783,24.3,13.6,16.5,41.6,51.4
+2022,1295,University of Lethbridge,Canada,1277.0,0.154337,-18.0,0.415653,0.075859,18.9,13.1,19.8,34.8,55.3
+2022,1296,Federal University of São Carlos,Brazil,1167.0,0.154196,-129.0,0.39644,0.072274,28.9,17.4,20.8,41.6,25.7
+2022,1297,Erzincan Binali Yıldırım University,Turkey,1423.0,0.153294,126.0,0.423983,0.076761,13.4,8.5,30.5,34.8,16.2
+2022,1298,Persian Gulf University,Iran,1349.0,0.153058,51.0,0.41615,0.075206,15.1,10.6,29.3,36.3,22.0
+2022,1299,University of Wrocław,Poland,1212.0,0.152992,-87.0,0.40852,0.073789,21.8,15.4,23.5,35.0,40.3
+2022,1300,Helwan University,Egypt,1346.0,0.152291,46.0,0.419341,0.075335,15.9,8.3,26.5,35.2,40.5
+2022,1301,University of Marrakech Cadi Ayyad,Morocco,1284.0,0.152245,-17.0,0.413861,0.074324,18.9,10.4,25.7,35.9,39.7
+2022,1302,"University of Veterinary and Animal Sciences, Lahore",Pakistan,1270.0,0.151861,-32.0,0.411579,0.073694,17.0,14.9,22.9,35.2,45.1
+2022,1303,National University of Cuyo,Argentina,1295.0,0.151426,-8.0,0.418711,0.074718,20.6,7.8,25.7,34.9,40.2
+2022,1304,Corvinus University of Budapest,Hungary,1287.0,0.151199,-17.0,0.414139,0.073772,17.1,13.6,22.1,35.0,48.4
+2022,1305,"Lumière University, Lyon 2",France,1237.0,0.151164,-68.0,0.415737,0.074036,25.6,18.1,10.4,35.1,58.2
+2022,1306,Saga University,Japan,1354.0,0.150984,48.0,0.399612,0.071064,21.7,13.5,18.2,48.4,23.5
+2022,1307,Vietnam National University (Ho Chi Minh City),Vietnam,1344.0,0.150796,37.0,0.408438,0.072528,15.7,10.9,23.9,40.8,39.5
+2022,1308,Universiti Kuala Lumpur,Malaysia,1332.0,0.150689,24.0,0.413475,0.073361,17.5,8.8,26.1,38.2,36.2
+2022,1309,Bangladesh University of Engineering and Technology,Bangladesh,1290.0,0.150569,-19.0,0.41381,0.073351,18.1,12.9,27.8,35.2,23.8
+2022,1310,Southern Federal University,Russian Federation,1344.0,0.150045,34.0,0.400273,0.070661,21.4,13.1,16.8,47.7,34.0
+2022,1311,Pondicherry University,India,1117.0,0.149844,-194.0,0.408779,0.07205,35.7,19.4,18.7,34.8,15.3
+2022,1312,Selçuk University,Turkey,1364.0,0.149593,52.0,0.420608,0.073988,16.0,9.0,28.8,34.9,24.1
+2022,1313,Far Eastern Federal University,Russian Federation,1320.0,0.149017,7.0,0.408833,0.071592,20.5,11.8,16.8,41.6,51.7
+2022,1314,"University of the North, Colombia",Colombia,1342.0,0.148998,28.0,0.413459,0.072391,16.1,11.9,19.6,38.4,52.2
+2022,1315,University of Mumbai,India,1185.0,0.148875,-130.0,0.405923,0.071002,28.3,28.1,12.4,36.6,15.6
+2022,1316,Sapporo Medical University,Japan,1264.0,0.148607,-52.0,0.405457,0.070771,26.4,12.0,23.7,41.9,15.6
+2022,1317,Toho University,Japan,1286.0,0.14816,-31.0,0.403963,0.070261,20.5,14.7,24.5,41.2,18.9
+2022,1318,Paris Nanterre University,France,1242.0,0.147882,-76.0,0.413241,0.071717,22.0,19.3,13.2,35.0,53.7
+2022,1319,Bu-Ali Sina University,Iran,1293.0,0.146701,-26.0,0.411716,0.070783,17.3,16.0,26.2,35.8,19.6
+2022,1320,SRM Institute of Science and Technology,India,1341.0,0.146575,21.0,0.420722,0.072259,18.7,9.0,28.1,34.9,20.7
+2022,1321,Yarmouk University,Jordan,1248.0,0.146183,-73.0,0.415252,0.071096,25.4,10.4,19.7,36.0,47.6
+2022,1322,Multimedia University,Malaysia,1331.0,0.146061,9.0,0.412473,0.070551,18.7,9.4,24.2,38.9,37.2
+2022,1323,University of Tarapacá,Chile,1327.0,0.145833,4.0,0.415852,0.070999,14.5,17.0,17.8,34.9,51.4
+2022,1324,Hanoi University of Science and Technology,Vietnam,1430.0,0.145772,106.0,0.410385,0.070031,14.5,9.8,20.4,43.3,42.4
+2022,1325,Cracow University of Technology,Poland,1365.0,0.145387,40.0,0.414037,0.070436,18.3,9.3,26.7,39.4,20.1
+2022,1326,Comillas Pontifical University,Spain,1355.0,0.145305,29.0,0.404382,0.068748,17.8,12.9,19.1,44.1,39.1
+2022,1327,Siksha ‘O’ Anusandhan,India,1335.0,0.144729,8.0,0.414503,0.070142,22.3,9.0,26.1,39.4,14.8
+2022,1328,Yanshan University,China,1501.0,0.144195,173.0,0.407077,0.068588,17.3,11.9,16.7,49.8,17.0
+2022,1329,National Chin-Yi University of Technology,Taiwan,1432.0,0.143632,103.0,0.403433,0.067665,16.3,24.8,8.6,46.9,21.0
+2022,1330,Soonchunhyang University,South Korea,1283.0,0.142982,-47.0,0.409866,0.068381,17.0,17.2,23.8,36.1,27.8
+2022,1331,Tomas Bata University in Zlín,Czech Republic,1309.0,0.142834,-22.0,0.407659,0.06793,18.3,18.4,13.7,40.1,49.1
+2022,1332,Federal University of Viçosa,Brazil,1304.0,0.142767,-28.0,0.401412,0.066853,25.7,14.7,16.8,46.3,20.8
+2022,1333,Mohammed V University of Rabat,Morocco,1266.0,0.142442,-67.0,0.404444,0.067179,28.7,11.6,18.8,43.6,26.7
+2022,1334,Belgorod State National Research University,Russian Federation,1467.0,0.142144,133.0,0.408351,0.067662,21.7,11.8,10.0,49.2,38.0
+2022,1335,University of Sfax,Tunisia,1239.0,0.142114,-96.0,0.414771,0.068709,25.2,12.5,20.4,34.8,41.9
+2022,1336,Shahid Bahonar University of Kerman,Iran,1298.0,0.1415,-38.0,0.409263,0.067456,21.6,12.8,24.3,39.5,19.6
+2022,1337,National Chung Cheng University,Taiwan,1346.0,0.141437,9.0,0.400114,0.065914,20.2,21.0,12.8,46.3,23.6
+2022,1338,Technical University of Košice,Slovakia,1398.0,0.141234,60.0,0.405589,0.066704,19.5,13.9,13.1,46.4,41.2
+2022,1339,Jawaharlal Nehru Technological University Anantapur (JNTUA),India,1274.0,0.141136,-65.0,0.417629,0.068628,25.7,11.1,25.1,35.3,15.5
+2022,1340,Ehime University,Japan,1318.0,0.141094,-22.0,0.401993,0.066036,20.9,15.1,19.2,44.3,26.6
+2022,1341,National Taipei University,Taiwan,1302.0,0.140964,-39.0,0.413935,0.067925,18.8,12.8,24.9,36.1,28.0
+2022,1342,Hallym University,South Korea,1317.0,0.140862,-25.0,0.400622,0.065685,19.9,18.4,18.0,44.3,22.3
+2022,1343,University of Hradec Králové,Czech Republic,1324.0,0.140686,-19.0,0.414914,0.067929,17.9,12.6,20.2,36.7,45.7
+2022,1344,Banasthali University,India,1231.0,0.140576,-113.0,0.409786,0.067029,33.2,10.6,19.5,40.5,21.2
+2022,1345,Western Michigan University,United States,1263.0,0.140384,-82.0,0.412426,0.067353,20.7,14.8,22.0,35.3,36.3
+2022,1346,Universitas Sebelas Maret,Indonesia,1319.0,0.140223,-27.0,0.41067,0.066977,18.2,13.5,24.4,38.3,25.0
+2022,1347,Belarusian State University,Belarus,1461.0,0.139734,114.0,0.428204,0.069554,21.3,8.4,8.9,38.5,61.7
+2022,1348,University of Calcutta,India,1251.0,0.139612,-97.0,0.409018,0.06637,35.7,11.9,14.9,43.5,16.4
+2022,1349,University of Pannonia,Hungary,1334.0,0.139099,-15.0,0.416841,0.067351,17.6,12.0,20.9,36.0,44.0
+2022,1350,University of Shanghai for Science and Technology,China,1418.0,0.139091,68.0,0.411526,0.066487,17.5,10.3,23.6,42.6,18.8
+2022,1351,Gebze Technical University,Turkey,1312.0,0.138765,-39.0,0.410397,0.066125,18.9,13.4,23.7,38.5,26.5
+2022,1352,Hungarian University of Agriculture and Life Sciences,Hungary,1337.0,0.138099,-15.0,0.417843,0.066949,20.5,11.2,16.6,37.3,51.1
+2022,1353,University of Valparaíso,Chile,1394.0,0.137705,41.0,0.422669,0.067499,15.5,10.9,19.3,35.0,49.2
+2022,1354,University of South China,China,1358.0,0.137537,4.0,0.407298,0.064952,22.4,12.0,20.5,44.1,18.1
+2022,1355,Anadolu University,Turkey,1292.0,0.137223,-63.0,0.411469,0.065444,23.9,11.8,23.2,38.8,21.3
+2022,1356,Universidade do Estado de Santa Catarina,Brazil,1328.0,0.136887,-28.0,0.420379,0.066671,21.9,10.6,25.3,35.0,17.3
+2022,1357,Chungbuk National University,South Korea,1294.0,0.136543,-63.0,0.403992,0.063885,19.7,17.9,19.4,41.0,26.6
+2022,1358,Lodz University of Technology,Poland,1351.0,0.136324,-7.0,0.406552,0.064171,18.7,13.9,20.9,42.4,25.8
+2022,1359,Universidade Federal da Bahia,Brazil,1261.0,0.1354,-98.0,0.414422,0.0649,23.8,14.3,22.7,35.1,23.7
+2022,1360,Purdue University Northwest,United States,1399.0,0.135165,39.0,0.423232,0.066147,16.1,9.1,23.9,34.8,34.6
+2022,1361,University of Bucharest,Romania,1205.0,0.135015,-156.0,0.407008,0.06353,29.8,17.6,16.1,38.1,30.0
+2022,1362,Universidade Federal de Juiz de Fora,Brazil,1340.0,0.134929,-22.0,0.419799,0.065478,20.0,10.6,24.9,35.4,21.8
+2022,1363,University of Ostrava,Czech Republic,1315.0,0.133864,-48.0,0.417234,0.064485,18.6,14.7,18.6,34.9,43.4
+2022,1364,Dokuz Eylül University,Turkey,1400.0,0.1335,36.0,0.41892,0.064542,17.8,9.9,24.8,37.6,20.0
+2022,1365,Warsaw University of Life Sciences – SGGW,Poland,1409.0,0.133433,44.0,0.416499,0.064132,16.1,10.6,24.0,38.6,25.0
+2022,1366,University of Carthage,Tunisia,1361.0,0.13292,-5.0,0.420036,0.06439,19.8,9.8,19.4,36.4,43.9
+2022,1367,Universidad Industrial de Santander (UIS),Colombia,1406.0,0.132785,39.0,0.422447,0.064684,16.3,9.1,23.0,35.6,35.5
+2022,1368,University of Gdańsk,Poland,1303.0,0.132346,-65.0,0.416082,0.063466,20.0,13.6,21.5,35.3,33.4
+2022,1369,National University of Córdoba,Argentina,1386.0,0.132209,17.0,0.420762,0.064104,16.8,10.3,22.7,35.6,34.9
+2022,1370,"Arab Academy for Science, Technology and Maritime Transport",Egypt,1335.0,0.132036,-35.0,0.422885,0.06433,22.8,8.1,21.6,34.9,35.9
+2022,1371,University of Colorado Colorado Springs,United States,1369.0,0.13195,-2.0,0.418561,0.063625,17.0,12.0,23.8,35.9,26.2
+2022,1372,Tzu Chi University,Taiwan,1463.0,0.131639,91.0,0.407708,0.061806,20.7,16.3,9.3,48.1,27.5
+2022,1373,State University of Ponta Grossa,Brazil,1343.0,0.131381,-30.0,0.422035,0.063834,21.4,9.9,24.0,34.8,22.4
+2022,1374,Nagoya Institute of Technology,Japan,1466.0,0.1311,92.0,0.406959,0.061402,17.9,19.8,9.2,47.0,25.2
+2022,1375,Wrocław University of Science and Technology,Poland,1407.0,0.131042,32.0,0.406347,0.061279,19.3,14.7,16.2,45.4,25.0
+2022,1376,Silesian University of Technology,Poland,1403.0,0.130849,27.0,0.411837,0.062001,17.6,12.6,21.8,41.4,19.7
+2022,1377,Cochin University of Science and Technology,India,1206.0,0.130828,-171.0,0.41636,0.062671,36.7,18.1,12.4,35.9,15.9
+2022,1378,Grand Valley State University,United States,1273.0,0.129762,-105.0,0.421616,0.062867,29.7,9.1,19.9,34.8,28.8
+2022,1379,Kharazmi University,Iran,1253.0,0.129318,-126.0,0.417016,0.061937,29.9,12.1,19.9,36.0,20.8
+2022,1380,Nagaoka University of Technology,Japan,1393.0,0.129293,13.0,0.408361,0.060638,22.7,15.2,10.4,45.5,35.5
+2022,1381,Universiti Tun Hussein Onn Malaysia (UTHM),Malaysia,1329.0,0.128973,-52.0,0.417694,0.061848,18.6,14.3,20.3,34.9,35.2
+2022,1382,The University of Electro-Communications,Japan,1350.0,0.128563,-32.0,0.406339,0.059947,20.8,20.8,10.5,43.1,31.3
+2022,1383,Silpakorn University,Thailand,1484.0,0.128259,101.0,0.411441,0.060535,19.5,10.6,15.6,46.6,25.2
+2022,1384,Mendel University in Brno,Czech Republic,1375.0,0.127416,-9.0,0.419242,0.061218,18.4,16.5,11.9,36.6,49.1
+2022,1385,Seoul National University of Science and Technology (SeoulTech),South Korea,1306.0,0.126997,-79.0,0.407936,0.059343,21.6,17.1,17.6,40.2,26.1
+2022,1386,Kaunas University of Technology,Lithuania,1416.0,0.12676,30.0,0.413492,0.060023,17.4,13.2,15.2,41.3,41.9
+2022,1387,Warsaw University of Technology,Poland,1330.0,0.126537,-57.0,0.410427,0.059458,19.7,15.9,19.0,39.1,28.2
+2022,1388,Gyeongsang National University,South Korea,1313.0,0.126439,-75.0,0.409198,0.059227,21.4,16.0,18.2,39.8,27.5
+2022,1389,Osaka Prefecture University,Japan,1401.0,0.126211,12.0,0.407552,0.058867,21.3,15.5,14.3,45.2,22.6
+2022,1390,National Chi Nan University,Taiwan,1566.0,0.125971,176.0,0.415297,0.059856,18.0,14.3,5.9,49.0,30.3
+2022,1391,VSB - Technical University of Ostrava,Czech Republic,1405.0,0.125849,14.0,0.411451,0.059235,20.7,17.5,8.4,43.3,40.5
+2022,1392,Kochi University of Technology,Japan,1308.0,0.12526,-84.0,0.409359,0.058619,23.9,14.9,15.9,40.8,31.8
+2022,1393,University of Monastir,Tunisia,1395.0,0.125237,2.0,0.425257,0.060883,19.4,10.0,17.5,34.8,44.4
+2022,1394,King Mongkut's University of Technology North Bangkok,Thailand,1442.0,0.125004,48.0,0.417461,0.059639,16.7,10.7,22.0,39.7,21.7
+2022,1394,Arak University,Iran,1288.0,0.125004,-106.0,0.418541,0.059794,28.0,12.3,19.9,36.0,18.4
+2022,1396,Universiti Malaysia Sarawak (UNIMAS),Malaysia,1371.0,0.124966,-25.0,0.424626,0.060642,23.0,10.6,13.5,35.8,48.7
+2022,1397,De La Salle University,Philippines,1358.0,0.12478,-39.0,0.420466,0.059946,19.0,12.9,21.8,34.8,26.0
+2022,1398,Kwansei Gakuin University,Japan,1428.0,0.124409,30.0,0.424374,0.060297,16.8,9.3,21.3,35.5,34.3
+2022,1399,Universidad Politécnica Salesiana,Ecuador,1513.0,0.124365,114.0,0.430925,0.061203,13.0,9.3,16.4,34.8,48.8
+2022,1400,University of the Ryukyus,Japan,1414.0,0.124142,14.0,0.410469,0.058179,20.3,12.9,15.2,43.9,31.2
+2022,1401,Kangwon National University,South Korea,1323.0,0.124087,-78.0,0.411674,0.05832,19.9,18.0,18.5,37.9,22.9
+2022,1402,Tunghai University,Taiwan,1436.0,0.123778,34.0,0.418932,0.05918,16.2,12.1,15.9,38.8,44.0
+2022,1403,Kanazawa Medical University,Japan,1356.0,0.12348,-47.0,0.422814,0.059564,24.7,8.8,21.5,36.2,20.5
+2022,1404,Tokat Gaziosmanpaşa University,Turkey,1480.0,0.123453,76.0,0.42883,0.060396,16.5,8.0,23.7,34.9,20.5
+2022,1405,Universidad Autónoma de Yucatán,Mexico,1508.0,0.12332,103.0,0.414291,0.058277,17.2,10.3,15.1,45.5,30.4
+2022,1406,PSG College of Technology,India,1468.0,0.123214,62.0,0.427385,0.06006,17.6,9.2,23.6,35.4,14.6
+2022,1407,"University of Santiago, Chile (USACH)",Chile,1420.0,0.122988,13.0,0.42007,0.058909,16.2,15.7,12.7,37.2,47.0
+2022,1408,Rzeszów University of Technology,Poland,1476.0,0.122559,68.0,0.424133,0.059242,16.2,9.1,23.0,37.1,20.4
+2022,1409,University of Havana,Cuba,1489.0,0.122387,80.0,0.425315,0.059312,20.6,10.2,8.4,40.2,51.7
+2022,1410,Marmara University,Turkey,1438.0,0.122216,28.0,0.423031,0.0589,17.2,9.6,22.3,36.6,25.0
+2022,1411,Kochi University,Japan,1389.0,0.122144,-22.0,0.415395,0.057798,20.5,11.3,20.0,39.9,24.4
+2022,1412,Kyoto Sangyo University,Japan,1473.0,0.122015,61.0,0.427977,0.059476,15.7,8.7,19.9,34.8,38.5
+2022,1413,University of Dar es Salaam,Tanzania,1496.0,0.121555,83.0,0.430199,0.059529,14.8,9.2,16.1,35.0,47.4
+2022,1414,University of Pernambuco,Brazil,1459.0,0.121209,45.0,0.42612,0.058773,15.6,10.1,22.6,35.0,24.2
+2022,1415,Dumlupinar University,Turkey,1556.0,0.120851,141.0,0.431993,0.059383,12.2,7.4,23.7,35.8,17.2
+2022,1416,Universiti Malaysia Terengganu (UMT),Malaysia,1363.0,0.120823,-53.0,0.419714,0.05768,18.6,14.3,17.9,35.3,36.3
+2022,1417,Gunma University,Japan,1314.0,0.120816,-103.0,0.413637,0.056841,25.3,13.7,18.0,39.1,21.7
+2022,1418,Slovak University of Agriculture in Nitra,Slovakia,1404.0,0.120604,-14.0,0.424044,0.058155,20.5,10.3,15.4,36.3,44.5
+2022,1419,Kitasato University,Japan,1383.0,0.120583,-36.0,0.417688,0.057272,24.3,10.1,19.5,40.0,17.4
+2022,1420,Mie University,Japan,1366.0,0.12012,-54.0,0.413509,0.056452,22.5,12.6,18.2,40.6,23.5
+2022,1421,Ritsumeikan University,Japan,1377.0,0.119973,-44.0,0.418233,0.057017,19.3,13.1,17.1,37.2,37.7
+2022,1422,Saitama University,Japan,1357.0,0.119882,-65.0,0.417177,0.056825,20.1,13.6,17.7,37.1,34.6
+2022,1423,Federal University of Rio Grande do Norte (UFRN),Brazil,1373.0,0.119752,-50.0,0.419525,0.057074,22.6,9.9,19.7,37.8,27.4
+2022,1424,University of Novi Sad,Serbia,1471.0,0.119684,47.0,0.415578,0.0565,17.0,11.4,16.5,42.0,34.1
+2022,1425,Yazd University,Iran,1348.0,0.119491,-77.0,0.417689,0.056683,20.4,15.2,19.8,36.2,20.6
+2022,1426,Izmir Institute of Technology,Turkey,1424.0,0.119467,-2.0,0.417377,0.056628,19.1,10.5,19.2,39.8,28.9
+2022,1427,Lobachevsky State University of Nizhni Novgorod,Russian Federation,1417.0,0.11944,-10.0,0.415478,0.056356,26.5,11.2,9.9,44.3,33.5
+2022,1428,Ankara University,Turkey,1392.0,0.119341,-36.0,0.420839,0.057029,18.5,12.2,20.7,36.0,26.4
+2022,1429,Andhra University,India,1300.0,0.119311,-129.0,0.424729,0.05754,38.0,9.8,10.7,38.4,19.6
+2022,1430,Universidade Federal do Triângulo Mineiro,Brazil,1421.0,0.119294,-9.0,0.424579,0.057511,20.5,9.2,21.8,36.2,19.7
+2022,1431,Feng Chia University,Taiwan,1374.0,0.119252,-57.0,0.41418,0.056079,18.6,16.7,14.4,38.8,37.0
+2022,1432,Technical University of Cluj-Napoca,Romania,1458.0,0.119211,26.0,0.421895,0.057102,15.8,11.0,21.6,37.3,23.2
+2022,1433,Karadeniz Technical University,Turkey,1498.0,0.118612,65.0,0.430146,0.057887,15.5,8.7,22.9,34.8,18.5
+2022,1434,Jean Moulin University – Lyon 3,France,1533.0,0.118432,99.0,0.434284,0.058343,15.6,12.5,7.4,35.4,54.8
+2022,1435,Universitas Airlangga,Indonesia,1376.0,0.118305,-59.0,0.421192,0.056515,21.5,10.7,18.3,36.5,34.2
+2022,1436,Matej Bel University,Slovakia,1402.0,0.117985,-34.0,0.421975,0.056447,19.8,13.0,13.5,36.8,44.5
+2022,1437,Federal University of Itajubá,Brazil,1453.0,0.11774,16.0,0.421351,0.056231,17.5,9.9,20.8,38.3,24.3
+2022,1438,Shimane University,Japan,1339.0,0.117604,-99.0,0.416222,0.055473,22.7,13.5,18.5,37.9,24.2
+2022,1439,Jeju National University,South Korea,1378.0,0.117561,-61.0,0.417032,0.055558,18.6,15.2,19.2,37.1,23.4
+2022,1440,Grigore T. Popa University of Medicine and Pharmacy,Romania,1445.0,0.117328,5.0,0.428717,0.056987,19.5,8.4,16.7,35.1,41.9
+2022,1441,Government College University Lahore,Pakistan,1441.0,0.117239,0.0,0.426754,0.056677,17.7,10.3,16.9,35.1,41.4
+2022,1442,Immanuel Kant Baltic Federal University,Russian Federation,1408.0,0.116695,-34.0,0.422227,0.055781,22.6,10.7,12.8,38.3,43.6
+2022,1443,University of Sousse,Tunisia,1410.0,0.116686,-33.0,0.427187,0.056432,21.2,9.1,17.3,34.8,38.5
+2022,1444,Wrocław University of Environmental and Life Sciences,Poland,1443.0,0.116532,-1.0,0.419704,0.05536,17.5,11.1,20.0,38.6,25.1
+2022,1445,Oita University,Japan,1437.0,0.116244,-8.0,0.419903,0.055231,20.6,10.0,19.8,39.6,18.9
+2022,1446,Gifu University,Japan,1362.0,0.116132,-84.0,0.415767,0.054628,24.0,12.2,17.2,39.6,25.2
+2022,1447,Aksaray University,Turkey,1534.0,0.11601,87.0,0.4311,0.056575,12.7,8.5,22.1,35.1,23.6
+2022,1448,University of Miyazaki,Japan,1390.0,0.11586,-58.0,0.421424,0.055225,21.8,10.5,19.7,37.0,24.4
+2022,1449,TOBB University of Economics and Technology,Turkey,1412.0,0.115797,-37.0,0.41867,0.05483,19.0,11.9,19.2,38.3,26.4
+2022,1450,Necmettin Erbakan University,Turkey,1316.0,0.115479,-134.0,0.420332,0.054877,25.0,15.3,17.7,35.0,18.7
+2022,1451,National Research Saratov State University,Russian Federation,1397.0,0.114045,-54.0,0.417334,0.053722,21.4,12.2,15.2,39.6,34.5
+2022,1452,University of Passo Fundo (UPF),Brazil,1460.0,0.113704,8.0,0.428243,0.05494,18.3,9.5,21.0,34.8,22.2
+2022,1453,Kasetsart University,Thailand,1491.0,0.113604,38.0,0.416507,0.053381,18.6,12.1,12.4,43.5,34.1
+2022,1454,Tamkang University,Taiwan,1439.0,0.113515,-15.0,0.423799,0.054268,16.6,12.4,17.5,35.7,35.6
+2022,1455,Universidade Federal de Ouro Preto (UFOP),Brazil,1462.0,0.113222,7.0,0.419525,0.053564,18.2,11.2,19.1,39.6,21.7
+2022,1456,University of Tyumen,Russian Federation,1479.0,0.113121,23.0,0.419646,0.053526,16.6,12.4,14.3,39.9,38.8
+2022,1457,Shibaura Institute of Technology,Japan,1451.0,0.11265,-6.0,0.415652,0.052767,17.9,15.9,11.4,41.4,36.0
+2022,1458,Universidade do Estado do Rio de Janeiro (UERJ),Brazil,1370.0,0.112635,-88.0,0.418258,0.05309,25.9,11.1,16.3,39.6,22.9
+2022,1459,Kagoshima University,Japan,1440.0,0.112364,-19.0,0.416276,0.052695,21.2,11.6,15.9,41.9,24.7
+2022,1460,University of Montenegro,Montenegro,1528.0,0.112239,68.0,0.431366,0.054537,13.2,11.2,14.2,34.9,45.0
+2022,1461,Obafemi Awolowo University,Nigeria,1450.0,0.111834,-11.0,0.427295,0.053803,17.7,10.4,18.4,34.8,33.2
+2022,1462,Yamaguchi University,Japan,1431.0,0.111731,-31.0,0.415756,0.052296,21.6,12.4,14.0,42.0,29.5
+2022,1463,"George Emil Palade University of Medicine, Pharmacy, Science, and Technology of Targu Mures",Romania,1457.0,0.111519,-6.0,0.428115,0.053736,18.4,9.3,18.6,35.0,32.5
+2022,1464,"University of the Andes, Venezuela",Venezuela,1500.0,0.111306,36.0,0.435456,0.054539,20.5,7.7,11.4,34.8,47.7
+2022,1465,University of Mysore,India,1352.0,0.111037,-113.0,0.429023,0.053587,30.7,8.6,12.9,35.2,33.1
+2022,1466,Universidade Federal do Ceará (UFC),Brazil,1379.0,0.110907,-87.0,0.422069,0.05265,22.4,12.1,17.8,36.1,26.4
+2022,1467,Shizuoka University,Japan,1444.0,0.110282,-23.0,0.415643,0.05152,18.5,14.9,13.3,41.2,31.6
+2022,1468,Universidad Técnica Particular de Loja,Ecuador,1590.0,0.110178,122.0,0.438004,0.054234,11.9,7.9,13.1,35.0,47.4
+2022,1469,Federal University of Santa Maria,Brazil,1391.0,0.110014,-78.0,0.423574,0.052359,22.3,12.5,18.6,35.7,18.9
+2022,1470,Technical University of Liberec,Czech Republic,1493.0,0.109854,23.0,0.421056,0.051963,20.4,15.0,6.1,41.9,40.5
+2022,1471,Hosei University,Japan,1456.0,0.109824,-15.0,0.424876,0.052418,18.0,10.5,18.6,36.4,29.1
+2022,1472,Federal University of Espírito Santo,Brazil,1433.0,0.109768,-39.0,0.425258,0.052435,19.6,10.9,19.2,35.7,24.1
+2022,1473,University of Béjaïa,Algeria,1525.0,0.109027,52.0,0.433279,0.05302,15.7,8.8,14.8,34.8,42.8
+2022,1474,Sathyabama Institute of Science and Technology,India,1452.0,0.108844,-22.0,0.429108,0.05241,21.4,9.2,19.7,35.3,17.1
+2022,1475,Zonguldak Bülent Ecevit University,Turkey,1554.0,0.10802,79.0,0.43061,0.052147,14.2,7.9,20.4,37.0,20.5
+2022,1476,Universidade Federal do Paraná (UFPR),Brazil,1360.0,0.107423,-116.0,0.424194,0.051053,25.6,12.3,16.3,35.3,23.5
+2022,1477,Tokai University,Japan,1455.0,0.107316,-22.0,0.422252,0.050762,18.3,11.7,17.9,37.8,25.5
+2022,1478,Federal University of Pernambuco,Brazil,1380.0,0.107127,-98.0,0.425208,0.051016,26.7,10.2,16.4,36.3,22.2
+2022,1479,Sofia University,Bulgaria,1427.0,0.106826,-52.0,0.428894,0.051297,24.3,9.8,12.1,35.8,40.1
+2022,1480,Thammasat University,Thailand,1396.0,0.10637,-84.0,0.41792,0.049746,22.2,15.7,11.5,39.2,32.4
+2022,1481,Gaziantep University,Turkey,1519.0,0.106244,38.0,0.430566,0.051183,15.3,9.0,18.3,35.4,31.1
+2022,1482,Jan Evangelista Purkyně University,Czech Republic,1492.0,0.106194,10.0,0.424197,0.050399,15.7,12.2,15.1,37.6,36.2
+2022,1483,Pirogov Russian National Research Medical University,Russian Federation,1435.0,0.106183,-48.0,0.433269,0.051471,36.7,11.3,1.9,39.5,21.4
+2022,1484,Mackenzie Presbyterian University,Brazil,1549.0,0.105893,65.0,0.420146,0.04976,17.2,10.8,13.9,44.0,21.8
+2022,1485,Osaka Institute of Technology,Japan,1504.0,0.105772,19.0,0.426149,0.050406,15.3,11.3,19.1,36.9,21.4
+2022,1486,Prince of Songkla University,Thailand,1487.0,0.105449,1.0,0.422475,0.049801,17.9,10.9,15.7,39.1,31.8
+2022,1487,Universitas Padjadjaran,Indonesia,1434.0,0.105412,-53.0,0.422041,0.04973,23.7,9.8,15.2,39.5,26.7
+2022,1488,Sophia University,Japan,1478.0,0.105411,-10.0,0.431704,0.050868,21.8,10.4,10.3,35.4,44.1
+2022,1489,Ege University,Turkey,1449.0,0.105374,-40.0,0.418719,0.049319,20.5,13.1,15.7,40.3,20.6
+2022,1490,Kookmin University,South Korea,1475.0,0.104301,-15.0,0.423181,0.049278,18.7,11.2,15.4,38.3,32.3
+2022,1491,Chaoyang University of Technology,Taiwan,1550.0,0.10407,59.0,0.419462,0.048724,16.0,14.9,8.8,43.9,30.2
+2022,1492,Ariel University,Israel,1472.0,0.104024,-20.0,0.422292,0.049029,14.9,18.3,13.1,36.4,30.1
+2022,1493,Diponegoro University,Indonesia,1505.0,0.104017,12.0,0.420374,0.048802,21.6,10.5,11.7,43.4,26.6
+2022,1494,Shahed University,Iran,1382.0,0.103936,-112.0,0.426005,0.049413,25.1,14.2,15.7,34.8,15.3
+2022,1495,Universiti Teknikal Malaysia Melaka,Malaysia,1499.0,0.103808,4.0,0.430006,0.049809,16.5,10.1,16.4,35.2,34.4
+2022,1496,Blida 1 University,Algeria,1531.0,0.103738,35.0,0.43331,0.050154,16.3,8.4,15.6,35.0,37.7
+2022,1497,University of Bío-Bío,Chile,1586.0,0.102599,89.0,0.438979,0.050188,14.2,9.8,9.3,34.8,47.8
+2022,1498,University of Lucknow,India,1385.0,0.102546,-113.0,0.429415,0.049066,30.0,10.4,14.0,35.5,16.9
+2022,1499,Universidad de las Fuerzas Armadas – ESPE,Ecuador,1557.0,0.102535,58.0,0.434854,0.049682,14.4,9.4,13.2,35.1,42.3
+2022,1500,Federal University of Goiás,Brazil,1448.0,0.102454,-52.0,0.421438,0.048107,21.5,11.8,15.7,39.2,22.4
+2022,1501,Cukurova University,Turkey,1511.0,0.102369,10.0,0.42579,0.048559,17.8,9.7,17.8,38.5,21.4
+2022,1502,Mustansiriyah University,Iraq,1503.0,0.102079,1.0,0.433125,0.049239,19.6,7.9,18.7,34.9,20.4
+2022,1503,Kyoto Institute of Technology,Japan,1502.0,0.101876,-1.0,0.419363,0.047569,21.2,15.6,7.1,43.4,26.9
+2022,1504,Semnan University of Medical Sciences and Health Services,Iran,1465.0,0.101527,-39.0,0.430267,0.04862,21.3,9.6,17.5,34.8,23.3
+2022,1505,Istanbul Medipol University,Turkey,1539.0,0.101454,34.0,0.430251,0.048579,14.4,9.6,17.9,36.2,27.6
+2022,1506,University of Rijeka,Croatia,1476.0,0.101205,-30.0,0.426971,0.048077,16.7,13.6,15.8,35.0,29.9
+2022,1507,Satbayev University,Kazakhstan,1593.0,0.10051,86.0,0.431048,0.048166,17.1,9.8,5.8,41.8,42.6
+2022,1508,Osaka Medical College,Japan,1411.0,0.100351,-97.0,0.426517,0.047576,27.6,10.9,14.3,37.3,16.2
+2022,1509,V.N. Karazin Kharkiv National University,Ukraine,1529.0,0.100255,20.0,0.437823,0.048785,21.7,10.1,6.5,35.0,46.0
+2022,1510,National Changhua University of Education,Taiwan,1425.0,0.099941,-85.0,0.421479,0.0468,21.6,18.3,8.7,37.9,30.0
+2022,1511,University of Ilorin,Nigeria,1515.0,0.099826,4.0,0.432582,0.047972,17.6,8.9,16.5,34.8,31.3
+2022,1512,Fukuoka University,Japan,1517.0,0.099506,5.0,0.428038,0.047299,18.6,8.9,17.4,37.9,21.6
+2022,1513,Chubu University,Japan,1532.0,0.099378,19.0,0.428177,0.047247,15.0,10.6,16.4,37.0,29.8
+2022,1514,Universidade Federal da Grande Dourados,Brazil,1419.0,0.099099,-95.0,0.438086,0.048189,35.4,9.2,7.9,34.8,16.9
+2022,1515,Naresuan University,Thailand,1482.0,0.098887,-33.0,0.4299,0.047176,21.1,9.5,14.1,35.9,34.0
+2022,1516,State University of Santa Cruz,Brazil,1425.0,0.098596,-91.0,0.430583,0.047097,26.3,9.3,13.9,35.2,27.3
+2022,1517,National Ilan University,Taiwan,1521.0,0.098546,4.0,0.429117,0.04691,14.5,12.3,15.5,35.6,31.7
+2022,1518,University of Łódź,Poland,1447.0,0.098452,-71.0,0.426663,0.046593,19.4,14.2,13.3,35.2,32.3
+2022,1519,Southwest State University,Russian Federation,1507.0,0.098022,-12.0,0.425048,0.046192,18.8,10.1,15.4,39.2,25.9
+2022,1520,Kunming University of Science and Technology,China,1559.0,0.097675,39.0,0.423137,0.045804,16.1,12.0,14.4,41.9,17.7
+2022,1521,Universidad Autónoma de Querétaro,Mexico,1514.0,0.097479,-7.0,0.428665,0.046299,17.9,9.6,16.3,37.0,27.4
+2022,1522,Samara State Technical University,Russian Federation,1634.0,0.096611,112.0,0.427312,0.045698,15.5,9.5,10.1,45.5,18.0
+2022,1523,Kogakuin University,Japan,1545.0,0.09658,22.0,0.423667,0.045292,17.2,11.2,14.4,41.5,19.7
+2022,1524,Alzahra University,Iran,1446.0,0.095966,-78.0,0.42647,0.045271,22.9,12.0,15.1,36.7,19.5
+2022,1525,Ochanomizu University,Japan,1421.0,0.094645,-104.0,0.424615,0.044389,26.0,13.0,11.1,38.0,24.7
+2022,1526,M’Hamed Bougara University of Boumerdès,Algeria,1577.0,0.094223,51.0,0.436788,0.045437,14.3,8.0,16.1,34.8,30.5
+2022,1527,Soongsil University,South Korea,1464.0,0.094176,-63.0,0.427729,0.04447,22.1,11.8,12.3,36.5,31.7
+2022,1528,Fluminense Federal University,Brazil,1470.0,0.094092,-58.0,0.429547,0.044615,21.8,11.0,14.6,35.4,26.4
+2022,1529,Prague University of Economics and Business,Czech Republic,1558.0,0.094064,29.0,0.435887,0.045258,17.7,13.7,5.2,35.8,43.4
+2022,1530,Universidade Federal de Ciências da Saúde de Porto Alegre (UFCSPA),Brazil,1497.0,0.093859,-33.0,0.430706,0.044613,18.5,12.1,16.3,34.8,20.1
+2022,1531,Instituto Politécnico Nacional (IPN),Mexico,1542.0,0.093717,11.0,0.425804,0.044032,18.7,9.7,13.6,40.7,25.0
+2022,1532,University of Miskolc,Hungary,1454.0,0.093519,-78.0,0.432282,0.044597,29.7,9.6,7.5,37.4,30.1
+2022,1533,Polytechnic University of Timişoara,Romania,1574.0,0.09345,41.0,0.434064,0.044745,14.8,8.7,17.5,36.2,20.3
+2022,1534,Tokyo City University,Japan,1633.0,0.093375,99.0,0.428232,0.044104,16.9,10.2,7.1,45.6,21.7
+2022,1535,Süleyman Demirel University,Turkey,1544.0,0.093284,9.0,0.433749,0.044625,16.8,9.2,17.1,35.3,21.6
+2022,1536,San Sebastián University,Chile,1587.0,0.093258,51.0,0.441196,0.045377,17.5,8.0,8.8,34.8,43.6
+2022,1537,Federal University of Pará,Brazil,1520.0,0.092855,-17.0,0.427013,0.043709,19.0,10.3,14.9,38.6,23.6
+2022,1538,Bolu Abant Izzet Baysal University,Turkey,1576.0,0.09284,38.0,0.436379,0.04466,14.9,8.4,17.5,35.0,21.1
+2022,1539,Chuo University,Japan,1474.0,0.0925,-65.0,0.427085,0.043532,23.9,10.6,12.9,37.9,25.0
+2022,1540,Annamalai University,India,1484.0,0.091975,-56.0,0.432954,0.043854,25.1,8.9,14.5,35.8,17.6
+2022,1541,Ming Chuan University,Taiwan,1526.0,0.091916,-15.0,0.431415,0.043667,16.3,12.0,13.4,35.3,32.8
+2022,1542,Aoyama Gakuin University,Japan,1541.0,0.091853,-1.0,0.434156,0.043912,17.5,8.7,14.9,35.4,30.4
+2022,1543,University of Fukui,Japan,1494.0,0.091587,-49.0,0.425944,0.042944,21.7,10.9,13.0,39.0,24.7
+2022,1544,Universidad Nacional del Litoral,Argentina,1585.0,0.091547,41.0,0.433632,0.043698,13.5,8.9,15.8,36.7,27.8
+2022,1545,National United University,Taiwan,1573.0,0.091508,28.0,0.4272,0.04303,14.5,11.6,15.0,39.8,18.8
+2022,1546,Novosibirsk State Technical University,Russian Federation,1530.0,0.091506,-16.0,0.429193,0.04323,20.2,12.9,7.0,38.7,37.5
+2022,1547,Bursa Uludağ University,Turkey,1561.0,0.091311,14.0,0.426564,0.042864,17.7,10.1,12.1,40.9,28.2
+2022,1548,Tottori University,Japan,1481.0,0.091103,-67.0,0.426668,0.042767,22.4,11.6,13.5,37.8,22.2
+2022,1549,Universidade Federal do Maranhão (UFMA),Brazil,1524.0,0.090794,-25.0,0.433937,0.043333,20.5,8.6,16.0,35.6,19.4
+2022,1550,Université Frères Mentouri Constantine 1,Algeria,1536.0,0.090583,-14.0,0.436662,0.043494,20.7,8.5,10.3,35.4,38.0
+2022,1551,University of La Sabana,Colombia,1589.0,0.090402,38.0,0.437119,0.043444,16.3,10.2,7.6,36.7,42.5
+2022,1552,University of Biskra,Algeria,1551.0,0.090281,-1.0,0.437128,0.043381,18.3,8.1,12.9,34.8,34.8
+2022,1553,Alexandru Ioan Cuza University,Romania,1518.0,0.090178,-35.0,0.432722,0.042889,17.9,12.2,11.8,34.8,34.5
+2022,1554,Nizhny Novgorod State Technical University,Russian Federation,1619.0,0.08966,65.0,0.429983,0.04235,18.5,8.6,8.6,44.6,19.0
+2022,1555,BINUS University,Indonesia,1522.0,0.089615,-33.0,0.426103,0.041944,17.7,12.5,13.3,38.6,25.3
+2022,1556,Dokkyo Medical University,Japan,1506.0,0.089595,-50.0,0.431184,0.042434,24.4,8.7,13.6,38.0,16.8
+2022,1557,Russian Presidential Academy of National Economy and Public Administration,Russian Federation,1469.0,0.089551,-88.0,0.424759,0.041779,22.1,15.3,11.0,37.9,21.6
+2022,1558,University of Basrah,Iraq,1571.0,0.089527,13.0,0.437648,0.043034,16.6,7.7,14.5,34.8,31.2
+2022,1559,Eskişehir Osmangazi University,Turkey,1509.0,0.089398,-50.0,0.430513,0.042265,17.5,14.0,14.8,35.0,18.8
+2022,1560,Maria Curie-Skłodowska University (UMCS),Poland,1486.0,0.089316,-74.0,0.429278,0.042102,19.3,14.7,11.7,35.1,28.9
+2022,1561,Western Kentucky University,United States,1483.0,0.089282,-78.0,0.432534,0.042403,22.8,10.4,13.9,34.9,23.6
+2022,1562,Omsk State Technical University,Russian Federation,1572.0,0.0889,10.0,0.433465,0.042295,15.6,8.9,15.1,36.6,27.4
+2022,1563,EAFIT University,Colombia,1595.0,0.088668,32.0,0.437704,0.042586,14.5,10.3,8.6,36.3,41.3
+2022,1564,West University of Timişoara,Romania,1512.0,0.088651,-52.0,0.430659,0.041892,17.9,12.7,12.6,35.5,30.6
+2022,1565,Ivane Javakhishvili Tbilisi State University,Georgia,1601.0,0.087819,36.0,0.44335,0.042683,17.3,9.8,4.8,35.2,44.1
+2022,1566,Tokyo University of Agriculture,Japan,1552.0,0.087661,-14.0,0.430912,0.041404,16.4,10.9,15.4,37.1,19.8
+2022,1567,Universidade Estadual do Oeste do Paraná (Unioeste),Brazil,1567.0,0.08751,0.0,0.426945,0.040945,22.0,14.4,5.7,42.8,16.5
+2022,1568,Akdeniz University,Turkey,1578.0,0.087496,10.0,0.435257,0.041735,14.9,9.6,16.3,35.7,19.6
+2022,1569,Pavlov First Saint Petersburg State Medical University,Russian Federation,1535.0,0.08634,-34.0,0.432328,0.040855,21.4,8.6,11.1,37.9,31.1
+2022,1570,University of Abou Bekr Belkaïd Tlemcen,Algeria,1527.0,0.085795,-43.0,0.439646,0.041259,25.2,8.3,7.7,34.9,34.8
+2022,1571,University of Pardubice,Czech Republic,1523.0,0.085784,-48.0,0.431917,0.040528,18.8,16.1,6.6,35.9,33.7
+2022,1572,University of Warmia and Mazury in Olsztyn,Poland,1548.0,0.085488,-24.0,0.430583,0.040251,16.8,11.6,14.6,37.1,20.0
+2022,1573,Universidade Estadual de Maringá,Brazil,1488.0,0.085415,-85.0,0.432342,0.040377,22.8,12.0,13.1,35.1,18.7
+2022,1574,University of Shizuoka,Japan,1495.0,0.084674,-79.0,0.428425,0.039633,22.9,12.1,11.5,37.9,21.3
+2022,1575,Gheorghe Asachi Technical University of Iaşi,Romania,1568.0,0.084619,-7.0,0.435124,0.040223,16.3,9.5,14.2,35.6,27.2
+2022,1576,University of Karachi,Pakistan,1543.0,0.084313,-33.0,0.436221,0.040165,19.0,13.5,6.8,34.9,37.0
+2022,1577,North-Eastern Federal University,Russian Federation,1546.0,0.083966,-31.0,0.431982,0.039596,21.0,9.6,9.3,38.6,32.2
+2022,1578,Nosov Magnitogorsk State Technical University,Russian Federation,1583.0,0.083464,5.0,0.430179,0.039174,16.8,10.4,13.4,39.7,17.7
+2022,1579,Universidad Pontificia Bolivariana (UPB),Colombia,1582.0,0.082857,3.0,0.434499,0.039254,18.7,10.1,7.3,38.5,36.4
+2022,1580,University of Baghdad,Iraq,1547.0,0.082542,-33.0,0.436423,0.039264,20.3,8.7,14.3,35.4,19.5
+2022,1581,Baku State University,Azerbaijan,1618.0,0.081964,37.0,0.44581,0.039803,16.8,7.6,6.6,34.8,41.1
+2022,1582,Taras Shevchenko National University of Kyiv,Ukraine,1510.0,0.081468,-72.0,0.435162,0.038596,23.4,11.4,8.3,35.4,31.3
+2022,1583,University of Sistan and Baluchestan,Iran,1563.0,0.081377,-20.0,0.433862,0.038434,16.9,11.6,14.3,35.9,17.5
+2022,1584,Meijo University,Japan,1565.0,0.081063,-19.0,0.431977,0.038106,16.4,11.3,12.7,37.1,26.0
+2022,1585,Universiti Teknologi MARA,Malaysia,1516.0,0.080889,-69.0,0.432475,0.038061,20.1,13.4,12.3,35.2,19.6
+2022,1586,Akita University,Japan,1538.0,0.080318,-48.0,0.429737,0.03753,21.1,11.1,10.7,39.0,22.7
+2022,1587,Latvia University of Life Sciences and Technologies,Latvia,1555.0,0.080108,-32.0,0.432059,0.037626,18.0,18.9,4.9,37.0,22.8
+2022,1588,Maharaja Sayajirao University of Baroda,India,1559.0,0.080097,-29.0,0.432143,0.037627,18.5,11.5,13.3,37.4,16.0
+2022,1589,Dunarea de Jos University of Galati,Romania,1610.0,0.079855,21.0,0.443735,0.03851,16.3,8.6,7.4,34.9,39.3
+2022,1590,Slovak University of Technology in Bratislava,Slovakia,1540.0,0.079763,-50.0,0.431933,0.037438,21.7,11.2,8.1,38.3,30.0
+2022,1591,Universidade Tecnológica Federal do Paraná (UTFPR),Brazil,1579.0,0.079126,-12.0,0.434802,0.03736,16.8,9.8,13.9,36.7,20.4
+2022,1592,University of Birjand,Iran,1596.0,0.078184,4.0,0.439539,0.03728,14.9,8.7,14.6,35.2,20.1
+2022,1593,Federal University of Mato Grosso do Sul,Brazil,1588.0,0.077767,-5.0,0.433551,0.036559,17.0,9.7,13.0,38.1,20.4
+2022,1594,Acıbadem University,Turkey,1537.0,0.07614,-57.0,0.432106,0.035612,22.4,11.3,9.1,38.1,23.8
+2022,1595,University of Hyogo,Japan,1622.0,0.075722,27.0,0.432204,0.035408,17.7,12.2,5.5,42.6,20.3
+2022,1596,Badji Mokhtar University – Annaba,Algeria,1594.0,0.07561,-2.0,0.441226,0.03609,17.4,8.0,10.5,35.1,31.9
+2022,1597,Ryukoku University,Japan,1580.0,0.075576,-17.0,0.43671,0.035703,16.7,10.2,12.7,35.6,24.0
+2022,1598,Universidad Autónoma de Nuevo León (UANL),Mexico,1614.0,0.075515,16.0,0.44013,0.035951,14.0,8.6,11.6,35.8,30.4
+2022,1599,Benemérita Universidad Autónoma de Puebla,Mexico,1608.0,0.075499,9.0,0.441119,0.036024,13.9,8.9,12.2,34.8,29.0
+2022,1600,Tokyo University of Pharmacy and Life Sciences,Japan,1581.0,0.075222,-19.0,0.435206,0.0354,17.5,10.7,13.0,36.7,17.2
+2022,1601,Sivas Cumhuriyet University,Turkey,1598.0,0.075124,-3.0,0.440811,0.035805,15.9,8.7,14.1,34.9,17.8
+2022,1602,Autonomous University of Baja California,Mexico,1615.0,0.074954,13.0,0.441813,0.035799,14.3,8.5,10.5,35.3,32.8
+2022,1603,National Technical University of Ukraine – Igor Sikorsky Kyiv Polytechnic Institute,Ukraine,1564.0,0.074745,-39.0,0.437734,0.035361,20.9,8.9,12.1,35.7,20.7
+2022,1604,Universidad Nacional Mayor de San Marcos,Peru,1640.0,0.074424,36.0,0.447512,0.035984,16.4,9.3,4.0,34.8,39.5
+2022,1605,National Technical University Kharkiv Polytechnic Institute,Ukraine,1562.0,0.074037,-43.0,0.437477,0.034979,21.4,9.0,10.1,36.1,26.7
+2022,1606,Lucian Blaga University of Sibiu,Romania,1569.0,0.074021,-37.0,0.435857,0.034842,17.3,12.4,12.3,35.3,18.4
+2022,1607,University of Guanajuato,Mexico,1606.0,0.073978,-1.0,0.439747,0.035131,16.6,8.9,8.6,36.6,33.9
+2022,1608,National University of Kaohsiung,Taiwan,1605.0,0.072744,-3.0,0.433675,0.034022,14.7,15.0,5.8,38.8,27.9
+2022,1609,Ibaraki University,Japan,1602.0,0.07274,-7.0,0.432527,0.03393,17.8,11.8,6.7,40.9,24.5
+2022,1610,Ondokuz Mayis University,Turkey,1612.0,0.0723,2.0,0.438466,0.034172,14.8,8.7,11.4,37.0,27.3
+2022,1611,University of Science and Technology of Oran Mohamed-Boudiaf,Algeria,1617.0,0.071371,6.0,0.445316,0.034225,17.5,7.9,7.2,34.9,35.2
+2022,1612,Ivan Franko National University of Lviv,Ukraine,1592.0,0.070856,-20.0,0.442145,0.033718,20.6,8.6,7.5,35.3,31.8
+2022,1613,Polytechnic University of Bucharest,Romania,1584.0,0.070442,-29.0,0.437468,0.033152,16.9,11.4,11.5,35.3,22.2
+2022,1614,University Mohamed Boudiaf of M’Sila,Algeria,1591.0,0.070076,-23.0,0.441547,0.033274,20.8,8.2,8.1,35.7,30.1
+2022,1615,Ufa State Aviation Technical University,Russian Federation,1609.0,0.069953,-6.0,0.435401,0.032748,17.4,9.4,10.5,39.5,18.2
+2022,1616,Tamil Nadu Agricultural University,India,1630.0,0.068987,14.0,0.441213,0.032693,24.5,9.8,2.1,40.9,14.9
+2022,1617,Privolzhsky Research Medical University,Russian Federation,1629.0,0.067978,12.0,0.449363,0.032775,21.1,8.1,2.8,34.8,34.7
+2022,1618,Iwate University,Japan,1575.0,0.067657,-43.0,0.435891,0.031631,20.2,11.3,8.3,37.2,24.5
+2022,1619,University of Guadalajara,Mexico,1597.0,0.067516,-22.0,0.442259,0.032021,17.4,8.9,9.9,34.8,28.0
+2022,1620,Université Hassan 1er,Morocco,1627.0,0.067476,7.0,0.443205,0.03207,14.2,8.7,11.4,34.8,25.7
+2022,1621,Voronezh State University,Russian Federation,1615.0,0.067093,-6.0,0.444642,0.031978,19.3,9.7,3.9,35.9,34.2
+2022,1622,Kanagawa University,Japan,1624.0,0.066968,2.0,0.443003,0.031797,15.7,8.2,9.7,35.5,29.4
+2022,1623,GITAM University,India,1603.0,0.06687,-20.0,0.441702,0.031653,18.0,8.2,11.7,35.5,19.8
+2022,1624,University of Oradea,Romania,1635.0,0.066102,11.0,0.444364,0.031452,14.7,8.5,9.3,35.0,30.3
+2022,1625,Irkutsk State University,Russian Federation,1604.0,0.064801,-21.0,0.441264,0.030576,17.3,9.0,10.6,35.5,23.5
+2022,1626,Meiji University,Japan,1607.0,0.063914,-19.0,0.441445,0.030141,18.8,8.6,7.8,36.6,28.3
+2022,1627,Toyo University,Japan,1620.0,0.063592,-7.0,0.441953,0.030013,15.5,9.7,8.8,35.7,28.6
+2022,1628,Technical University of Sofia,Bulgaria,1599.0,0.063063,-29.0,0.438551,0.029518,18.3,10.0,8.4,37.3,24.9
+2022,1629,Federal University of Piauí,Brazil,1628.0,0.062491,-1.0,0.441699,0.029442,14.4,9.9,10.8,35.6,22.1
+2022,1630,University of Sonora,Mexico,1645.0,0.06217,15.0,0.445681,0.029545,14.5,8.1,9.5,34.9,27.8
+2022,1631,Burapha University,Thailand,1632.0,0.061087,1.0,0.444763,0.028937,16.3,8.2,9.8,34.9,25.1
+2022,1632,National University of the South,Argentina,1623.0,0.060707,-9.0,0.445936,0.028821,18.2,8.1,7.6,34.8,28.6
+2022,1633,Universidad Autónoma del Estado de Hidalgo,Mexico,1642.0,0.060507,9.0,0.441957,0.028464,14.9,8.7,10.2,36.7,22.4
+2022,1634,University of Caxias do Sul,Brazil,1638.0,0.059572,4.0,0.444329,0.028146,15.4,8.7,11.0,35.3,18.2
+2022,1635,Universidad Michoacana de San Nicolás de Hidalgo,Mexico,1626.0,0.059354,-9.0,0.442778,0.027939,15.8,10.3,7.7,35.6,27.8
+2022,1636,Utsunomiya University,Japan,1621.0,0.059203,-15.0,0.439602,0.027664,19.0,11.6,4.1,38.6,24.8
+2022,1637,University of Brawijaya,Indonesia,1611.0,0.059086,-26.0,0.43964,0.027608,18.9,9.6,7.8,37.8,21.9
+2022,1638,Doshisha University,Japan,1613.0,0.058958,-25.0,0.442911,0.027749,18.7,10.3,5.7,36.0,28.4
+2022,1639,Perm State University,Russian Federation,1650.0,0.058265,11.0,0.442248,0.027362,20.2,10.7,2.0,40.4,18.2
+2022,1640,Universidade Nove de Julho (Uninove),Brazil,1641.0,0.056814,1.0,0.445736,0.02685,16.8,7.7,9.8,35.3,20.9
+2022,1641,Oles Honchar Dnipro National University,Ukraine,1631.0,0.056704,-10.0,0.445024,0.026752,17.4,8.4,9.4,35.1,21.5
+2022,1642,Moscow Polytechnic University,Russian Federation,1637.0,0.055694,-5.0,0.446618,0.026341,16.9,8.7,7.3,34.8,27.2
+2022,1643,Recep Tayyip Erdoğan University,Turkey,1644.0,0.055056,1.0,0.445819,0.025975,15.7,8.9,10.0,34.9,18.4
+2022,1644,Kansai University,Japan,1639.0,0.054769,-5.0,0.445905,0.025837,18.3,8.1,6.4,36.0,26.8
+2022,1645,Kocaeli University,Turkey,1659.0,0.052921,14.0,0.445145,0.024874,13.8,7.6,8.8,37.7,20.2
+2022,1646,Srinakharinwirot University,Thailand,1625.0,0.052022,-21.0,0.445799,0.024464,19.0,9.1,7.9,35.0,19.6
+2022,1647,Mahasarakham University,Thailand,1649.0,0.050806,2.0,0.447318,0.023943,16.6,8.2,7.4,35.3,24.4
+2022,1648,Universidad Autónoma del Estado de Mexico (UAEMex),Mexico,1648.0,0.049289,0.0,0.448467,0.02325,17.5,8.2,6.7,34.9,24.3
+2022,1649,Chiba Institute of Technology,Japan,1658.0,0.049257,9.0,0.443741,0.02299,15.1,9.0,6.6,39.0,17.9
+2022,1650,Universidade Federal Rural do Semi-Arido,Brazil,1647.0,0.048904,-3.0,0.453411,0.023314,24.0,8.4,2.4,34.8,15.1
+2022,1651,Başkent University,Turkey,1636.0,0.04751,-15.0,0.445866,0.02224,17.4,12.6,5.0,34.8,20.1
+2022,1652,Universidad Autónoma del Estado de Morelos,Mexico,1655.0,0.04726,3.0,0.449253,0.022285,15.6,8.0,6.7,35.2,24.8
+2022,1653,Tokyo Denki University,Japan,1661.0,0.047196,8.0,0.446075,0.022096,15.3,9.9,2.5,40.1,18.5
+2022,1654,Federal Rural University of Pernambuco,Brazil,1643.0,0.047006,-11.0,0.447366,0.022066,18.2,9.5,7.2,34.8,18.4
+2022,1655,Ceará State University,Brazil,1646.0,0.04614,-9.0,0.445976,0.021572,18.1,9.4,6.8,36.0,18.5
+2022,1656,Pontifical Catholic University of Minas Gerais,Brazil,1651.0,0.044179,-5.0,0.448301,0.020721,16.5,8.9,6.8,35.2,21.1
+2022,1657,Bashkir State University,Russian Federation,1660.0,0.04302,3.0,0.446558,0.020074,16.8,8.8,4.5,38.7,17.5
+2022,1658,Federal University of Vales do Jequitinhonha e Mucuri,Brazil,1654.0,0.04297,-4.0,0.451173,0.020258,18.0,7.5,7.0,34.8,17.0
+2022,1659,Federal University of Tocantins,Brazil,1653.0,0.04068,-6.0,0.450558,0.019106,17.4,8.4,6.3,34.8,18.9
+2022,1660,Yuriy Fedkovych Chernivtsi National University,Ukraine,1656.0,0.040509,-4.0,0.451492,0.019062,17.7,8.6,4.4,34.8,23.0
+2022,1661,Yuri Gagarin State Technical University of Saratov (SSTU),Russian Federation,1657.0,0.037628,-4.0,0.450165,0.017601,15.2,9.5,6.1,35.0,19.0
+2022,1662,Ivanovo State University of Chemistry and Technology,Russian Federation,1662.0,0.031036,0.0,0.455754,0.014598,15.9,10.4,0.7,34.8,21.1
