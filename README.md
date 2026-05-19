@@ -110,7 +110,7 @@ university_ranking/
 
 ## Author
 
-**MSD24006** — M.Tech Data Science, IIIT Lucknow  
+**MSD24006** — MSc Data Science, IIIT Lucknow  
 Capstone Project · 2024–2025
 
 ---
