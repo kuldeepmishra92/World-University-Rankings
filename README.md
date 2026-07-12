@@ -100,7 +100,7 @@ university_ranking/
 
 ## Author
 
-**MSD24006** — MSc Data Science, IIIT Lucknow  
+**Kuldeep Kumar Mishra** (MSD24006) — MSc Data Science, IIIT Lucknow  
 Capstone Project · 2024–2025
 
 Data sourced from Times Higher Education World University Rankings. This project is for academic research purposes.
